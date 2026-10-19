@@ -1,0 +1,567 @@
+{
+  "biobert_nli_stsb_clustering": {
+    "n_clusters": 7,
+    "n_clustered_symptoms": 524,
+    "n_noise_outliers": 509,
+    "noise_fraction": 0.4927,
+    "silhouette_score_2d": 0.3902,
+    "mutual_reachability_threshold": 0.7862
+  },
+  "pubmedbert_embeddings_clustering": {
+    "n_clusters": 11,
+    "n_clustered_symptoms": 532,
+    "n_noise_outliers": 501,
+    "noise_fraction": 0.485,
+    "silhouette_score_2d": 0.3659,
+    "mutual_reachability_threshold": 0.7993
+  },
+  "biobert_clusters": [
+    {
+      "cluster_id": 1,
+      "size": 130,
+      "dominant_chapters": [
+        "Trauma & Stressor (32)",
+        "Personality (21)"
+      ],
+      "representative_concept": "Construct: Deficits / Adaptive / Functioning / Result",
+      "representative_sha256": "48bf62c07d43ed90"
+    },
+    {
+      "cluster_id": 2,
+      "size": 123,
+      "dominant_chapters": [
+        "Substance & Addictive (114)",
+        "Section III (Emerging) (9)"
+      ],
+      "representative_concept": "Escalated intake over intended limit",
+      "representative_sha256": "36fdb02e5097e87a"
+    },
+    {
+      "cluster_id": 3,
+      "size": 115,
+      "dominant_chapters": [
+        "Substance & Addictive (40)",
+        "Anxiety (12)"
+      ],
+      "representative_concept": "Construct: Multiple / Motor / Vocal / Tics",
+      "representative_sha256": "881b85b3593f2dbc"
+    },
+    {
+      "cluster_id": 4,
+      "size": 77,
+      "dominant_chapters": [
+        "Depressive (9)",
+        "Substance & Addictive (9)"
+      ],
+      "representative_concept": "Cognitive/behavioral inflexibility",
+      "representative_sha256": "c0d19ed7ba81fffc"
+    },
+    {
+      "cluster_id": 5,
+      "size": 39,
+      "dominant_chapters": [
+        "Substance & Addictive (19)",
+        "Sleep-Wake (13)"
+      ],
+      "representative_concept": "Construct: Grimacing",
+      "representative_sha256": "3c9a9c0a9998702c"
+    },
+    {
+      "cluster_id": 6,
+      "size": 23,
+      "dominant_chapters": [
+        "Substance & Addictive (5)",
+        "Schizophrenia Spectrum (4)"
+      ],
+      "representative_concept": "Construct: Runs / About / Climbs / Situations",
+      "representative_sha256": "288ca187f692bab1"
+    },
+    {
+      "cluster_id": 7,
+      "size": 17,
+      "dominant_chapters": [
+        "Trauma & Stressor (9)",
+        "Personality (4)"
+      ],
+      "representative_concept": "Construct: Deficits / Using / Communication / Social",
+      "representative_sha256": "6ec2bd94d7c4c62b"
+    }
+  ],
+  "pubmedbert_clusters": [
+    {
+      "cluster_id": 1,
+      "size": 137,
+      "dominant_chapters": [
+        "Substance & Addictive (108)",
+        "Section III (Emerging) (15)"
+      ],
+      "representative_concept": "Construct: Unable / Play / Engage / Leisure",
+      "representative_sha256": "efba58a7c26659b1"
+    },
+    {
+      "cluster_id": 2,
+      "size": 108,
+      "dominant_chapters": [
+        "Trauma & Stressor (18)",
+        "Personality (17)"
+      ],
+      "representative_concept": "Social-emotional reciprocity deficit",
+      "representative_sha256": "98c7256c9d87edc4"
+    },
+    {
+      "cluster_id": 3,
+      "size": 89,
+      "dominant_chapters": [
+        "Anxiety (15)",
+        "Schizophrenia Spectrum (12)"
+      ],
+      "representative_concept": "Stereotyped/repetitive motor behavior",
+      "representative_sha256": "c8eeae9a40791ecf"
+    },
+    {
+      "cluster_id": 4,
+      "size": 40,
+      "dominant_chapters": [
+        "Substance & Addictive (8)",
+        "Sexual Dysfunctions (6)"
+      ],
+      "representative_concept": "Construct: Multiple / Motor / Vocal / Tics",
+      "representative_sha256": "881b85b3593f2dbc"
+    },
+    {
+      "cluster_id": 5,
+      "size": 29,
+      "dominant_chapters": [
+        "Personality (16)",
+        "Disruptive & Impulse-Control (7)"
+      ],
+      "representative_concept": "Construct: Grimacing",
+      "representative_sha256": "3c9a9c0a9998702c"
+    },
+    {
+      "cluster_id": 6,
+      "size": 28,
+      "dominant_chapters": [
+        "Sleep-Wake (8)",
+        "Substance & Addictive (6)"
+      ],
+      "representative_concept": "Decreased need for sleep",
+      "representative_sha256": "9f04065f23e0ea16"
+    },
+    {
+      "cluster_id": 7,
+      "size": 26,
+      "dominant_chapters": [
+        "Substance & Addictive (10)",
+        "Neurocognitive (5)"
+      ],
+      "representative_concept": "Construct: Deficits / Intellectual / Functions / Reasoning",
+      "representative_sha256": "c81d0db3ff5f7dbf"
+    },
+    {
+      "cluster_id": 8,
+      "size": 21,
+      "dominant_chapters": [
+        "Feeding & Eating (6)",
+        "Substance & Addictive (6)"
+      ],
+      "representative_concept": "Appetite or weight change",
+      "representative_sha256": "e398633aab44b799"
+    },
+    {
+      "cluster_id": 9,
+      "size": 20,
+      "dominant_chapters": [
+        "Bipolar & Related (3)",
+        "Anxiety (3)"
+      ],
+      "representative_concept": "Construct: Difficulties / Rules / Conversation / Storytelling",
+      "representative_sha256": "5a07adf99f112258"
+    },
+    {
+      "cluster_id": 10,
+      "size": 18,
+      "dominant_chapters": [
+        "Schizophrenia Spectrum (5)",
+        "Substance & Addictive (4)"
+      ],
+      "representative_concept": "Nonverbal communication deficit",
+      "representative_sha256": "c3d2c7a99cb37a4c"
+    },
+    {
+      "cluster_id": 11,
+      "size": 16,
+      "dominant_chapters": [
+        "Trauma & Stressor (13)",
+        "Schizophrenia Spectrum (2)"
+      ],
+      "representative_concept": "Negative symptoms (affect/avolition)",
+      "representative_sha256": "b3bf8a575594bd58"
+    }
+  ],
+  "top_cross_chapter_overlaps": [
+    {
+      "chapter_1": "Bipolar & Related",
+      "chapter_2": "Depressive",
+      "biobert_top10_mean": 1.0,
+      "pubmedbert_top10_mean": 1.0,
+      "consensus_mean": 1.0
+    },
+    {
+      "chapter_1": "Bipolar & Related",
+      "chapter_2": "Section III (Emerging)",
+      "biobert_top10_mean": 1.0,
+      "pubmedbert_top10_mean": 1.0,
+      "consensus_mean": 1.0
+    },
+    {
+      "chapter_1": "Depressive",
+      "chapter_2": "Section III (Emerging)",
+      "biobert_top10_mean": 0.9902,
+      "pubmedbert_top10_mean": 0.9808,
+      "consensus_mean": 0.9855
+    },
+    {
+      "chapter_1": "Substance & Addictive",
+      "chapter_2": "Section III (Emerging)",
+      "biobert_top10_mean": 0.8267,
+      "pubmedbert_top10_mean": 0.9081,
+      "consensus_mean": 0.8674
+    },
+    {
+      "chapter_1": "Depressive",
+      "chapter_2": "Substance & Addictive",
+      "biobert_top10_mean": 0.8828,
+      "pubmedbert_top10_mean": 0.8437,
+      "consensus_mean": 0.8632
+    },
+    {
+      "chapter_1": "Anxiety",
+      "chapter_2": "Substance & Addictive",
+      "biobert_top10_mean": 0.8435,
+      "pubmedbert_top10_mean": 0.7513,
+      "consensus_mean": 0.7974
+    },
+    {
+      "chapter_1": "Depressive",
+      "chapter_2": "Sleep-Wake",
+      "biobert_top10_mean": 0.8029,
+      "pubmedbert_top10_mean": 0.7831,
+      "consensus_mean": 0.793
+    },
+    {
+      "chapter_1": "Bipolar & Related",
+      "chapter_2": "Substance & Addictive",
+      "biobert_top10_mean": 0.8284,
+      "pubmedbert_top10_mean": 0.742,
+      "consensus_mean": 0.7852
+    },
+    {
+      "chapter_1": "Bipolar & Related",
+      "chapter_2": "Sleep-Wake",
+      "biobert_top10_mean": 0.7805,
+      "pubmedbert_top10_mean": 0.7867,
+      "consensus_mean": 0.7836
+    },
+    {
+      "chapter_1": "Anxiety",
+      "chapter_2": "Sleep-Wake",
+      "biobert_top10_mean": 0.8135,
+      "pubmedbert_top10_mean": 0.7526,
+      "consensus_mean": 0.7831
+    },
+    {
+      "chapter_1": "Anxiety",
+      "chapter_2": "Trauma & Stressor",
+      "biobert_top10_mean": 0.7844,
+      "pubmedbert_top10_mean": 0.778,
+      "consensus_mean": 0.7812
+    },
+    {
+      "chapter_1": "Sleep-Wake",
+      "chapter_2": "Sexual Dysfunctions",
+      "biobert_top10_mean": 0.7509,
+      "pubmedbert_top10_mean": 0.8102,
+      "consensus_mean": 0.7806
+    },
+    {
+      "chapter_1": "Depressive",
+      "chapter_2": "Sexual Dysfunctions",
+      "biobert_top10_mean": 0.7088,
+      "pubmedbert_top10_mean": 0.8308,
+      "consensus_mean": 0.7698
+    },
+    {
+      "chapter_1": "Trauma & Stressor",
+      "chapter_2": "Sleep-Wake",
+      "biobert_top10_mean": 0.8107,
+      "pubmedbert_top10_mean": 0.7225,
+      "consensus_mean": 0.7666
+    },
+    {
+      "chapter_1": "Trauma & Stressor",
+      "chapter_2": "Substance & Addictive",
+      "biobert_top10_mean": 0.7804,
+      "pubmedbert_top10_mean": 0.7491,
+      "consensus_mean": 0.7647
+    }
+  ],
+  "top_transdiagnostic_bridge_constructs": [
+    {
+      "symptom_construct": "Sleep dyssomnia (insomnia/hypersomnia) (Persistent Depressive Disord)",
+      "anchor_disorder": "Persistent Depressive Disorder",
+      "anchor_chapter": "Depressive",
+      "disorders_bridged": 12,
+      "chapters_bridged": 4,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)",
+        "Substance & Addictive"
+      ],
+      "biobert_mean_sim": 0.8968,
+      "pubmedbert_mean_sim": 0.8389,
+      "clinical_concept_label": "Sleep dyssomnia (insomnia/hypersomnia)",
+      "text_sha256": "6f5dd50eae6ae7fe"
+    },
+    {
+      "symptom_construct": "Sleep dyssomnia (insomnia/hypersomnia) (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 7,
+      "chapters_bridged": 4,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)",
+        "Substance & Addictive"
+      ],
+      "biobert_mean_sim": 0.951,
+      "pubmedbert_mean_sim": 0.9027,
+      "clinical_concept_label": "Sleep dyssomnia (insomnia/hypersomnia)",
+      "text_sha256": "39bf04c970cbd0e9"
+    },
+    {
+      "symptom_construct": "Elevated, expansive, or irritable mood (Substance/Medication-Induced)",
+      "anchor_disorder": "Substance/Medication-Induced Bipolar and Related Disorder",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 8,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 0.8193,
+      "pubmedbert_mean_sim": 0.85,
+      "clinical_concept_label": "Elevated, expansive, or irritable mood",
+      "text_sha256": "e178422a1b3441f6"
+    },
+    {
+      "symptom_construct": "Sleep-wake continuity disturbance (Generalized Anxiety Disorder)",
+      "anchor_disorder": "Generalized Anxiety Disorder",
+      "anchor_chapter": "Anxiety",
+      "disorders_bridged": 5,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Anxiety",
+        "Substance & Addictive",
+        "Trauma & Stressor"
+      ],
+      "biobert_mean_sim": 0.9476,
+      "pubmedbert_mean_sim": 0.9314,
+      "clinical_concept_label": "Sleep-wake continuity disturbance",
+      "text_sha256": "655417b3b6cccb38"
+    },
+    {
+      "symptom_construct": "Sleep initiation/maintenance insomnia (Cannabis Withdrawal)",
+      "anchor_disorder": "Cannabis Withdrawal",
+      "anchor_chapter": "Substance & Addictive",
+      "disorders_bridged": 5,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Anxiety",
+        "Substance & Addictive",
+        "Trauma & Stressor"
+      ],
+      "biobert_mean_sim": 0.9059,
+      "pubmedbert_mean_sim": 0.8203,
+      "clinical_concept_label": "Sleep initiation/maintenance insomnia",
+      "text_sha256": "57b5165cf27de85d"
+    },
+    {
+      "symptom_construct": "Anhedonia / diminished interest (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Anhedonia / diminished interest",
+      "text_sha256": "462d791f3811a20b"
+    },
+    {
+      "symptom_construct": "Appetite or weight change (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Appetite or weight change",
+      "text_sha256": "e398633aab44b799"
+    },
+    {
+      "symptom_construct": "Psychomotor agitation or retardation (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Psychomotor agitation or retardation",
+      "text_sha256": "b9e86b5f929a509d"
+    },
+    {
+      "symptom_construct": "Fatigue / anergia (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Fatigue / anergia",
+      "text_sha256": "7f64ee86d39c772f"
+    },
+    {
+      "symptom_construct": "Worthlessness or excessive guilt (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Worthlessness or excessive guilt",
+      "text_sha256": "d662a1e486eaaf7c"
+    },
+    {
+      "symptom_construct": "Concentration or attention impairment (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Concentration or attention impairment",
+      "text_sha256": "b78f02cfae242bb7"
+    },
+    {
+      "symptom_construct": "Suicidal ideation or behavior (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 1.0,
+      "pubmedbert_mean_sim": 1.0,
+      "clinical_concept_label": "Suicidal ideation or behavior",
+      "text_sha256": "d79c1e62a2b33465"
+    },
+    {
+      "symptom_construct": "Depressed mood / sadness (Bipolar I Disorder - Major D)",
+      "anchor_disorder": "Bipolar I Disorder - Major Depressive Episode",
+      "anchor_chapter": "Bipolar & Related",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Bipolar & Related",
+        "Depressive",
+        "Section III (Emerging)"
+      ],
+      "biobert_mean_sim": 0.9996,
+      "pubmedbert_mean_sim": 0.9998,
+      "clinical_concept_label": "Depressed mood / sadness",
+      "text_sha256": "e6125171be024afd"
+    },
+    {
+      "symptom_construct": "Irritability, anger, or aggression (Cannabis Withdrawal)",
+      "anchor_disorder": "Cannabis Withdrawal",
+      "anchor_chapter": "Substance & Addictive",
+      "disorders_bridged": 4,
+      "chapters_bridged": 3,
+      "chapter_list": [
+        "Depressive",
+        "Personality",
+        "Substance & Addictive"
+      ],
+      "biobert_mean_sim": 0.8331,
+      "pubmedbert_mean_sim": 0.8418,
+      "clinical_concept_label": "Irritability, anger, or aggression",
+      "text_sha256": "2e68db8120d0c666"
+    },
+    {
+      "symptom_construct": "Impaired control / cutting down (Stimulant Use Disorder)",
+      "anchor_disorder": "Stimulant Use Disorder",
+      "anchor_chapter": "Substance & Addictive",
+      "disorders_bridged": 11,
+      "chapters_bridged": 2,
+      "chapter_list": [
+        "Section III (Emerging)",
+        "Substance & Addictive"
+      ],
+      "biobert_mean_sim": 0.8231,
+      "pubmedbert_mean_sim": 0.8898,
+      "clinical_concept_label": "Impaired control / cutting down",
+      "text_sha256": "f783219db0f24896"
+    },
+    {
+      "symptom_construct": "Substance craving / strong urge (Stimulant Use Disorder)",
+      "anchor_disorder": "Stimulant Use Disorder",
+      "anchor_chapter": "Substance & Addictive",
+      "disorders_bridged": 11,
+      "chapters_bridged": 2,
+      "chapter_list": [
+        "Section III (Emerging)",
+        "Substance & Addictive"
+      ],
+      "biobert_mean_sim": 0.8155,
+      "pubmedbert_mean_sim": 0.8956,
+      "clinical_concept_label": "Substance craving / strong urge",
+      "text_sha256": "36d74debe8e2179c"
+    }
+  ]
+}

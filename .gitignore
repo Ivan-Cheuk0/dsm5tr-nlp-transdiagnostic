@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# macOS & IDE metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+
+# Copyrighted APA DSM-5-TR source PDF & full-text verbatim extracts
+# (Retained locally; excluded from public GitHub/OSF version control.
+#  Public repo distributes 768-d .npy embeddings + dehydrated metadata/SHA-256 index.)
+*.pdf
+DSM 5 TR-APA (2022).pdf
+dsm_symptoms_cleaned_full.json
+outputs/dsm_symptoms_filtered_only.json
+outputs/criterion_filter_audit.csv
+outputs/bridge_symptoms_biobert_nli_stsb.csv
+outputs/bridge_symptoms_pubmedbert_embeddings.csv
+outputs/top_cross_disorder_pairs_biobert_nli_stsb.csv
+outputs/top_cross_disorder_pairs_pubmedbert_embeddings.csv
+outputs/consensus_cross_disorder_bridge_pairs.csv
+
+# Hugging Face local cache (if redirected into repo)
+.cache/

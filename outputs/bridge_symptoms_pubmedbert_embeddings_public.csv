@@ -1,0 +1,1034 @@
+disorder,criterion_id,criterion_level,clinical_concept_label,text_sha256,bridged_disorder_count,mean_top10_cross_sim,max_cross_sim
+Premenstrual Dysphoric Disorder,5,sub_symptom,Sleep initiation/maintenance insomnia,90d741d8b4a5ceb4,11,0.8453156352043152,0.9979760050773621
+Persistent Depressive Disorder,2,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),6f5dd50eae6ae7fe,11,0.8425027132034302,0.9999997019767761
+Stimulant Withdrawal,3,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),6f5dd50eae6ae7fe,11,0.8425025939941406,0.9999997019767761
+Other (Or Unknown) Substance Use Disorder,4,sub_symptom,Substance craving / strong urge,3f57ba97b4c89112,10,0.9057881236076355,0.9517008662223816
+Other (Or Unknown) Substance Use Disorder,2,sub_symptom,Impaired control / cutting down,3c0ea03fdd5897f6,10,0.8982878923416138,0.9474020600318909
+Stimulant Use Disorder,4,sub_symptom,Substance craving / strong urge,36d74debe8e2179c,10,0.8956207036972046,0.9517008662223816
+Stimulant Use Disorder,2,sub_symptom,Impaired control / cutting down,f783219db0f24896,10,0.889818012714386,0.9474020600318909
+Other (Or Unknown) Substance Use Disorder,1,sub_symptom,Escalated intake over intended limit,3780a6f502360564,10,0.8867615461349487,0.9410333037376404
+Other Hallucinogen Use Disorder,4,sub_symptom,Substance craving / strong urge,00fb62efd918591d,10,0.8754765391349792,0.9174838662147522
+Phencyclidine Use Disorder,4,sub_symptom,Substance craving / strong urge,27d02e19ef864ebe,10,0.8753240704536438,0.9215608835220337
+Caffeine Use Disorder,9,sub_symptom,Construct: Craving / Strong / Desire / Urge,bb444728d79c3112,10,0.8749122619628906,0.9334408640861511
+Opioid Use Disorder,4,sub_symptom,Substance craving / strong urge,b9a203357290509a,10,0.8741928935050964,0.9176660180091858
+Stimulant Use Disorder,1,sub_symptom,Escalated intake over intended limit,42e9beb0749d150e,10,0.8698498606681824,0.9410333037376404
+Other (Or Unknown) Substance Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),dba7101966a0ee44,10,0.8688938021659851,0.9463014602661133
+Inhalant Use Disorder,4,sub_symptom,Substance craving / strong urge,6eb449442e2f22b0,10,0.8676091432571411,0.9376932978630066
+Other Hallucinogen Use Disorder,2,sub_symptom,Impaired control / cutting down,a6c28f594b5c6b42,10,0.8659566044807434,0.9073477387428284
+Opioid Use Disorder,2,sub_symptom,Impaired control / cutting down,8e3e188e1ee6cd28,10,0.864574134349823,0.9099947810173035
+Inhalant Use Disorder,2,sub_symptom,Impaired control / cutting down,a6cee3b8d8c144f4,10,0.8637551069259644,0.945506751537323
+Phencyclidine Use Disorder,2,sub_symptom,Impaired control / cutting down,7ee6c2bbe710b916,10,0.8570273518562317,0.90617835521698
+Caffeine Use Disorder,4,sub_symptom,Escalated intake over intended limit,3524e41dc7dc68f0,10,0.8542196154594421,0.9119793176651001
+Other Hallucinogen Use Disorder,1,sub_symptom,Escalated intake over intended limit,1e2bc14cead89789,10,0.8499865531921387,0.9052519202232361
+Phencyclidine Use Disorder,1,sub_symptom,Escalated intake over intended limit,be2c1bfd3c0f9047,10,0.8463085889816284,0.8977779746055603
+Inhalant Use Disorder,1,sub_symptom,Escalated intake over intended limit,a65e2356708a08ad,10,0.8425627946853638,0.9234122037887573
+Opioid Use Disorder,1,sub_symptom,Escalated intake over intended limit,12d1fd985354c277,10,0.8319442868232727,0.873694896697998
+Other (Or Unknown) Substance Use Disorder,7,sub_symptom,Reduced recreational/social activities,d22c209452df3a39,9,0.8979808688163757,0.955219030380249
+Stimulant Use Disorder,7,sub_symptom,Reduced recreational/social activities,06064ade7c476428,9,0.8876237869262695,0.9489200115203857
+Other (Or Unknown) Substance Use Disorder,9,sub_symptom,Continued use despite health harm,7feb979543b0bd66,9,0.8763184547424316,0.965969443321228
+Phencyclidine Use Disorder,7,sub_symptom,Reduced recreational/social activities,de7aa635b738b931,9,0.8739827275276184,0.9289525747299194
+Inhalant Use Disorder,7,sub_symptom,Reduced recreational/social activities,49bf55554e211cae,9,0.8731173276901245,0.955219030380249
+Alcohol Use Disorder,4,sub_symptom,Substance craving / strong urge,1df28dd43c527977,9,0.8714677095413208,0.930055558681488
+Alcohol Use Disorder,7,sub_symptom,Reduced recreational/social activities,3078724a18299970,9,0.8706955909729004,0.9396083950996399
+Other Hallucinogen Use Disorder,7,sub_symptom,Reduced recreational/social activities,faeecf817aaee2b6,9,0.8699056506156921,0.9203133583068848
+Opioid Use Disorder,7,sub_symptom,Reduced recreational/social activities,21bd2caf0cb9fdf4,9,0.8694652318954468,0.9241663217544556
+Cannabis Use Disorder,7,sub_symptom,Reduced recreational/social activities,28cc0399bf951bf3,9,0.8687108159065247,0.9228521585464478
+Cannabis Use Disorder,4,sub_symptom,Substance craving / strong urge,c54e7e9980a24536,9,0.8677646517753601,0.9146019220352173
+Other (Or Unknown) Substance Use Disorder,5,sub_symptom,Role obligation impairment,396092ae88230948,9,0.8669155240058899,0.9565406441688538
+Tobacco Use Disorder,7,sub_symptom,Reduced recreational/social activities,1042377efb89c9f4,9,0.8653780221939087,0.9229542016983032
+Alcohol Use Disorder,2,sub_symptom,Impaired control / cutting down,9fc2b81037ab40bb,9,0.8646459579467773,0.9269453287124634
+Other (Or Unknown) Substance Use Disorder,6,sub_symptom,Continued use despite social harm,06c27b3f951ba3cd,9,0.8643452525138855,0.9674431085586548
+Cannabis Use Disorder,2,sub_symptom,Impaired control / cutting down,b33f0c6933cad9a8,9,0.8629819750785828,0.9020741581916809
+Stimulant Use Disorder,5,sub_symptom,Role obligation impairment,0fc5b11f490dcd93,9,0.8623018264770508,0.9560458660125732
+Opioid Use Disorder,9,sub_symptom,Continued use despite health harm,0eb8c69d6f8ce376,9,0.8598641157150269,0.9399868249893188
+Inhalant Use Disorder,9,sub_symptom,Continued use despite health harm,4f2dbd0d12afcd38,9,0.8589509129524231,0.965969443321228
+Stimulant Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),a541c989736c69d5,9,0.8541742563247681,0.9463014602661133
+Stimulant Use Disorder,9,sub_symptom,Continued use despite health harm,881f72f594469d9e,9,0.8496057391166687,0.9106077551841736
+Cannabis Use Disorder,1,sub_symptom,Escalated intake over intended limit,482b102dbd4669b9,9,0.847794234752655,0.8933243155479431
+Cannabis Use Disorder,5,sub_symptom,Role obligation impairment,2b50e7cab7e61cde,9,0.8453933000564575,0.9221420884132385
+Inhalant Use Disorder,5,sub_symptom,Role obligation impairment,bf3ca8d451867273,9,0.8453314900398254,0.9565406441688538
+Tobacco Use Disorder,4,sub_symptom,Substance craving / strong urge,7dfd5345b90ffe83,9,0.8448165059089661,0.9001171588897705
+Inhalant Use Disorder,6,sub_symptom,Continued use despite social harm,e2ddd73e62caf82e,9,0.8446334600448608,0.9674431085586548
+Tobacco Use Disorder,2,sub_symptom,Impaired control / cutting down,6fee8e476836181b,9,0.8431243896484375,0.8912363052368164
+Other (Or Unknown) Substance Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),4537e04f5c87495e,9,0.8411036729812622,0.9130394458770752
+Opioid Use Disorder,5,sub_symptom,Role obligation impairment,c07e9c63c0f73ef0,9,0.8364976048469543,0.9295840859413147
+Alcohol Use Disorder,1,sub_symptom,Escalated intake over intended limit,36fdb02e5097e87a,9,0.8340523838996887,0.8926540017127991
+Caffeine Use Disorder,1,sub_symptom,Impaired control / cutting down,878f495b89537de0,9,0.8293094635009766,0.8804172873497009
+Alcohol Use Disorder,9,sub_symptom,Continued use despite health harm,33b879dc73b2e5e9,9,0.8248453140258789,0.884617805480957
+Caffeine Use Disorder,2,sub_symptom,Continued use despite health harm,af2794974f759089,9,0.8219146728515625,0.891919732093811
+Tobacco Use Disorder,1,sub_symptom,Escalated intake over intended limit,6f0934be072f4d84,9,0.8216956257820129,0.8820749521255493
+Cannabis Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),00a2a2d0cd8c7cff,9,0.8215094804763794,0.893726110458374
+Cannabis Use Disorder,9,sub_symptom,Continued use despite health harm,cf7136da393c0180,9,0.8199876546859741,0.8616189360618591
+Phencyclidine Use Disorder,9,sub_symptom,Continued use despite health harm,61f75c5050a1d57b,9,0.8195334672927856,0.8687700033187866
+Stimulant Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),43fbcacc99b81154,9,0.8131210207939148,0.9130394458770752
+Other Hallucinogen Use Disorder,9,sub_symptom,Continued use despite health harm,72a55d09bbf3cb5d,9,0.812333881855011,0.8506439924240112
+Other (Or Unknown) Substance Use Disorder,3,sub_symptom,High time investment in substance,345945d3ae23e16f,9,0.8027847409248352,0.9204968810081482
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",7,sub_symptom,Reduced recreational/social activities,5c6f961061996e70,9,0.8027287721633911,0.8356857895851135
+Tobacco Use Disorder,9,sub_symptom,Continued use despite health harm,25772363ac8b48d8,9,0.7972366213798523,0.8432005643844604
+Disruptive Mood Dysregulation Disorder,E,main_criterion,Construct: Present / Months / Throughout / Time,4c24f4234bbd33da,9,0.7971057891845703,0.8143818974494934
+Restless Legs Syndrome,B,main_criterion,Construct: Occur / Times / Week / Persisted,7cc55c28c6c41a30,9,0.7968292236328125,0.810390830039978
+Other (Or Unknown) Substance Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,f85905d52b1e520c,8,0.8283239603042603,0.9402545094490051
+Inhalant Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),5deb7764dfec8a90,8,0.8270975947380066,0.9422308802604675
+Other Hallucinogen Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),96650ca6a4bf58d2,8,0.8268131017684937,0.9037453532218933
+Alcohol Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),e9c18b5672c02751,8,0.8245238065719604,0.9157578945159912
+Opioid Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),5ba1a89dffcecc04,8,0.8193579912185669,0.8870213031768799
+Stimulant Use Disorder,6,sub_symptom,Continued use despite social harm,84ad2ddc19f15676,8,0.8176811933517456,0.9030820727348328
+Stimulant Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,acf34ab93aac9dc6,8,0.8164741396903992,0.9267777800559998
+Alcohol Use Disorder,6,sub_symptom,Continued use despite social harm,91412f26bab2cbb1,8,0.800614058971405,0.904808759689331
+Stimulant Intoxication,B,main_criterion,Hypervigilance,871c90b5b9de06b5,8,0.7979426980018616,0.869748055934906
+"Sedative, Hypnotic, or Anxiolytic Intoxication",B,main_criterion,Construct: Clinically / Significant / Maladaptive / Behavioral,7d35c9b8bbf1b3c0,8,0.7948349714279175,0.869748055934906
+Caffeine Use Disorder,5,sub_symptom,Role obligation impairment,0ecde4c315e62b77,8,0.7880295515060425,0.8565352559089661
+Caffeine Use Disorder,6,sub_symptom,Continued use despite social harm,e76dfabdd4950e6e,8,0.7853437662124634,0.845750093460083
+Inhalant Use Disorder,3,sub_symptom,High time investment in substance,150e147906134413,8,0.7836700677871704,0.9204968810081482
+Other Hallucinogen Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),7530cbf2af0c422c,8,0.7831703424453735,0.8644120693206787
+Alcohol Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),b17f834d67fa5e1b,8,0.7718132734298706,0.8588775396347046
+Cannabis Intoxication,B,main_criterion,Construct: Clinically / Significant / Problematic / Behavioral,73618e58f71cb4a2,8,0.7678405046463013,0.843691349029541
+Phencyclidine Intoxication,B,main_criterion,Psychomotor agitation,a26a4b4879d8a16b,8,0.7636116743087769,0.8607491254806519
+Delayed Ejaculation,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Erectile Disorder,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Female Orgasmic Disorder,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Female Sexual Interest/Arousal Disorder,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Genito-Pelvic Pain/Penetration Disorder,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Male Hypoactive Sexual Desire Disorder,B,main_criterion,Construct: Persisted / Minimum / Duration / Approximately,0ed5791023c0724e,7,0.8720242381095886,0.9999998807907104
+Alcohol Withdrawal,3,sub_symptom,Sleep initiation/maintenance insomnia,193943b42d5d5694,7,0.848738968372345,1.0
+Caffeine Intoxication,4,sub_symptom,Sleep initiation/maintenance insomnia,193943b42d5d5694,7,0.848738968372345,1.0
+Opioid Withdrawal,9,sub_symptom,Sleep initiation/maintenance insomnia,193943b42d5d5694,7,0.848738968372345,1.0
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",3,sub_symptom,Sleep initiation/maintenance insomnia,193943b42d5d5694,7,0.848738968372345,1.0
+Tobacco Withdrawal,7,sub_symptom,Sleep initiation/maintenance insomnia,193943b42d5d5694,7,0.848738968372345,0.9999998211860657
+Other (Or Unknown) Substance Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,29726b68a76bdb9e,7,0.8333319425582886,0.957965075969696
+Alcohol Use Disorder,5,sub_symptom,Role obligation impairment,5a93f2b07f660ced,7,0.8320232629776001,0.9438084959983826
+Bipolar I Disorder - Major Depressive Episode,4,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),39bf04c970cbd0e9,7,0.8252545595169067,1.0000008344650269
+Bipolar II Disorder - Major Depressive Episode,4,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),39bf04c970cbd0e9,7,0.8252545595169067,1.0000008344650269
+Major Depressive Disorder,4,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),39bf04c970cbd0e9,7,0.8252545595169067,1.0000008344650269
+Depressive Episodes with Short-Duration Hypomania,4,sub_symptom,Sleep dyssomnia (insomnia/hypersomnia),39bf04c970cbd0e9,7,0.8252545595169067,1.0000008344650269
+Tobacco Use Disorder,5,sub_symptom,Role obligation impairment,8d421af9bbfda7db,7,0.816055953502655,0.8918666243553162
+Stimulant Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,933931be18cb4c5f,7,0.814568817615509,0.957965075969696
+Alcohol Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,2c9bfdc2b347fb89,7,0.8132123947143555,0.9097580313682556
+Phencyclidine Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),455bd46630ef049c,7,0.8106547594070435,0.8817664384841919
+Cannabis Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,7fc722008734ff69,7,0.8077930212020874,0.9187190532684326
+Substance/Medication-Induced Bipolar and Related Disorder,A,main_criterion,"Elevated, expansive, or irritable mood",e178422a1b3441f6,7,0.7979338765144348,0.9999997615814209
+Bipolar and Related Disorder due to Another Medical Condition,A,main_criterion,"Elevated, expansive, or irritable mood",e178422a1b3441f6,7,0.7979338765144348,0.9999997615814209
+Cannabis Use Disorder,6,sub_symptom,Continued use despite social harm,a87251325874f97b,7,0.7969438433647156,0.8773870468139648
+Cannabis Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,9a68a7f09cd9f907,7,0.7966555953025818,0.8938266634941101
+Caffeine Use Disorder,3b,sub_symptom,Withdrawal relief / avoidance use,d274a4620b0bddb6,7,0.7964985370635986,0.9296658635139465
+Opioid Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,15fac9146a2299b5,7,0.7846549153327942,0.8983784914016724
+Other Hallucinogen Use Disorder,6,sub_symptom,Continued use despite social harm,0df10ed90d65f06b,7,0.7747557759284973,0.8439533710479736
+Stimulant Use Disorder,3,sub_symptom,High time investment in substance,a83d2509bf3d762a,7,0.7710400223731995,0.8841193318367004
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",4,sub_symptom,Substance craving / strong urge,ba69372640bb5b34,7,0.7598344087600708,0.7843976020812988
+Opioid Intoxication,B,main_criterion,Psychomotor agitation or retardation,f262ef7dd0638b56,7,0.7587578296661377,0.8464516401290894
+Phencyclidine Use Disorder,5,sub_symptom,Role obligation impairment,8cde2cbdf644a113,7,0.7567681074142456,0.7932248115539551
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",1,sub_symptom,Escalated intake over intended limit,cbd1ca33b95222fc,7,0.7498577833175659,0.7737946510314941
+Substance/Medication-Induced Psychotic Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Bipolar and Related Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Depressive Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Anxiety Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Obsessive-Compulsive and Related Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Sleep Disorder,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Sexual Dysfunction,1,sub_symptom,Construct: Developed / Soon / Substance / Intoxication,805f71fd102018b4,6,0.8747226595878601,1.0000001192092896
+Substance/Medication-Induced Psychotic Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567239046096802,1.0000007152557373
+Substance/Medication-Induced Bipolar and Related Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567239046096802,1.0000007152557373
+Substance/Medication-Induced Depressive Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567239046096802,1.0000007152557373
+Substance/Medication-Induced Anxiety Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567239046096802,1.0000007152557373
+Substance/Medication-Induced Obsessive-Compulsive and Related Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567239046096802,1.0000007152557373
+Substance/Medication-Induced Sleep Disorder,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567237854003906,1.0000007152557373
+Substance/Medication-Induced Sexual Dysfunction,2,sub_symptom,Construct: Involved / Substance / Medication / Capable,10dd50d8f0fad19a,6,0.8567237854003906,1.0000007152557373
+Opioid Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,7e57c2c260f7c389,6,0.8005669713020325,0.9023503661155701
+Alcohol Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,f47d86a24576dffd,6,0.799678385257721,0.9169066548347473
+Inhalant Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,1d65ab51e492fcb2,6,0.798146665096283,0.9402545094490051
+Opioid Use Disorder,6,sub_symptom,Continued use despite social harm,c9d43cb7c0b330bc,6,0.7943359613418579,0.8851401209831238
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",11b,sub_symptom,Withdrawal relief / avoidance use,67bb9b08950c9fdd,6,0.7755392789840698,0.8953930139541626
+Phencyclidine Use Disorder,6,sub_symptom,Continued use despite social harm,b613dbe4e390af4f,6,0.7737545967102051,0.8439533710479736
+Phencyclidine Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),8883a5f3e88d1b9d,6,0.7726856470108032,0.8577192425727844
+Tobacco Use Disorder,11b,sub_symptom,Withdrawal relief / avoidance use,ed21430f4540fbdb,6,0.7726116180419922,0.8801019787788391
+Inhalant Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),c41e26ea8854a84f,6,0.7724733948707581,0.882408082485199
+Caffeine Use Disorder,7b,sub_symptom,Pharmacological tolerance (diminished effect),105047d08b97e49e,6,0.770020604133606,0.857027530670166
+Voyeuristic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,e467dd591394c5e9,6,0.7652720212936401,0.9071553945541382
+Alcohol Intoxication,B,main_criterion,Construct: Clinically / Significant / Problematic / Behavioral,75df2e2ffa74dfc6,6,0.7618477940559387,0.8633996844291687
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",2,sub_symptom,Impaired control / cutting down,eaf4b7a656450c11,6,0.7614786028862,0.8024004697799683
+Sexual Masochism Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,51018696db245204,6,0.7612448930740356,0.8808236718177795
+Cannabis Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),c9f25743eefb844d,6,0.7592807412147522,0.8222902417182922
+Exhibitionistic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,e3968dc6faa25630,6,0.7586377859115601,0.9071553945541382
+Other Hallucinogen Use Disorder,5,sub_symptom,Role obligation impairment,95b3a567924d26d7,6,0.7586109042167664,0.8138363361358643
+Frotteuristic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,369bb868b519f496,6,0.7570111155509949,0.8613574504852295
+Sexual Sadism Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,a8effa52354e3cbc,6,0.7543349862098694,0.8808236718177795
+Tobacco Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,77ed9b6a4777df02,6,0.7515484094619751,0.8201746940612793
+Inhalant Intoxication,B,main_criterion,Construct: Clinically / Significant / Problematic / Behavioral,d68017df35c15211,6,0.748002290725708,0.8370527029037476
+Insomnia Disorder,C,main_criterion,Sleep-wake continuity disturbance,b37d65263ce49f36,6,0.739412784576416,0.8010960221290588
+Fetishistic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,18f5c4c7cbe9a214,6,0.736323893070221,0.8337711691856384
+Transvestic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,45604782b2d9f9e5,6,0.7140710949897766,0.8392418026924133
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,6,sub_symptom,Sleep-wake continuity disturbance,e824cb756c002569,5,0.8158210515975952,1.000000238418579
+Posttraumatic Stress Disorder in Children 6 Years and Younger,5,sub_symptom,Sleep-wake continuity disturbance,e824cb756c002569,5,0.8158210515975952,1.000000238418579
+Acute Stress Disorder,10,sub_symptom,Sleep-wake continuity disturbance,58bcf2876639baf7,5,0.8157953023910522,0.9991899728775024
+Generalized Anxiety Disorder,6,sub_symptom,Sleep-wake continuity disturbance,655417b3b6cccb38,5,0.7985369563102722,0.9749293327331543
+Brief Psychotic Disorder,2,sub_symptom,Hallucinatory perception,d7018ce1f2c980bb,5,0.798376739025116,0.9999997615814209
+Schizophreniform Disorder,2,sub_symptom,Hallucinatory perception,d7018ce1f2c980bb,5,0.798376739025116,0.9999997615814209
+Schizophrenia,2,sub_symptom,Hallucinatory perception,d7018ce1f2c980bb,5,0.798376739025116,0.9999997615814209
+Substance/Medication-Induced Psychotic Disorder,2,sub_symptom,Hallucinatory perception,d7018ce1f2c980bb,5,0.798376739025116,0.9999997615814209
+Bipolar I Disorder - Major Depressive Episode,3,sub_symptom,Appetite or weight change,e398633aab44b799,5,0.7887735366821289,1.0000003576278687
+Bipolar II Disorder - Major Depressive Episode,3,sub_symptom,Appetite or weight change,e398633aab44b799,5,0.7887735366821289,1.0000003576278687
+Major Depressive Disorder,3,sub_symptom,Appetite or weight change,e398633aab44b799,5,0.7887735366821289,1.0000003576278687
+Depressive Episodes with Short-Duration Hypomania,3,sub_symptom,Appetite or weight change,e398633aab44b799,5,0.7887735366821289,1.0000003576278687
+Bipolar I Disorder - Manic Episode,A,main_criterion,"Elevated, expansive, or irritable mood",6fd6b891a834ce12,5,0.776614785194397,0.9767751693725586
+Bipolar I Disorder - Hypomanic Episode,A,main_criterion,"Elevated, expansive, or irritable mood",80d84d6b06ebc74f,5,0.775391697883606,0.9999997615814209
+Bipolar II Disorder - Hypomanic Episode,A,main_criterion,"Elevated, expansive, or irritable mood",80d84d6b06ebc74f,5,0.775391697883606,0.9999997615814209
+Opioid Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),5265ec3bd1179718,5,0.7556518316268921,0.8192822933197021
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",10a,sub_symptom,Pharmacological tolerance (dose escalation),94b173d4135bd079,5,0.7547248601913452,0.7852453589439392
+Binge-Eating Disorder,5,sub_symptom,Construct: Feeling / Disgusted / Oneself / Depressed,f067c47518db04f9,5,0.7520476579666138,0.8131968379020691
+Substance/Medication-Induced Psychotic Disorder,1,sub_symptom,Delusional beliefs,2d1b7d325f3af188,5,0.7462108731269836,1.0000007152557373
+Brief Psychotic Disorder,1,sub_symptom,Delusional beliefs,2d1b7d325f3af188,5,0.7462107539176941,1.0000007152557373
+Schizophreniform Disorder,1,sub_symptom,Delusional beliefs,2d1b7d325f3af188,5,0.7462107539176941,1.0000007152557373
+Schizophrenia,1,sub_symptom,Delusional beliefs,2d1b7d325f3af188,5,0.7462107539176941,1.0000007152557373
+Tobacco Use Disorder,10b,sub_symptom,Pharmacological tolerance (diminished effect),4c29a84d506b49d5,5,0.7400785684585571,0.8134517669677734
+Stimulant Withdrawal,5,sub_symptom,Construct: Psychomotor / Retardation / Agitation,2b6d2294894f84d7,5,0.7345966100692749,0.992925763130188
+Depressive Episodes with Short-Duration Hypomania,A,main_criterion,"Elevated, expansive, or irritable mood",0be9e90fef699857,5,0.7316069602966309,0.9223137497901917
+Other (Or Unknown) Substance Intoxication,B,main_criterion,Psychomotor agitation or retardation,7fe42d1ae2e0c7f0,5,0.7308080792427063,0.8174982070922852
+Stimulant Use Disorder,11a,sub_symptom,Characteristic withdrawal syndrome,3368f13c66484487,5,0.7254080772399902,0.8504218459129333
+Cannabis Use Disorder,11a,sub_symptom,Characteristic withdrawal syndrome,c42b34cffebe8f67,5,0.7214168310165405,0.8630152344703674
+Alcohol Use Disorder,11a,sub_symptom,Characteristic withdrawal syndrome,f26afec52ecc2ba1,5,0.7195192575454712,0.8630152344703674
+Opioid Use Disorder,11a,sub_symptom,Construct: Characteristic / Opioid / Withdrawal / Syndrome,31568a9d7d28670b,5,0.6974743604660034,0.8493818640708923
+Bipolar I Disorder - Major Depressive Episode,1,sub_symptom,Depressed mood / sadness,e6125171be024afd,4,0.7921086549758911,0.9999991655349731
+Bipolar II Disorder - Major Depressive Episode,1,sub_symptom,Depressed mood / sadness,e6125171be024afd,4,0.7921086549758911,0.9999991655349731
+Depressive Episodes with Short-Duration Hypomania,1,sub_symptom,Depressed mood / sadness,e6125171be024afd,4,0.7921086549758911,0.9999991655349731
+Major Depressive Disorder,1,sub_symptom,Depressed mood / sadness,7c4e49d593cafff8,4,0.7900315523147583,0.9994118213653564
+Bipolar I Disorder - Major Depressive Episode,7,sub_symptom,Worthlessness or excessive guilt,d662a1e486eaaf7c,4,0.7837411761283875,0.9999998807907104
+Bipolar II Disorder - Major Depressive Episode,7,sub_symptom,Worthlessness or excessive guilt,d662a1e486eaaf7c,4,0.7837411761283875,0.9999998807907104
+Major Depressive Disorder,7,sub_symptom,Worthlessness or excessive guilt,d662a1e486eaaf7c,4,0.7837411761283875,0.9999998807907104
+Depressive Episodes with Short-Duration Hypomania,7,sub_symptom,Worthlessness or excessive guilt,d662a1e486eaaf7c,4,0.7837411761283875,0.9999998807907104
+Posttraumatic Stress Disorder in Children 6 Years and Younger,1,sub_symptom,"Irritability, anger, or aggression",41704e6154b27dd9,4,0.7769114971160889,0.9654174447059631
+Bipolar I Disorder - Manic Episode,5,sub_symptom,External distractibility,98e5f5e4ecdfcb74,4,0.7727516889572144,1.000000238418579
+Bipolar I Disorder - Hypomanic Episode,5,sub_symptom,External distractibility,98e5f5e4ecdfcb74,4,0.7727516889572144,1.000000238418579
+Bipolar II Disorder - Hypomanic Episode,5,sub_symptom,External distractibility,98e5f5e4ecdfcb74,4,0.7727516889572144,1.000000238418579
+Depressive Episodes with Short-Duration Hypomania,5,sub_symptom,External distractibility,98e5f5e4ecdfcb74,4,0.7727516293525696,1.000000238418579
+Acute Stress Disorder,11,sub_symptom,"Irritability, anger, or aggression",1340379af59c8ed0,4,0.7659764289855957,0.9983999729156494
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,1,sub_symptom,"Irritability, anger, or aggression",2477496ac2225a94,4,0.7626387476921082,0.9983999729156494
+Psychotic Disorder due to Another Medical Condition,A,main_criterion,Delusional beliefs,e1c5c68aa3458fc4,4,0.7557801008224487,0.7634415626525879
+Cannabis Withdrawal,3,sub_symptom,Sleep initiation/maintenance insomnia,57b5165cf27de85d,4,0.75117027759552,0.8288758397102356
+Stimulant Intoxication,7,sub_symptom,Psychomotor agitation or retardation,cd5f2d32f2a0247f,4,0.7434598207473755,0.992925763130188
+Other Hallucinogen Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,89b87c7396ee09e2,4,0.7385610342025757,0.8349863290786743
+Caffeine Use Disorder,7a,sub_symptom,Pharmacological tolerance (dose escalation),d3e81afb66aba8c1,4,0.7366613149642944,0.8082302808761597
+Other Hallucinogen Intoxication,B,main_criterion,Construct: Clinically / Significant / Problematic / Behavioral,4624340971108d54,4,0.7355090379714966,0.7984461784362793
+Attenuated Psychosis Syndrome,2,sub_symptom,Hallucinatory perception,64cf600a9c1e41a7,4,0.7344082593917847,0.8506572246551514
+Cannabis Withdrawal,4,sub_symptom,Appetite or weight change,74d8df58247dfab3,4,0.7343006134033203,0.7760860919952393
+Alcohol Withdrawal,6,sub_symptom,Psychomotor agitation,3aa3f13bce5d9428,4,0.7310511469841003,1.000000238418579
+Caffeine Intoxication,12,sub_symptom,Psychomotor agitation,3aa3f13bce5d9428,4,0.7310511469841003,1.000000238418579
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",6,sub_symptom,Psychomotor agitation,3aa3f13bce5d9428,4,0.7310511469841003,0.9999998807907104
+Other Hallucinogen Use Disorder,3,sub_symptom,High time investment in substance,2ec4bd1ceb27401a,4,0.7303913235664368,0.7988867163658142
+Insomnia Disorder,2,sub_symptom,Construct: Difficulty / Maintaining / Sleep / Characterized,97cdc9722e161a2a,4,0.718264102935791,0.7697435617446899
+Other (Or Unknown) Substance Use Disorder,11a,sub_symptom,Characteristic withdrawal syndrome,d987fb17e8087abc,4,0.7143135666847229,0.775138795375824
+Bipolar I Disorder - Manic Episode,1,sub_symptom,Grandiosity / inflated self-esteem,f23077baa81001c3,4,0.7079087495803833,1.0
+Bipolar I Disorder - Hypomanic Episode,1,sub_symptom,Grandiosity / inflated self-esteem,f23077baa81001c3,4,0.7079087495803833,1.0
+Bipolar II Disorder - Hypomanic Episode,1,sub_symptom,Grandiosity / inflated self-esteem,f23077baa81001c3,4,0.7079087495803833,1.0
+Depressive Episodes with Short-Duration Hypomania,1,sub_symptom,Grandiosity / inflated self-esteem,f23077baa81001c3,4,0.7079087495803833,0.9999998211860657
+Rapid Eye Movement Sleep Behavior Disorder,G,main_criterion,Construct: Coexisting / Mental / Disorders / Medical,0980bb88f19556a8,4,0.6990712285041809,0.8335990905761719
+Cannabis Withdrawal,2,sub_symptom,Construct: Nervousness / Anxiety,abba6e0dfde4c8fa,4,0.6945765018463135,0.8386752009391785
+Alcohol Intoxication,6,sub_symptom,Stupor or reduced consciousness,84823166a4f6700f,4,0.6896510124206543,0.9999992847442627
+"Sedative, Hypnotic, or Anxiolytic Intoxication",6,sub_symptom,Stupor or reduced consciousness,84823166a4f6700f,4,0.6896510124206543,0.9999992847442627
+Hypersomnolence Disorder,F,main_criterion,Construct: Coexisting / Mental / Medical / Disorders,4f92834dfb1ad6fd,4,0.6894317865371704,0.9221138954162598
+Attenuated Psychosis Syndrome,1,sub_symptom,Delusional beliefs,584d0da7c1d51b15,4,0.6874850988388062,0.8864445686340332
+Inhalant Intoxication,12,sub_symptom,Stupor or reduced consciousness,84823166a4f6700f,4,0.6872560381889343,0.9999992847442627
+Anorexia Nervosa,B,main_criterion,Construct: Intense / Fear / Gaining / Weight,cbbee38791c53fad,4,0.6802347302436829,0.7747026681900024
+Opioid Intoxication,1,sub_symptom,Construct: Drowsiness / Coma,f02586e0fc689a39,4,0.6783527135848999,0.7614847421646118
+Insomnia Disorder,H,main_criterion,Sleep initiation/maintenance insomnia,2b35668e16f7b749,4,0.6774354577064514,0.9221138954162598
+Persistent Depressive Disorder,A,main_criterion,Depressed mood / sadness,db12616043fd1922,4,0.6758990287780762,0.7745842337608337
+Attention-Deficit/Hyperactivity Disorder,1h,sub_symptom,Construct: Easily / Distracted / Extraneous / Stimuli,43b300aa4f904cf0,4,0.6758894920349121,0.7616429328918457
+Tobacco Use Disorder,11a,sub_symptom,Characteristic withdrawal syndrome,46c34c2f0b1fcfa6,4,0.6685357093811035,0.8440709710121155
+Phencyclidine Intoxication,7,sub_symptom,Construct: Seizures / Coma,2aaa0cad17896450,4,0.6652184724807739,0.7666782736778259
+Persistent Depressive Disorder,4,sub_symptom,Construct: Self / Esteem,d08b918e6f7b8f38,4,0.6009148359298706,0.7637903094291687
+Bipolar I Disorder - Manic Episode,2,sub_symptom,Decreased need for sleep,9f04065f23e0ea16,3,0.7980632781982422,1.0000001192092896
+Bipolar I Disorder - Hypomanic Episode,2,sub_symptom,Decreased need for sleep,9f04065f23e0ea16,3,0.7980632781982422,1.0000001192092896
+Bipolar II Disorder - Hypomanic Episode,2,sub_symptom,Decreased need for sleep,9f04065f23e0ea16,3,0.7980632781982422,1.0000001192092896
+Depressive Episodes with Short-Duration Hypomania,2,sub_symptom,Decreased need for sleep,9f04065f23e0ea16,3,0.7980632781982422,1.0000001192092896
+Bipolar I Disorder - Major Depressive Episode,8,sub_symptom,Concentration or attention impairment,b78f02cfae242bb7,3,0.7636595964431763,1.0000001192092896
+Bipolar II Disorder - Major Depressive Episode,8,sub_symptom,Concentration or attention impairment,b78f02cfae242bb7,3,0.7636595368385315,1.0000001192092896
+Major Depressive Disorder,8,sub_symptom,Concentration or attention impairment,b78f02cfae242bb7,3,0.7636595368385315,1.0000001192092896
+Depressive Episodes with Short-Duration Hypomania,8,sub_symptom,Concentration or attention impairment,b78f02cfae242bb7,3,0.7636595368385315,1.0000001192092896
+Bipolar I Disorder - Major Depressive Episode,5,sub_symptom,Psychomotor agitation or retardation,b9e86b5f929a509d,3,0.761160671710968,0.9999992847442627
+Depressive Episodes with Short-Duration Hypomania,5,sub_symptom,Psychomotor agitation or retardation,b9e86b5f929a509d,3,0.761160671710968,0.9999992847442627
+Bipolar II Disorder - Major Depressive Episode,5,sub_symptom,Psychomotor agitation or retardation,b9e86b5f929a509d,3,0.7611605525016785,0.9999992847442627
+Major Depressive Disorder,5,sub_symptom,Psychomotor agitation or retardation,b9e86b5f929a509d,3,0.7611274719238281,0.9999992847442627
+Depressive Episodes with Short-Duration Hypomania,7,sub_symptom,High-risk impulsive involvement,e41e91ddb1efd662,3,0.7602909803390503,0.9895899295806885
+Bipolar I Disorder - Major Depressive Episode,2,sub_symptom,Anhedonia / diminished interest,462d791f3811a20b,3,0.7581499814987183,1.0000003576278687
+Depressive Episodes with Short-Duration Hypomania,2,sub_symptom,Anhedonia / diminished interest,462d791f3811a20b,3,0.7581499814987183,1.0000003576278687
+Bipolar II Disorder - Major Depressive Episode,2,sub_symptom,Anhedonia / diminished interest,462d791f3811a20b,3,0.7581499218940735,1.0000003576278687
+Major Depressive Disorder,2,sub_symptom,Anhedonia / diminished interest,462d791f3811a20b,3,0.7578313946723938,1.0000003576278687
+Bipolar I Disorder - Manic Episode,7,sub_symptom,High-risk impulsive involvement,f1cd2db16ef1ccf4,3,0.7556105852127075,1.0000001192092896
+Bipolar I Disorder - Hypomanic Episode,7,sub_symptom,High-risk impulsive involvement,f1cd2db16ef1ccf4,3,0.7556105852127075,1.0000001192092896
+Bipolar II Disorder - Hypomanic Episode,7,sub_symptom,High-risk impulsive involvement,f1cd2db16ef1ccf4,3,0.7556105852127075,1.0000001192092896
+Cyclothymic Disorder,B,main_criterion,Construct: Above / Year / Year / Children,858580b0237cf218,3,0.7542811632156372,0.9233239889144897
+Substance/Medication-Induced Depressive Disorder,A,main_criterion,Depressed mood / sadness,7f211a2d9c0ba066,3,0.7497106790542603,1.000000238418579
+Depressive Disorder due to Another Medical Condition,A,main_criterion,Depressed mood / sadness,7f211a2d9c0ba066,3,0.7497106790542603,1.000000238418579
+Bipolar I Disorder - Major Depressive Episode,6,sub_symptom,Fatigue / anergia,7f64ee86d39c772f,3,0.7457626461982727,1.000000238418579
+Bipolar II Disorder - Major Depressive Episode,6,sub_symptom,Fatigue / anergia,7f64ee86d39c772f,3,0.7457626461982727,1.000000238418579
+Major Depressive Disorder,6,sub_symptom,Fatigue / anergia,7f64ee86d39c772f,3,0.7457626461982727,1.000000238418579
+Depressive Episodes with Short-Duration Hypomania,6,sub_symptom,Fatigue / anergia,7f64ee86d39c772f,3,0.7457626461982727,1.000000238418579
+Cannabis Withdrawal,1,sub_symptom,"Irritability, anger, or aggression",2e68db8120d0c666,3,0.744228720664978,0.9096671342849731
+Alcohol Withdrawal,7,sub_symptom,Construct: Anxiety,3d6ca93a94ba1815,3,0.7395771145820618,1.0000001192092896
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",7,sub_symptom,Construct: Anxiety,3d6ca93a94ba1815,3,0.7395771145820618,1.0000001192092896
+Tobacco Withdrawal,2,sub_symptom,Construct: Anxiety,3d6ca93a94ba1815,3,0.7395771145820618,1.0000001192092896
+Cannabis Withdrawal,6,sub_symptom,Depressed mood / sadness,5639524d32ab9afc,3,0.7383719682693481,1.0000003576278687
+Tobacco Withdrawal,6,sub_symptom,Depressed mood / sadness,5639524d32ab9afc,3,0.7383719682693481,1.0000003576278687
+Agoraphobia,F,main_criterion,Construct: Fear / Anxiety / Avoidance / Persistent,de1e659c4311d623,3,0.737540602684021,0.9999999403953552
+Specific Phobia,E,main_criterion,Construct: Fear / Anxiety / Avoidance / Persistent,de1e659c4311d623,3,0.7375404834747314,0.9999999403953552
+Social Anxiety Disorder,F,main_criterion,Construct: Fear / Anxiety / Avoidance / Persistent,de1e659c4311d623,3,0.7375404834747314,0.9999999403953552
+Alcohol Intoxication,1,sub_symptom,Dysarthria / slurred speech,8d2d64dd04aefc6d,3,0.7351361513137817,1.0000007152557373
+Inhalant Intoxication,4,sub_symptom,Dysarthria / slurred speech,8d2d64dd04aefc6d,3,0.7351361513137817,1.0000007152557373
+Opioid Intoxication,2,sub_symptom,Dysarthria / slurred speech,8d2d64dd04aefc6d,3,0.7351361513137817,1.0000007152557373
+"Sedative, Hypnotic, or Anxiolytic Intoxication",1,sub_symptom,Dysarthria / slurred speech,8d2d64dd04aefc6d,3,0.7351361513137817,1.0000007152557373
+Bipolar I Disorder - Manic Episode,3,sub_symptom,Pressured speech / talkativeness,a75fa5f695509c0b,3,0.7341539859771729,1.0000003576278687
+Bipolar I Disorder - Hypomanic Episode,3,sub_symptom,Pressured speech / talkativeness,a75fa5f695509c0b,3,0.7341539859771729,1.0000003576278687
+Bipolar II Disorder - Hypomanic Episode,3,sub_symptom,Pressured speech / talkativeness,a75fa5f695509c0b,3,0.7341539263725281,1.000000238418579
+Caffeine Withdrawal,3,sub_symptom,Depressed mood / sadness,33a55db5cf02a3b2,3,0.7325780391693115,0.8667284250259399
+Hypersomnolence Disorder,B,main_criterion,Construct: Hypersomnolence / Occurs / Times / Week,0d92e4b37d5e37d8,3,0.7324330806732178,0.8075584769248962
+Depressive Episodes with Short-Duration Hypomania,3,sub_symptom,Pressured speech / talkativeness,22ed40135f48f9aa,3,0.7319111824035645,0.9813931584358215
+Cannabis Use Disorder,3,sub_symptom,High time investment in substance,7056a8ded3b50af1,3,0.7275733351707458,0.789310097694397
+Opioid Use Disorder,3,sub_symptom,High time investment in substance,5abd2b2ab9f933f1,3,0.7263928651809692,0.8182336091995239
+Caffeine Use Disorder,8,sub_symptom,High time investment in substance,aa4fb1b40f785031,3,0.7239660620689392,0.8161837458610535
+Phencyclidine Use Disorder,8,sub_symptom,Recurrent use in hazardous settings,e0d7635935a6d685,3,0.7235966324806213,0.8349863290786743
+Tobacco Use Disorder,3,sub_symptom,High time investment in substance,5d9243fdb6194f78,3,0.7210239171981812,0.8121786713600159
+Tobacco Withdrawal,1,sub_symptom,Construct: Irritability / Frustration / Anger,c72f7869bdbc2fc1,3,0.7177620530128479,0.9096671342849731
+Bipolar II Disorder - Hypomanic Episode,4,sub_symptom,Flight of ideas / racing thoughts,ab9185e91f29aa09,3,0.7131463885307312,1.0000007152557373
+Depressive Episodes with Short-Duration Hypomania,4,sub_symptom,Flight of ideas / racing thoughts,ab9185e91f29aa09,3,0.7131463885307312,1.0000007152557373
+Bipolar I Disorder - Manic Episode,4,sub_symptom,Flight of ideas / racing thoughts,ab9185e91f29aa09,3,0.7131463289260864,1.0000007152557373
+Bipolar I Disorder - Hypomanic Episode,4,sub_symptom,Flight of ideas / racing thoughts,ab9185e91f29aa09,3,0.7131463289260864,1.0000007152557373
+Major Depressive Disorder,9,sub_symptom,Suicidal ideation or behavior,d79c1e62a2b33465,3,0.7045944333076477,1.0000008344650269
+Bipolar I Disorder - Major Depressive Episode,9,sub_symptom,Suicidal ideation or behavior,d79c1e62a2b33465,3,0.7045943737030029,1.0000008344650269
+Bipolar II Disorder - Major Depressive Episode,9,sub_symptom,Suicidal ideation or behavior,d79c1e62a2b33465,3,0.7045943737030029,1.0000008344650269
+Depressive Episodes with Short-Duration Hypomania,9,sub_symptom,Suicidal ideation or behavior,d79c1e62a2b33465,3,0.7045943737030029,1.0000008344650269
+Separation Anxiety Disorder,B,main_criterion,Construct: Fear / Anxiety / Avoidance / Persistent,1242a137021041f3,3,0.7034425735473633,0.8843600153923035
+Disruptive Mood Dysregulation Disorder,A,main_criterion,"Irritability, anger, or aggression",0151e2084ccd8da1,3,0.7031154632568359,0.8453639149665833
+Bipolar II Disorder - Hypomanic Episode,6,sub_symptom,Psychomotor agitation,7a4eab8f9b4ee284,3,0.7007616758346558,1.0
+Depressive Episodes with Short-Duration Hypomania,6,sub_symptom,Psychomotor agitation,7a4eab8f9b4ee284,3,0.7007616758346558,1.0
+Bipolar I Disorder - Hypomanic Episode,6,sub_symptom,Psychomotor agitation,7a4eab8f9b4ee284,3,0.700761616230011,1.0
+"Sedative, Hypnotic, or Anxiolytic Intoxication",5,sub_symptom,"Memory, learning, or attentional decline",10b0d93adf4f1a16,3,0.6926690936088562,0.8759992122650146
+Opioid Withdrawal,1,sub_symptom,Construct: Dysphoric / Mood,a853ecae5361f679,3,0.6804189682006836,0.8667284250259399
+Nightmare Disorder,E,main_criterion,Construct: Coexisting / Mental / Disorders / Medical,022024e24a1041eb,3,0.6720120906829834,0.8766142725944519
+Bipolar I Disorder - Manic Episode,6,sub_symptom,Psychomotor agitation,c966e19dd49e3d9e,3,0.6655550003051758,0.9187352061271667
+Intermittent Explosive Disorder,1,sub_symptom,"Irritability, anger, or aggression",f9804aa7002190c2,3,0.6634071469306946,0.7838049530982971
+Non-Rapid Eye Movement Sleep Arousal Disorders,F,main_criterion,Construct: Coexisting / Mental / Disorders / Medical,9305ff32ba039259,3,0.6496569514274597,0.7813377380371094
+Alcohol Withdrawal,4,sub_symptom,Gastrointestinal distress / nausea,64f0c73ae1557176,3,0.6457270979881287,1.0
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",4,sub_symptom,Gastrointestinal distress / nausea,64f0c73ae1557176,3,0.6457270979881287,1.0
+Stimulant Intoxication,5,sub_symptom,Gastrointestinal distress / nausea,64f0c73ae1557176,3,0.6457270979881287,1.0
+Opioid Withdrawal,2,sub_symptom,Gastrointestinal distress / nausea,64f0c73ae1557176,3,0.6448251008987427,1.0
+Alcohol Intoxication,2,sub_symptom,Ataxia / motor incoordination,f59b1ab49adfdbc0,3,0.6188386082649231,1.000000238418579
+Other Hallucinogen Intoxication,7,sub_symptom,Ataxia / motor incoordination,f59b1ab49adfdbc0,3,0.6188386082649231,1.000000238418579
+"Sedative, Hypnotic, or Anxiolytic Intoxication",2,sub_symptom,Ataxia / motor incoordination,f59b1ab49adfdbc0,3,0.6188386082649231,1.000000238418579
+Inhalant Intoxication,3,sub_symptom,Ataxia / motor incoordination,f59b1ab49adfdbc0,3,0.6155987977981567,1.000000238418579
+Stimulant Intoxication,1,sub_symptom,Construct: Tachycardia / Bradycardia,c76ec650bfec2282,3,0.6023932695388794,0.8054312467575073
+Alcohol Intoxication,4,sub_symptom,Nystagmus,107365918ea96e87,3,0.591783881187439,1.0000003576278687
+"Sedative, Hypnotic, or Anxiolytic Intoxication",4,sub_symptom,Nystagmus,107365918ea96e87,3,0.591783881187439,1.0000003576278687
+Inhalant Intoxication,2,sub_symptom,Nystagmus,107365918ea96e87,3,0.5820213556289673,1.0000003576278687
+Cannabis Intoxication,4,sub_symptom,Construct: Tachycardia,16f94f21546048ff,3,0.5765917301177979,0.9999996423721313
+Caffeine Intoxication,10,sub_symptom,Construct: Tachycardia / Cardiac / Arrhythmia,08ad1d25cdb14125,3,0.568330705165863,0.8542672395706177
+Other Hallucinogen Intoxication,2,sub_symptom,Construct: Tachycardia,16f94f21546048ff,3,0.5564883947372437,0.9999996423721313
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",2,sub_symptom,Tremor,b98a91d1a3e18176,3,0.5490958094596863,0.8960677981376648
+Phencyclidine Intoxication,1,sub_symptom,Nystagmus,2a52e6095aef4a59,3,0.5134178400039673,0.8091421723365784
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,2,sub_symptom,Internal trauma reminder avoidance,84439b28c523dd4d,2,0.7760985493659973,0.9830314517021179
+Acute Stress Disorder,9,sub_symptom,Construct: Efforts / Avoid / External / Reminders,1b63311751e23304,2,0.7731671333312988,0.9830314517021179
+Acute Stress Disorder,8,sub_symptom,Construct: Efforts / Avoid / Distressing / Memories,7492d0782d937af9,2,0.7720755338668823,0.9773657321929932
+Posttraumatic Stress Disorder in Children 6 Years and Younger,4,sub_symptom,Construct: Intense / Prolonged / Psychological / Distress,780ea9866a31f880,2,0.758381724357605,0.9999994039535522
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,1,sub_symptom,Internal trauma reminder avoidance,f904ae3bff0f6c3b,2,0.755268394947052,0.9773657321929932
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",A,main_criterion,Construct: Cessation / Reduction / Sedative / Hypnotic,c935a24503ce4a9a,2,0.7550113797187805,0.8322832584381104
+Social Anxiety Disorder,D,main_criterion,Construct: Social / Situations / Avoided / Endured,2130740eada54d7c,2,0.7548332810401917,0.8848751783370972
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,1,sub_symptom,Direct trauma exposure,40a265c8ea1c866f,2,0.7521325945854187,1.0000005960464478
+Agoraphobia,D,main_criterion,Construct: Agoraphobic / Situations / Actively / Avoided,5366feb1b449d09e,2,0.7486685514450073,0.8848751783370972
+"Sedative, Hypnotic, or Anxiolytic Intoxication",A,main_criterion,Construct: Recent / Sedative / Hypnotic / Anxiolytic,c0b9612381c83fe3,2,0.7475618124008179,0.8322832584381104
+Acute Stress Disorder,1,sub_symptom,Direct trauma exposure,40a265c8ea1c866f,2,0.7474942803382874,1.0000005960464478
+Acute Stress Disorder,4,sub_symptom,Construct: Intense / Prolonged / Psychological / Distress,11117c556a38ace3,2,0.7459121942520142,0.9526318311691284
+Persistent Depressive Disorder,C,main_criterion,Construct: Year / Year / Children / Adolescents,a6ae19a628f268df,2,0.739965558052063,0.9233239889144897
+Posttraumatic Stress Disorder in Children 6 Years and Younger,1,sub_symptom,Direct trauma exposure,40a265c8ea1c866f,2,0.7393075227737427,1.0000005960464478
+Specific Phobia,C,main_criterion,Construct: Phobic / Object / Situation / Actively,7dea89b65335f32d,2,0.7391980886459351,0.861369252204895
+Agoraphobia,C,main_criterion,Construct: Agoraphobic / Situations / Almost / Always,c12bb835427ea04c,2,0.737350583076477,0.9163640737533569
+Social Anxiety Disorder,C,main_criterion,Construct: Social / Situations / Almost / Always,44db7b511ce4ab98,2,0.7363891005516052,0.9163640737533569
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",9,sub_symptom,Continued use despite health harm,4c2a9c847343dc65,2,0.735709011554718,0.8171592950820923
+Posttraumatic Stress Disorder in Children 6 Years and Younger,2,sub_symptom,Construct: Avoidance / Efforts / Avoid / People,b5ba7e57a77dc161,2,0.7347184419631958,0.8618294596672058
+Specific Phobia,B,main_criterion,Construct: Phobic / Object / Situation / Almost,87708893406194f3,2,0.7338124513626099,0.8754841089248657
+Posttraumatic Stress Disorder in Children 6 Years and Younger,1,sub_symptom,Construct: Avoidance / Efforts / Avoid / Places,ce4664c676517167,2,0.7332483530044556,0.8896657824516296
+Narcolepsy,A,main_criterion,Construct: Recurrent / Periods / Irrepressible / Need,7597b9d5ac4be499,2,0.7321031093597412,0.7973340153694153
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,4,sub_symptom,Construct: Intense / Prolonged / Psychological / Distress,780ea9866a31f880,2,0.729590117931366,0.9999994039535522
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",10b,sub_symptom,Pharmacological tolerance (diminished effect),1e7816c794b199d6,2,0.7270252108573914,0.8167949914932251
+Posttraumatic Stress Disorder in Children 6 Years and Younger,1,sub_symptom,Intrusive distressing memories,58565f9c656cda01,2,0.7249945402145386,0.9999998211860657
+Agoraphobia,E,main_criterion,Construct: Fear / Anxiety / Proportion / Actual,bd975eb102d663c7,2,0.7234700322151184,0.9276201128959656
+Borderline Personality Disorder,8,sub_symptom,"Irritability, anger, or aggression",ada8fa14875ac076,2,0.7229503393173218,0.8105531930923462
+Posttraumatic Stress Disorder in Children 6 Years and Younger,3,sub_symptom,Dissociative flashbacks,c324eba71ee10d39,2,0.7228823900222778,0.9848117828369141
+Acute Stress Disorder,3,sub_symptom,Dissociative flashbacks,b690167e97891bd6,2,0.7224467992782593,0.9848117828369141
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,3,sub_symptom,Dissociative flashbacks,7f356b7cdb4e94f5,2,0.7223526239395142,0.9415190815925598
+Other (Or Unknown) Substance Withdrawal,A,main_criterion,Construct: Cessation / Reduction / Substance / Heavy,e27f4f32dd5e9d25,2,0.7215184569358826,0.902967631816864
+Alcohol Use Disorder,3,sub_symptom,High time investment in substance,e6a89fed57e8df2b,2,0.7191795110702515,0.8055878281593323
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,1,sub_symptom,Intrusive distressing memories,58565f9c656cda01,2,0.7177025079727173,0.9999998211860657
+Posttraumatic Stress Disorder in Children 6 Years and Younger,2,sub_symptom,Construct: Recurrent / Distressing / Dreams / Content,eaefb463df69b262,2,0.7141629457473755,1.0000001192092896
+Tobacco Use Disorder,10a,sub_symptom,Pharmacological tolerance (dose escalation),8ddacdabd78a31e6,2,0.7107370495796204,0.7633251547813416
+Tobacco Use Disorder,6,sub_symptom,Continued use despite social harm,92793107e270070f,2,0.7087872624397278,0.7605828046798706
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,2,sub_symptom,Construct: Recurrent / Distressing / Dreams / Content,eaefb463df69b262,2,0.7058287262916565,1.0000001192092896
+Acute Stress Disorder,1,sub_symptom,Intrusive distressing memories,f742886606457d90,2,0.6996587514877319,0.8120824098587036
+Phencyclidine Use Disorder,3,sub_symptom,High time investment in substance,5c69dde28e91024d,2,0.6968801617622375,0.77126145362854
+Brief Psychotic Disorder,3,sub_symptom,Disorganized speech / formal thought,b7afd64338919c5b,2,0.6917949914932251,1.000000238418579
+Schizophreniform Disorder,3,sub_symptom,Disorganized speech / formal thought,b7afd64338919c5b,2,0.6917949914932251,1.000000238418579
+Schizophrenia,3,sub_symptom,Disorganized speech / formal thought,b7afd64338919c5b,2,0.6917949914932251,1.000000238418579
+Acute Stress Disorder,2,sub_symptom,Construct: Recurrent / Distressing / Dreams / Content,5538d46f71541945,2,0.690340518951416,0.9127182364463806
+Factitious Disorder Imposed on Self,B,main_criterion,Construct: Presents / Himself / Herself / Impaired,151351c3c821073e,2,0.6889351606369019,0.86212158203125
+Acute Stress Disorder,2,sub_symptom,Witnessed trauma exposure,d4b44b0fc558ced2,2,0.6880627870559692,1.0000003576278687
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,2,sub_symptom,Witnessed trauma exposure,d4b44b0fc558ced2,2,0.6878228783607483,1.0000003576278687
+Social Anxiety Disorder,E,main_criterion,Construct: Fear / Anxiety / Proportion / Actual,8cc75cbc6e18cd68,2,0.6876921653747559,0.916015088558197
+Specific Phobia,D,main_criterion,Construct: Fear / Anxiety / Proportion / Actual,251e260bc7950c06,2,0.6857895255088806,0.9276201128959656
+Alcohol Intoxication,5,sub_symptom,"Memory, learning, or attentional decline",15f538283a5f0ef5,2,0.6848013401031494,1.0000003576278687
+Opioid Intoxication,3,sub_symptom,"Memory, learning, or attentional decline",15f538283a5f0ef5,2,0.6848013401031494,1.0000003576278687
+Opioid Withdrawal,1,sub_symptom,Construct: Cessation / Reduction / Opioid / Heavy,27725d042bb3a65a,2,0.6832668781280518,0.8108205199241638
+Posttraumatic Stress Disorder in Children 6 Years and Younger,5,sub_symptom,Construct: Marked / Physiological / Reactions / Reminders,20d9b0c51894af17,2,0.6820904612541199,0.7622137069702148
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,5,sub_symptom,Construct: Marked / Physiological / Reactions / Internal,555b8448ffbc3855,2,0.6808519959449768,0.9175866842269897
+Caffeine Intoxication,1,sub_symptom,Construct: Restlessness,e5f3a09692eaf11d,2,0.679024875164032,1.000000238418579
+Cannabis Withdrawal,5,sub_symptom,Construct: Restlessness,e5f3a09692eaf11d,2,0.679024875164032,1.000000238418579
+Tobacco Withdrawal,5,sub_symptom,Construct: Restlessness,e5f3a09692eaf11d,2,0.679024875164032,1.000000238418579
+Cyclothymic Disorder,A,main_criterion,Construct: Years / Year / Children / Adolescents,8914cd80b4704283,2,0.6787086725234985,0.7998518943786621
+Posttraumatic Stress Disorder in Children 6 Years and Younger,3,sub_symptom,Construct: Learning / Traumatic / Event / Occurred,8daf8a10f59ad03b,2,0.6738842129707336,0.7662928104400635
+Cannabis Intoxication,2,sub_symptom,Appetite or weight change,40f9395d859f461a,2,0.6730653047561646,0.9999998807907104
+Stimulant Withdrawal,4,sub_symptom,Appetite or weight change,40f9395d859f461a,2,0.6730653047561646,0.9999998807907104
+Tobacco Withdrawal,4,sub_symptom,Appetite or weight change,40f9395d859f461a,2,0.6730653047561646,0.9999998807907104
+Premenstrual Dysphoric Disorder,2,sub_symptom,Construct: Marked / Irritability / Anger / Increased,2e5cd8532a13210e,2,0.6581065058708191,0.8050343990325928
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,5,sub_symptom,Concentration or attention impairment,ad11d84cba75ad41,2,0.6579256057739258,1.0
+Posttraumatic Stress Disorder in Children 6 Years and Younger,4,sub_symptom,Concentration or attention impairment,ad11d84cba75ad41,2,0.6579256057739258,1.0
+Acute Stress Disorder,13,sub_symptom,Concentration or attention impairment,ad11d84cba75ad41,2,0.6579256057739258,1.0
+Intermittent Explosive Disorder,E,main_criterion,Construct: Chronological / Years / Equivalent / Developmental,503b489a1011fe9f,2,0.6575705409049988,0.976312518119812
+Posttraumatic Stress Disorder in Children 6 Years and Younger,2,sub_symptom,Witnessed trauma exposure,00a465f58646142e,2,0.6559571027755737,0.9085485935211182
+Rapid Eye Movement Sleep Behavior Disorder,C,main_criterion,Construct: Upon / Awakening / Episodes / Completely,7415694aa0d9591e,2,0.6493122577667236,0.8513588905334473
+Enuresis,C,main_criterion,Construct: Chronological / Years / Equivalent / Developmental,c96119f5ae3b4886,2,0.6410377621650696,0.976312518119812
+Encopresis,C,main_criterion,Construct: Chronological / Years / Equivalent / Developmental,7d8a67e0985b4929,2,0.6408358812332153,0.9746955633163452
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,3,sub_symptom,Hypervigilance,0354c601c1e60802,2,0.6136945486068726,1.000000238418579
+Posttraumatic Stress Disorder in Children 6 Years and Younger,2,sub_symptom,Hypervigilance,0354c601c1e60802,2,0.6136945486068726,1.000000238418579
+Acute Stress Disorder,12,sub_symptom,Hypervigilance,0354c601c1e60802,2,0.6136945486068726,1.000000238418579
+Brief Psychotic Disorder,4,sub_symptom,Disorganized or catatonic motor behavior,3c3a7284b5015409,2,0.6112044453620911,1.0
+Schizophreniform Disorder,4,sub_symptom,Disorganized or catatonic motor behavior,3c3a7284b5015409,2,0.6112044453620911,1.0
+Schizophrenia,4,sub_symptom,Disorganized or catatonic motor behavior,3c3a7284b5015409,2,0.6112043261528015,0.9999998211860657
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,4,sub_symptom,Exaggerated startle response,b17a572172e3864c,2,0.5894315242767334,1.0
+Posttraumatic Stress Disorder in Children 6 Years and Younger,3,sub_symptom,Exaggerated startle response,b17a572172e3864c,2,0.5866621136665344,1.0
+Acute Stress Disorder,14,sub_symptom,Exaggerated startle response,b17a572172e3864c,2,0.5858839750289917,1.0
+Inhalant Intoxication,9,sub_symptom,Tremor,5e5b537a0adbaa7b,2,0.5828675031661987,0.9499844312667847
+Other Hallucinogen Intoxication,6,sub_symptom,Tremor,0ed7d6e9a565bbb5,2,0.581163227558136,0.9499844312667847
+Tourette’s Disorder,A,main_criterion,Construct: Multiple / Motor / Vocal / Tics,881b85b3593f2dbc,2,0.5762530565261841,0.912658154964447
+Persistent (Chronic) Motor or Vocal Tic Disorder,A,main_criterion,Construct: Single / Multiple / Motor / Vocal,4727caece04bf80c,2,0.5706263780593872,0.912658154964447
+Alcohol Intoxication,3,sub_symptom,Ataxia / motor incoordination,21f930bdb655a14e,2,0.5417885780334473,0.9999997019767761
+"Sedative, Hypnotic, or Anxiolytic Intoxication",3,sub_symptom,Ataxia / motor incoordination,21f930bdb655a14e,2,0.5417885780334473,0.9999997019767761
+Inhalant Intoxication,5,sub_symptom,Ataxia / motor incoordination,21f930bdb655a14e,2,0.5330032110214233,0.9999997019767761
+Provisional Tic Disorder,A,main_criterion,Construct: Single / Multiple / Motor / Vocal,c0b0398a8802f35f,2,0.5273589491844177,0.860137403011322
+Gambling Disorder,5,sub_symptom,Construct: Gambles / Feeling / Distressed / Helpless,380b20641e2d8631,1,0.7269099950790405,0.8131968379020691
+Premenstrual Dysphoric Disorder,1,sub_symptom,Construct: Marked / Affective / Lability / Mood,9de36d4aac03f46c,1,0.7136961221694946,0.7614423632621765
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",6,sub_symptom,Continued use despite social harm,9fd622bfdd26a640,1,0.7102209329605103,0.7586057782173157
+Alcohol Withdrawal,5,sub_symptom,Hallucinatory perception,22e845835de7a6b8,1,0.70891273021698,0.9999998807907104
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",5,sub_symptom,Hallucinatory perception,22e845835de7a6b8,1,0.70891273021698,0.9999998807907104
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,4,sub_symptom,Construct: Persistent / Negative / Emotional / State,373c128e732c84e8,1,0.7086297273635864,0.8607998490333557
+Hypersomnolence Disorder,2,sub_symptom,Construct: Prolonged / Main / Sleep / Episode,5c9a9fa94d5dc192,1,0.7085630297660828,0.759072482585907
+Panic Disorder,11,sub_symptom,Construct: Derealization / Feelings / Unreality / Depersonalization,107a18a321ea7ee1,1,0.7076976895332336,0.8133309483528137
+Social Anxiety Disorder,B,main_criterion,Construct: Fears / Will / Show / Anxiety,3ed7ad086a3a555d,1,0.700165867805481,0.7512115836143494
+Dependent Personality Disorder,6,sub_symptom,Construct: Feels / Uncomfortable / Helpless / Alone,91eb17616f040b8a,1,0.7001399993896484,0.75700843334198
+Insomnia Disorder,D,main_criterion,Sleep-wake continuity disturbance,b7acc7d3523fc0fb,1,0.6998313069343567,0.8015477657318115
+Posttraumatic Stress Disorder in Children 6 Years and Younger,3,sub_symptom,Construct: Substantially / Increased / Frequency / Negative,75bcec7cd28237f5,1,0.6986242532730103,0.8607998490333557
+Disruptive Mood Dysregulation Disorder,I,main_criterion,Construct: There / Never / Distinct / Lasting,295d8cf252f94c1f,1,0.6959518194198608,0.7998518943786621
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",8,sub_symptom,Recurrent use in hazardous settings,36a7e2fc1efa521a,1,0.6956825256347656,0.7640408277511597
+Obsessive-Compulsive Personality Disorder,6,sub_symptom,Construct: Reluctant / Delegate / Tasks / Work,6ad9ef063fdeb145,1,0.6952642202377319,0.75771164894104
+Persistent Depressive Disorder,D,main_criterion,Construct: Major / Depressive / Continuously / Present,ad85e1d46fd1ba9e,1,0.6872997283935547,0.7817793488502502
+Alcohol Withdrawal,A,main_criterion,Construct: Cessation / Reduction / Alcohol / Heavy,91b6587b5655387a,1,0.6867048144340515,0.902967631816864
+Narcolepsy,3,sub_symptom,Construct: Nocturnal / Sleep / Polysomnography / Showing,20b35041ba5af94d,1,0.6839496493339539,0.8226738572120667
+Cannabis Withdrawal,A,main_criterion,Construct: Cessation / Cannabis / Heavy / Prolonged,4f4385eb21486efb,1,0.6828961968421936,0.7921426892280579
+Rapid Eye Movement Sleep Behavior Disorder,B,main_criterion,Construct: Behaviors / Arise / Rapid / Movement,c9fc7057673dd7ee,1,0.6828046441078186,0.8226738572120667
+Gender Dysphoria in Children,1,sub_symptom,Construct: Strong / Desire / Gender / Insistence,ce13f692bda62a22,1,0.6825953722000122,0.9638186097145081
+Acute Stress Disorder,5,sub_symptom,Construct: Persistent / Inability / Experience / Positive,baaa4a78b64268d4,1,0.6822124719619751,1.0000003576278687
+Reactive Attachment Disorder,G,main_criterion,Construct: Child / Developmental / Months,dd84366c85b62e68,1,0.681488573551178,0.999999463558197
+Disinhibited Social Engagement Disorder,E,main_criterion,Construct: Child / Developmental / Months,dd84366c85b62e68,1,0.681488573551178,0.999999463558197
+Bulimia Nervosa,2,sub_symptom,Construct: Sense / Lack / Control / Eating,05746fd8e9ea8011,1,0.6807328462600708,0.9999998807907104
+Dependent Personality Disorder,5,sub_symptom,Construct: Goes / Excessive / Lengths / Obtain,5964725d0d5b5bbb,1,0.6785485148429871,0.75771164894104
+Premenstrual Dysphoric Disorder,3,sub_symptom,Depressed mood / sadness,8139a132546e9136,1,0.6773474812507629,0.785428524017334
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,7,sub_symptom,Construct: Persistent / Inability / Experience / Positive,baaa4a78b64268d4,1,0.6756885051727295,1.0000003576278687
+Premenstrual Dysphoric Disorder,E,main_criterion,Construct: Disturbance / Merely / Exacerbation / Another,9ab4979f38eb1ecf,1,0.6753304600715637,0.7590709924697876
+Social Anxiety Disorder,J,main_criterion,Construct: Another / Medical / Condition / Parkinson,8f19e0eb00146e2e,1,0.6737836599349976,0.8636683821678162
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",3,sub_symptom,High time investment in substance,cf8e8ac1523e2076,1,0.668714702129364,0.7854976654052734
+Hallucinogen Persisting Perception Disorder,A,main_criterion,Hallucinatory perception,ab2ee147f9f6656c,1,0.6664227247238159,0.793526828289032
+Catatonia Associated with Another Mental Disorder,5,sub_symptom,Construct: Negativism / Opposition / Response / Instructions,1502fe00e17a249e,1,0.664802074432373,1.000000238418579
+Catatonic Disorder due to Another Medical Condition,5,sub_symptom,Construct: Negativism / Opposition / Response / Instructions,1502fe00e17a249e,1,0.664802074432373,1.000000238418579
+Encopresis,B,main_criterion,Construct: Event / Occurs / Each / Month,4a1641a6575e15c6,1,0.66377192735672,0.7954199910163879
+Schizophreniform Disorder,5,sub_symptom,Negative symptoms (affect/avolition),b3bf8a575594bd58,1,0.6628984808921814,0.9999994039535522
+Schizophrenia,5,sub_symptom,Negative symptoms (affect/avolition),b3bf8a575594bd58,1,0.6628984808921814,0.9999994039535522
+Hypersomnolence Disorder,1,sub_symptom,Construct: Recurrent / Periods / Sleep / Lapses,72613d00e95f11e5,1,0.6620602011680603,0.7973340153694153
+Social (Pragmatic) Communication Disorder,4,sub_symptom,Construct: Difficulties / Understanding / What / Explicitly,e3477b9ce1145bb6,1,0.6614935994148254,0.7870190143585205
+Depersonalization/Derealization Disorder,1,sub_symptom,Construct: Depersonalization / Experiences / Unreality / Detachment,4915543d23da5710,1,0.6613766551017761,0.8133309483528137
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,1,sub_symptom,Construct: Impairment / Mood / Behavioral / Regulation,e820c0e5e47458b5,1,0.6597087979316711,0.7614423632621765
+Binge-Eating Disorder,D,main_criterion,Construct: Binge / Eating / Occurs / Average,c610dccac25cf8bf,1,0.6589747071266174,0.9107046127319336
+Adjustment Disorders,C,main_criterion,Construct: Stress / Related / Disturbance / Does,ddd0bb70ca75d2e1,1,0.658474862575531,0.7590709924697876
+Caffeine Withdrawal,4,sub_symptom,Construct: Difficulty / Concentrating,b72aa9e9b6b7562a,1,0.6572259664535522,1.0
+Tobacco Withdrawal,3,sub_symptom,Construct: Difficulty / Concentrating,b72aa9e9b6b7562a,1,0.6572259664535522,1.0
+Disinhibited Social Engagement Disorder,D,main_criterion,Construct: Care / Presumed / Responsible / Disturbed,aa5eecce98aa0b4c,1,0.653881847858429,0.9801971912384033
+Gender Dysphoria in Children,8,sub_symptom,Construct: Strong / Desire / Primary / Secondary,694e7017307770d1,1,0.6532281041145325,0.8587236404418945
+Reactive Attachment Disorder,D,main_criterion,Construct: Care / Presumed / Responsible / Disturbed,db671a6a04f9b8bc,1,0.6522399187088013,0.9801971912384033
+Premenstrual Dysphoric Disorder,4,sub_symptom,Appetite or weight change,8afbde24667b333e,1,0.6519535779953003,0.7520891427993774
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,4,sub_symptom,Construct: Experiencing / Repeated / Extreme / Exposure,656c10332592f32c,1,0.6510599255561829,0.9986852407455444
+Depersonalization/Derealization Disorder,2,sub_symptom,Construct: Derealization / Experiences / Unreality / Detachment,31c48b9efff70d2b,1,0.6508713364601135,0.7863220572471619
+Bulimia Nervosa,1,sub_symptom,Construct: Eating / Discrete / Time / Hour,d1239091472c570d,1,0.6505600214004517,0.9962944984436035
+Binge-Eating Disorder,2,sub_symptom,Construct: Sense / Lack / Control / Eating,05746fd8e9ea8011,1,0.6482359170913696,0.9999998807907104
+Persistent Depressive Disorder,1,sub_symptom,Appetite or weight change,b8ccb647cca89a3e,1,0.646896481513977,0.7520891427993774
+Agoraphobia,H,main_criterion,Construct: Another / Medical / Condition / Inflammatory,e703d8835b05e294,1,0.6443465948104858,0.8636683821678162
+Delirium,C,main_criterion,Construct: Additional / Disturbance / Cognition / Memory,ff48e9492ec88d53,1,0.6436295509338379,0.7626853585243225
+Specific Learning Disorder,4,sub_symptom,Construct: Difficulties / Written / Expression / Makes,adbad138dd167960,1,0.6435940861701965,0.7870190143585205
+Delirium,A,main_criterion,"Memory, learning, or attentional decline",c9c8c2508d9ddb60,1,0.6431935429573059,0.7653303742408752
+Acute Stress Disorder,4,sub_symptom,Construct: Experiencing / Repeated / Extreme / Exposure,d05058750017d42d,1,0.6431117653846741,0.9986852407455444
+Obstructive Sleep Apnea Hypopnea,2,sub_symptom,Construct: Evidence / Polysomnography / Obstructive / Apneas,69e157b61d518621,1,0.6389974355697632,0.9115532636642456
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,2,sub_symptom,"Memory, learning, or attentional decline",22ce86adb8acd8a2,1,0.6385179162025452,0.7653303742408752
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,1,sub_symptom,Construct: Communication / Deficit / Delayed / Acquisition,4f3075f4de6a4da6,1,0.6377586126327515,0.7850831151008606
+Binge-Eating Disorder,4,sub_symptom,Construct: Eating / Alone / Feeling / Embarrassed,9714db8d29dd6595,1,0.6364737749099731,0.7988351583480835
+Pica,D,main_criterion,"Memory, learning, or attentional decline",6c5c93507cecaa65,1,0.6358657479286194,0.835776686668396
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,3,sub_symptom,Construct: Learning / Traumatic / Event / Occurred,0716ea12cb26bbae,1,0.6299010515213013,0.8160028457641602
+Hypersomnolence Disorder,3,sub_symptom,Construct: Difficulty / Being / Fully / Awake,e54cd01f2a5295f4,1,0.6298604011535645,0.7927351593971252
+Acute Stress Disorder,7,sub_symptom,Construct: Inability / Remember / Important / Aspect,139d49800b2a4fb6,1,0.6293896436691284,0.9999995231628418
+Acute Stress Disorder,3,sub_symptom,Construct: Learning / Event / Occurred / Close,e752f9ef38b6d840,1,0.6273840665817261,0.8160028457641602
+Dissociative Amnesia,A,main_criterion,Construct: Inability / Recall / Important / Autobiographical,8ea29879cbc35647,1,0.6272268295288086,0.7972756624221802
+Central Sleep Apnea,A,main_criterion,Construct: Evidence / Polysomnography / Central / Apneas,f95ac4e9b20663d0,1,0.6268191337585449,0.9115532636642456
+Bulimia Nervosa,C,main_criterion,Construct: Binge / Eating / Inappropriate / Compensatory,cb3ebe500191ec87,1,0.6264805793762207,0.9107046127319336
+Anorexia Nervosa,C,main_criterion,Construct: Disturbance / Body / Weight / Shape,9e80f69bde9d6c8d,1,0.6264384388923645,0.8225852251052856
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,1,sub_symptom,Construct: Inability / Remember / Important / Aspect,139d49800b2a4fb6,1,0.6262712478637695,0.9999995231628418
+Persistent Depressive Disorder,6,sub_symptom,Construct: Feelings / Hopelessness,d906ace45dd96167,1,0.6258419752120972,0.785428524017334
+Dissociative Identity Disorder,B,main_criterion,Construct: Recurrent / Gaps / Recall / Everyday,fe33f79bbbf53bb9,1,0.6248746514320374,0.7972756624221802
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,5,sub_symptom,Construct: Markedly / Diminished / Interest / Participation,2d93c69085d6712f,1,0.6209216713905334,0.9081286191940308
+Gender Dysphoria in Adolescents and Adults,4,sub_symptom,Construct: Strong / Desire / Gender / Some,e4ea244e883a6251,1,0.6205214262008667,0.9638186097145081
+Nightmare Disorder,B,main_criterion,Construct: Awakening / Dysphoric / Dreams / Rapidly,6105b759c872d715,1,0.6197861433029175,0.8513588905334473
+Rumination Disorder,D,main_criterion,"Memory, learning, or attentional decline",4672b4b3ccc55da8,1,0.6177809238433838,0.835776686668396
+Obsessive-Compulsive and Related Disorder due to Another Medical Condition,A,main_criterion,Obsessional or compulsive ritual,b37c18428aa65ee9,1,0.6177576780319214,0.982168436050415
+Catatonia Associated with Another Mental Disorder,12,sub_symptom,Construct: Echopraxia / Mimicking / Another / Movements,78b442195d583f4a,1,0.6176985502243042,0.9999997615814209
+Catatonic Disorder due to Another Medical Condition,12,sub_symptom,Construct: Echopraxia / Mimicking / Another / Movements,78b442195d583f4a,1,0.6176985502243042,0.9999997615814209
+Specific Learning Disorder,2,sub_symptom,Construct: Difficulty / Understanding / Meaning / What,f90a87b186a24967,1,0.616745114326477,0.7867442965507507
+Substance/Medication-Induced Obsessive-Compulsive and Related Disorder,A,main_criterion,Obsessional or compulsive ritual,51e7740f16b97c65,1,0.6166678667068481,0.982168436050415
+Factitious Disorder Imposed on Self,C,main_criterion,Construct: Deceptive / Behavior / Evident / Even,dd91bab88db16e12,1,0.6159698367118835,0.9999996423721313
+Factitious Disorder Imposed on Another,C,main_criterion,Construct: Deceptive / Behavior / Evident / Even,dd91bab88db16e12,1,0.6159698367118835,0.9999996423721313
+Somatic Symptom Disorder,2,sub_symptom,Construct: Persistently / High / Level / Anxiety,298453b4fcc17a7b,1,0.6152793169021606,0.7542373538017273
+Other Hallucinogen Intoxication,C,main_criterion,Hallucinatory perception,bed7c8d7fd2e4d60,1,0.6149129867553711,0.793526828289032
+Catatonia Associated with Another Mental Disorder,11,sub_symptom,Construct: Echolalia / Mimicking / Another / Speech,b86c0ce8f774f6b3,1,0.6134125590324402,1.0000001192092896
+Catatonic Disorder due to Another Medical Condition,11,sub_symptom,Construct: Echolalia / Mimicking / Another / Speech,b86c0ce8f774f6b3,1,0.6134125590324402,1.0000001192092896
+Binge-Eating Disorder,1,sub_symptom,Construct: Eating / Discrete / Time / Hour,5a6b4ab22b6ede9e,1,0.6132316589355469,0.9962944984436035
+Catatonia Associated with Another Mental Disorder,1,sub_symptom,Construct: Stupor / Psychomotor / Activity / Actively,7a696291c8eb9101,1,0.6130636930465698,1.000000238418579
+Catatonic Disorder due to Another Medical Condition,1,sub_symptom,Construct: Stupor / Psychomotor / Activity / Actively,7a696291c8eb9101,1,0.6130636930465698,1.000000238418579
+Major Neurocognitive Disorder,2,sub_symptom,Construct: Substantial / Impairment / Cognitive / Performance,21358f867a6e0451,1,0.6126742959022522,0.9903498888015747
+Substance/Medication-Induced Anxiety Disorder,A,main_criterion,Recurrent unexpected panic attacks,46ec3ff22d8f545b,1,0.6125555634498596,0.9999997019767761
+Anxiety Disorder due to Another Medical Condition,A,main_criterion,Recurrent unexpected panic attacks,46ec3ff22d8f545b,1,0.6125555634498596,0.9999997019767761
+Major or Mild Frontotemporal Neurocognitive Disorder,2a,sub_symptom,Construct: Prominent / Decline / Language / Ability,382e486c5dad2d46,1,0.6114681959152222,0.7850831151008606
+Gender Dysphoria in Adolescents and Adults,6,sub_symptom,Construct: Strong / Conviction / Typical / Feelings,bb3f1b30ff642bef,1,0.6093083024024963,0.9080913662910461
+Catatonia Associated with Another Mental Disorder,7,sub_symptom,Construct: Mannerism / Circumstantial / Caricature / Normal,59e1e8e5bf0ea955,1,0.6090103387832642,0.9999997615814209
+Catatonic Disorder due to Another Medical Condition,7,sub_symptom,Construct: Mannerism / Circumstantial / Caricature / Normal,59e1e8e5bf0ea955,1,0.6090103387832642,0.9999997615814209
+Mild Neurocognitive Disorder,2,sub_symptom,Construct: Modest / Impairment / Cognitive / Performance,d5855f2f174c9ab4,1,0.6068561673164368,0.9903498888015747
+Gender Dysphoria in Adolescents and Adults,5,sub_symptom,Construct: Strong / Desire / Treated / Gender,8ec1627e757504d7,1,0.6060447692871094,0.9435927867889404
+Stimulant Withdrawal,A,main_criterion,Construct: Cessation / Reduction / Prolonged / Amphetamine,ae7670c66c0e857a,1,0.6050809025764465,0.8861648440361023
+Posttraumatic Stress Disorder in Children 6 Years and Younger,4,sub_symptom,Construct: Markedly / Diminished / Interest / Participation,675c9e99a543e014,1,0.6043981313705444,0.9081286191940308
+Catatonia Associated with Another Mental Disorder,8,sub_symptom,Construct: Stereotypy / Repetitive / Abnormally / Frequent,ce0afc0eb3f32c33,1,0.6042930483818054,1.000000238418579
+Catatonic Disorder due to Another Medical Condition,8,sub_symptom,Construct: Stereotypy / Repetitive / Abnormally / Frequent,ce0afc0eb3f32c33,1,0.6042930483818054,1.000000238418579
+Gender Dysphoria in Adolescents and Adults,2,sub_symptom,Construct: Strong / Desire / Primary / Secondary,5bbe81e8de29b284,1,0.602683424949646,0.8559868335723877
+Stimulant Intoxication,A,main_criterion,Construct: Recent / Amphetamine / Type / Substance,c7e754496aabd131,1,0.601112961769104,0.8861648440361023
+Factitious Disorder Imposed on Another,B,main_criterion,Construct: Presents / Another / Victim / Impaired,3567cb85d37a28a5,1,0.5973855257034302,0.86212158203125
+Pica,C,main_criterion,Construct: Eating / Behavior / Part / Culturally,681a1d4f11802236,1,0.5972965359687805,0.7532579898834229
+Other Hallucinogen Intoxication,A,main_criterion,Construct: Recent / Hallucinogen / Than / Phencyclidine,b3af60ad9e0630fa,1,0.5938090085983276,0.7947686910629272
+Catatonic Disorder due to Another Medical Condition,4,sub_symptom,Construct: Mutism / Very / Little / Verbal,06d631492b45013b,1,0.5931776762008667,0.9493136405944824
+Catatonia Associated with Another Mental Disorder,9,sub_symptom,Construct: Agitation / Influenced / External / Stimuli,f5625455105a4d52,1,0.5921639800071716,0.9999996423721313
+Catatonic Disorder due to Another Medical Condition,9,sub_symptom,Construct: Agitation / Influenced / External / Stimuli,f5625455105a4d52,1,0.5921639204025269,0.9999996423721313
+Hypersomnolence Disorder,C,main_criterion,Construct: Hypersomnolence / Accompanied / Significant / Distress,b915992069256ec9,1,0.5920855402946472,0.7510822415351868
+Cannabis Withdrawal,7,sub_symptom,Tremor,d492edb88bc1ef08,1,0.5920406579971313,0.7573345303535461
+Trichotillomania (Hair-Pulling Disorder),B,main_criterion,Construct: Repeated / Attempts / Decrease / Stop,994267d8327379b5,1,0.5879966616630554,0.7651464939117432
+Catatonia Associated with Another Mental Disorder,4,sub_symptom,Construct: Mutism / Very / Little / Verbal,6888c007951d08ad,1,0.5868443250656128,0.9493136405944824
+Phencyclidine Intoxication,A,main_criterion,Construct: Recent / Phencyclidine / Pharmacologically / Similar,1294416335450208,1,0.5862597823143005,0.7947686910629272
+Caffeine Intoxication,2,sub_symptom,Construct: Nervousness,6465f9de7a5389f1,1,0.5830627679824829,0.8386752009391785
+Adjustment Disorders,2,sub_symptom,Construct: Significant / Impairment / Social / Occupational,551d041bc1135435,1,0.5804418325424194,0.7510822415351868
+Gambling Disorder,8,sub_symptom,Construct: Jeopardized / Lost / Significant / Relationship,c78ee68a99623fb3,1,0.5799793004989624,0.8579075336456299
+Illness Anxiety Disorder,C,main_criterion,Construct: There / High / Level / Anxiety,b3ae3e025d08ec0d,1,0.5772356986999512,0.7542373538017273
+Female Orgasmic Disorder,1,sub_symptom,Construct: Marked / Delay / Marked / Infrequency,6dbf185f6d4590de,1,0.5753872394561768,0.8192850351333618
+Premenstrual Dysphoric Disorder,7,sub_symptom,Construct: Physical / Breast / Tenderness / Swelling,63a6bdd8c4148a5c,1,0.5742629766464233,0.7573345303535461
+Disinhibited Social Engagement Disorder,1,sub_symptom,Construct: Social / Neglect / Deprivation / Form,867a10b6307e3c5e,1,0.5692400932312012,0.9999997019767761
+Excoriation (Skin-Picking) Disorder,B,main_criterion,Construct: Repeated / Attempts / Decrease / Stop,91f2da5b4142e12b,1,0.5674907565116882,0.7651464939117432
+Major Neurocognitive Disorder,1,sub_symptom,Construct: Concern / Knowledgeable / Informant / Clinician,b5b97359dce4e4b0,1,0.5669088363647461,0.981902539730072
+Mild Neurocognitive Disorder,1,sub_symptom,Construct: Concern / Knowledgeable / Informant / Clinician,abf15c23df54bc80,1,0.5665978789329529,0.981902539730072
+Factitious Disorder Imposed on Another,A,main_criterion,Construct: Falsification / Physical / Psychological / Signs,ca3cce20007b16f1,1,0.5660093426704407,0.9761713743209839
+Catatonia Associated with Another Mental Disorder,2,sub_symptom,Construct: Catalepsy / Passive / Induction / Posture,99cb98e1e46b676c,1,0.5589010119438171,1.000000238418579
+Catatonic Disorder due to Another Medical Condition,2,sub_symptom,Construct: Catalepsy / Passive / Induction / Posture,99cb98e1e46b676c,1,0.5589010119438171,1.000000238418579
+Catatonia Associated with Another Mental Disorder,10,sub_symptom,Construct: Grimacing,3c9a9c0a9998702c,1,0.55665123462677,1.0000004768371582
+Catatonic Disorder due to Another Medical Condition,10,sub_symptom,Construct: Grimacing,3c9a9c0a9998702c,1,0.55665123462677,1.0000004768371582
+Reactive Attachment Disorder,1,sub_symptom,Construct: Social / Neglect / Deprivation / Form,867a10b6307e3c5e,1,0.55663001537323,0.9999997019767761
+Dissociative Identity Disorder,D,main_criterion,Construct: Disturbance / Normal / Part / Broadly,592454fd44e8553e,1,0.5541714429855347,0.7532579898834229
+Other Hallucinogen Intoxication,3,sub_symptom,Construct: Sweating,ce1b09c9a636a7bb,1,0.5525599122047424,0.999999463558197
+Disinhibited Social Engagement Disorder,3,sub_symptom,Construct: Rearing / Unusual / Settings / Severely,d57dec506d00a07f,1,0.54938805103302,0.999999463558197
+Reactive Attachment Disorder,3,sub_symptom,Construct: Rearing / Unusual / Settings / Severely,d57dec506d00a07f,1,0.54818195104599,0.999999463558197
+Bulimia Nervosa,D,main_criterion,Construct: Self / Evaluation / Unduly / Influenced,4619155b0420ff3d,1,0.5470213890075684,0.8225852251052856
+Delayed Ejaculation,2,sub_symptom,Construct: Marked / Infrequency / Absence / Ejaculation,4075fbfa3041f7f8,1,0.5468456149101257,0.8192850351333618
+Panic Disorder,2,sub_symptom,Construct: Sweating,ce1b09c9a636a7bb,1,0.5437589287757874,0.999999463558197
+Catatonia Associated with Another Mental Disorder,3,sub_symptom,Construct: Waxy / Flexibility / Slight / Even,4c51db022fc680f3,1,0.5435954928398132,1.000000238418579
+Catatonic Disorder due to Another Medical Condition,3,sub_symptom,Construct: Waxy / Flexibility / Slight / Even,4c51db022fc680f3,1,0.5435954928398132,1.000000238418579
+Internet Gaming Disorder,9,sub_symptom,Construct: Jeopardized / Lost / Significant / Relationship,bd744b62498e0863,1,0.5430244207382202,0.8579075336456299
+Disinhibited Social Engagement Disorder,2,sub_symptom,Construct: Repeated / Changes / Primary / Caregivers,44bb218c7fea25bb,1,0.5404422879219055,0.9999999403953552
+Reactive Attachment Disorder,2,sub_symptom,Construct: Repeated / Changes / Primary / Caregivers,44bb218c7fea25bb,1,0.539711058139801,0.9999999403953552
+Gender Dysphoria in Adolescents and Adults,3,sub_symptom,Construct: Strong / Desire / Primary / Secondary,f4558cf12abdfbe3,1,0.5369830131530762,0.8587236404418945
+Factitious Disorder Imposed on Self,A,main_criterion,Construct: Falsification / Physical / Psychological / Signs,aee140d9babb2458,1,0.524447500705719,0.9761713743209839
+Schizoid Personality Disorder,5,sub_symptom,Construct: Lacks / Close / Friends / Confidants,3197c7145e103df2,1,0.5244272947311401,0.9910073280334473
+Schizotypal Personality Disorder,8,sub_symptom,Construct: Lack / Close / Friends / Confidants,5e90e1c3329e1c73,1,0.5230414271354675,0.9910073280334473
+Developmental Coordination Disorder,A,main_criterion,Construct: Acquisition / Execution / Coordinated / Motor,49d14de80edabb83,1,0.5225001573562622,0.783994734287262
+Alcohol Withdrawal,2,sub_symptom,Tremor,b173fefa51cfb4a1,1,0.5208834409713745,0.8960677981376648
+Alcohol Withdrawal,1,sub_symptom,Autonomic hyperactivity,64f805eef3bc1db4,1,0.5103322267532349,1.0000003576278687
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",1,sub_symptom,Autonomic hyperactivity,64f805eef3bc1db4,1,0.5103322267532349,1.0000003576278687
+Gender Dysphoria in Adolescents and Adults,1,sub_symptom,Construct: Marked / Incongruence / Between / Experienced,ce4359d6df4ca91f,1,0.5086016654968262,0.7908456325531006
+Catatonia Associated with Another Mental Disorder,6,sub_symptom,Construct: Posturing / Spontaneous / Active / Maintenance,ef3f8b3ffc5bd8e1,1,0.5022333860397339,1.0000001192092896
+Catatonic Disorder due to Another Medical Condition,6,sub_symptom,Construct: Posturing / Spontaneous / Active / Maintenance,ef3f8b3ffc5bd8e1,1,0.5022333860397339,1.0000001192092896
+Inhalant Intoxication,8,sub_symptom,Construct: Psychomotor / Retardation,8a589924f7d76ec4,1,0.5016137361526489,0.782916784286499
+Inhalant Intoxication,11,sub_symptom,Construct: Blurred / Vision / Diplopia,dea741f1905b42f6,1,0.47679510712623596,0.8122243881225586
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,4,sub_symptom,Construct: Impairment / Motor / Skills / Poor,68dbf8dd1b8289d0,1,0.46699070930480957,0.783994734287262
+Stimulant Intoxication,2,sub_symptom,Construct: Pupillary / Dilation,a6d6565f50e841b6,1,0.44763651490211487,1.000000238418579
+Other Hallucinogen Intoxication,5,sub_symptom,Construct: Blurring / Vision,4477d98db4915e96,1,0.4460352063179016,0.8122243881225586
+Other Hallucinogen Intoxication,1,sub_symptom,Construct: Pupillary / Dilation,a6d6565f50e841b6,1,0.4381159842014313,1.000000238418579
+Narcissistic Personality Disorder,8,sub_symptom,Construct: Envious / Believes / Envious,520344c99db33ff6,0,0.7102977633476257,0.7449843883514404
+Circadian Rhythm Sleep-Wake Disorders,B,main_criterion,Sleep initiation/maintenance insomnia,ca408c9a16b49776,0,0.7056781649589539,0.7430955171585083
+Psychological Factors Affecting Other Medical Conditions,A,main_criterion,Construct: Medical / Condition / Than / Mental,cd0404e72790b6f4,0,0.6940934062004089,0.7415670156478882
+Gambling Disorder,3,sub_symptom,Construct: Made / Repeated / Unsuccessful / Efforts,f60c904504cb8445,0,0.6935716867446899,0.7217308282852173
+Obsessive-Compulsive Disorder,1,sub_symptom,Construct: Recurrent / Persistent / Thoughts / Urges,d006ab03e43be70a,0,0.6928337216377258,0.7105603814125061
+Agoraphobia,B,main_criterion,Construct: Fears / Avoids / Situations / Thoughts,f7ac1f606a6f7cce,0,0.6913353204727173,0.7472362518310547
+Other (Or Unknown) Substance Withdrawal,B,main_criterion,Construct: Development / Substance / Specific / Syndrome,fa407559fe858066,0,0.6869780421257019,0.7190166115760803
+Schizoid Personality Disorder,6,sub_symptom,Construct: Appears / Indifferent / Praise / Criticism,03ae5e05c9f3eeee,0,0.6855613589286804,0.7417240738868713
+Paranoid Personality Disorder,3,sub_symptom,Construct: Reluctant / Confide / Unwarranted / Fear,d1422f31cefbea03,0,0.6840130090713501,0.7343899011611938
+Social Anxiety Disorder,A,main_criterion,Phobic / situational fear or anxiety,fd16c20d1de324fe,0,0.6829637885093689,0.7491289377212524
+Antisocial Personality Disorder,4,sub_symptom,Construct: Irritability / Aggressiveness / Indicated / Repeated,f5fa2fff5c008f14,0,0.6810473203659058,0.7363297939300537
+Avoidant Personality Disorder,2,sub_symptom,Construct: Unwilling / Involved / People / Unless,65fa62e5faf3a86b,0,0.6808892488479614,0.7214300036430359
+Oppositional Defiant Disorder,3,sub_symptom,Construct: Angry / Resentful,963e3edb0fd51940,0,0.6796061992645264,0.7172083854675293
+Avoidant Personality Disorder,4,sub_symptom,Construct: Preoccupied / Being / Criticized / Rejected,11c2a67a5a82b0fe,0,0.6795476078987122,0.7417240738868713
+Avoidant Personality Disorder,7,sub_symptom,Construct: Unusually / Reluctant / Take / Personal,95e257e653ad98f4,0,0.678427517414093,0.7160245776176453
+Antisocial Personality Disorder,7,sub_symptom,Construct: Lack / Remorse / Indicated / Being,f2d401410021c5ee,0,0.6780685186386108,0.6976186633110046
+Attention-Deficit/Hyperactivity Disorder,1c,sub_symptom,Construct: Does / Seem / Listen / Spoken,69445993e4d3867c,0,0.677844226360321,0.6847155094146729
+Somatic Symptom Disorder,C,main_criterion,Construct: Although / Somatic / Continuously / Present,f9a18d7bc7a6b65e,0,0.6760829091072083,0.7178138494491577
+Posttraumatic Stress Disorder in Children 6 Years and Younger,E,main_criterion,Construct: Duration / Disturbance / Than / Month,058a19ad89796639,0,0.6755020618438721,0.7488693594932556
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",5,sub_symptom,Role obligation impairment,71a1c21bacb8d403,0,0.6748819351196289,0.6999905705451965
+Intermittent Explosive Disorder,C,main_criterion,Construct: Recurrent / Aggressive / Outbursts / Premeditated,d26f4e860a20cf23,0,0.6735236048698425,0.7035375833511353
+Non-Rapid Eye Movement Sleep Arousal Disorders,1,sub_symptom,Construct: Sleepwalking / Repeated / Episodes / Rising,2171cffd50bfb35f,0,0.6710981130599976,0.6955718398094177
+Paranoid Personality Disorder,1,sub_symptom,Construct: Suspects / Sufficient / Basis / Exploiting,477585d10554fc44,0,0.6696102023124695,0.7449843883514404
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,2,sub_symptom,Construct: Persistent / Exaggerated / Negative / Beliefs,4f4f594eb6c4c1ae,0,0.66938316822052,0.7019848823547363
+Attention-Deficit/Hyperactivity Disorder,2f,sub_symptom,Construct: Talks / Excessively,74b2dbeced41ea35,0,0.6693805456161499,0.708789050579071
+Paranoid Personality Disorder,6,sub_symptom,Construct: Perceives / Attacks / Character / Reputation,9bccf28444e0ad08,0,0.6682682037353516,0.7194099426269531
+Disruptive Mood Dysregulation Disorder,D,main_criterion,"Irritability, anger, or aggression",54d948977909d8fe,0,0.6673847436904907,0.7326411604881287
+Borderline Personality Disorder,6,sub_symptom,Construct: Affective / Instability / Marked / Reactivity,8d8bbc94d951f94c,0,0.6666218638420105,0.7277157306671143
+Dependent Personality Disorder,8,sub_symptom,Construct: Unrealistically / Preoccupied / Fears / Being,c80daed0ca8b39cc,0,0.6664469242095947,0.6964315176010132
+Pedophilic Disorder,A,main_criterion,Recurrent paraphilic arousal/urges,3102d9974c1ae471,0,0.6663699746131897,0.7363309860229492
+Illness Anxiety Disorder,E,main_criterion,Construct: Illness / Preoccupation / Present / Months,caa1084ea12a4ead,0,0.6638560891151428,0.7178138494491577
+Obsessive-Compulsive Personality Disorder,3,sub_symptom,Construct: Excessively / Devoted / Work / Productivity,4c439cc47f83b14e,0,0.6637048125267029,0.6859790682792664
+Adjustment Disorders,E,main_criterion,Construct: Once / Stressor / Consequences / Terminated,671469520d56146e,0,0.662136435508728,0.6997321844100952
+Oppositional Defiant Disorder,6,sub_symptom,Construct: Deliberately / Annoys,37efafd5b64b887e,0,0.6619558930397034,0.7289207577705383
+Oppositional Defiant Disorder,7,sub_symptom,Construct: Blames / Mistakes / Misbehavior,7bfc605a6e6477de,0,0.6617472171783447,0.7035573124885559
+Avoidant Personality Disorder,6,sub_symptom,Construct: Views / Self / Socially / Inept,00129df894a9cf12,0,0.661536455154419,0.7163233160972595
+Selective Mutism,C,main_criterion,Construct: Duration / Disturbance / Month / Limited,9ba30c21fe36ad86,0,0.6611502170562744,0.7366138696670532
+Prolonged Grief Disorder,3,sub_symptom,Construct: Avoidance / Reminders / Dead / Children,24cdde081b4451a7,0,0.6605231165885925,0.7344576120376587
+Obsessive-Compulsive Disorder,1,sub_symptom,Obsessional or compulsive ritual,9a1253298c68135f,0,0.6594187021255493,0.7399137616157532
+Acute Stress Disorder,6,sub_symptom,Construct: Altered / Sense / Reality / Surroundings,4fb1bc3785bebb2a,0,0.6590844392776489,0.7293678522109985
+Attenuated Psychosis Syndrome,3,sub_symptom,Disorganized speech / formal thought,5138f2826b81f40e,0,0.6556594967842102,0.7108578681945801
+Illness Anxiety Disorder,B,main_criterion,Construct: Somatic / Present / Present / Only,944462956a5b9da2,0,0.6549819111824036,0.7444720268249512
+Conduct Disorder,1,sub_symptom,Construct: Bullies / Threatens / Intimidates,bec86d03c8ce5c9e,0,0.6516450047492981,0.7289207577705383
+Other (Or Unknown) Substance Withdrawal,E,main_criterion,Construct: Substance / Involved / Cannot / Classified,80d62e66928f1de3,0,0.6510184407234192,0.6981489062309265
+Premenstrual Dysphoric Disorder,1,sub_symptom,Construct: Decreased / Interest / Usual / Work,7296832f33a7fd72,0,0.6501554846763611,0.6859381794929504
+Conduct Disorder,11,sub_symptom,Construct: Lies / Obtain / Goods / Favors,d7f1f07a28003a8c,0,0.6497489213943481,0.6685097813606262
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,2,sub_symptom,Construct: Impairment / Social / Communication / Interaction,2fd495228f72f999,0,0.6479389071464539,0.7167245745658875
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,3,sub_symptom,Construct: Persistent / Distorted / Cognitions / About,c0b36ac7ce905857,0,0.6472577452659607,0.7067469358444214
+Attention-Deficit/Hyperactivity Disorder,2i,sub_symptom,Construct: Interrupts / Intrudes / Butts / Conversations,3647c80a10cedbd4,0,0.6452080011367798,0.7160121202468872
+Substance/Medication-Induced Sleep Disorder,A,main_criterion,Construct: Prominent / Severe / Disturbance / Sleep,c5c7af1457d5f0e3,0,0.6451866030693054,0.6881299018859863
+Panic Disorder,1,sub_symptom,Recurrent unexpected panic attacks,b0dd256420fe5702,0,0.6444932818412781,0.6928731799125671
+Prolonged Grief Disorder,2,sub_symptom,Construct: Marked / Sense / Disbelief / About,1870d8d39592a10c,0,0.6428548097610474,0.6755337715148926
+Delusional Disorder,A,main_criterion,Delusional beliefs,dd0694024e028705,0,0.6419111490249634,0.7488693594932556
+Insomnia Disorder,E,main_criterion,Sleep-wake continuity disturbance,2d4e88fd15a2e357,0,0.6409252882003784,0.6767373085021973
+Insomnia Disorder,3,sub_symptom,Construct: Early / Morning / Awakening / Inability,814716975ff9bbe3,0,0.6409242749214172,0.716193437576294
+Narcissistic Personality Disorder,7,sub_symptom,Construct: Lacks / Empathy / Unwilling / Recognize,aecfed99896a356f,0,0.6406726837158203,0.6734834313392639
+Schizoaffective Disorder,A,main_criterion,Construct: Uninterrupted / Illness / There / Major,07ad180c1cc6a0c0,0,0.6406015157699585,0.7281414866447449
+Separation Anxiety Disorder,3,sub_symptom,Construct: Persistent / Excessive / Worry / About,f1553f571a161eb3,0,0.6403985619544983,0.6644827723503113
+Internet Gaming Disorder,2,sub_symptom,Construct: Withdrawal / Internet / Gaming / Taken,fd6a067b331747a5,0,0.6394742727279663,0.6928646564483643
+Specific Phobia,A,main_criterion,Phobic / situational fear or anxiety,870ca6a577d3034e,0,0.6390755772590637,0.7491289377212524
+Prolonged Grief Disorder,4,sub_symptom,Construct: Intense / Emotional / Pain / Anger,c0bdee596f013305,0,0.6389491558074951,0.7160596251487732
+Body Dysmorphic Disorder,B,main_criterion,Obsessional or compulsive ritual,a8dcd2d6812263b9,0,0.6387607455253601,0.7125566005706787
+Attention-Deficit/Hyperactivity Disorder,2e,sub_symptom,Construct: Acting / Driven / Motor / Unable,ba47a1cb7f10cc70,0,0.6384667158126831,0.7021377682685852
+Premature (Early) Ejaculation,A,main_criterion,Construct: Persistent / Recurrent / Pattern / Ejaculation,dff31649dd9c3ac4,0,0.6379652619361877,0.7011703252792358
+Somatic Symptom Disorder,1,sub_symptom,Construct: Disproportionate / Persistent / Thoughts / About,fab798849b686731,0,0.6378886699676514,0.6892741918563843
+Attention-Deficit/Hyperactivity Disorder,1d,sub_symptom,Construct: Does / Follow / Through / Instructions,1be62e72774567cc,0,0.6364673376083374,0.7413509488105774
+Schizoaffective Disorder,C,main_criterion,Construct: Meet / Major / Mood / Episode,43a97a3320062adf,0,0.6353619694709778,0.7292218208312988
+Dependent Personality Disorder,4,sub_symptom,Construct: Difficulty / Initiating / Projects / Doing,9989e498949b12a7,0,0.6347702741622925,0.6561875343322754
+Oppositional Defiant Disorder,A,main_criterion,"Irritability, anger, or aggression",602fffb613287d68,0,0.6345205307006836,0.6786600351333618
+Language Disorder,3,sub_symptom,Construct: Impairments / Discourse / Ability / Vocabulary,1e8e92260ac3f9f4,0,0.6334719657897949,0.6999086737632751
+Histrionic Personality Disorder,2,sub_symptom,Construct: Interaction / Characterized / Inappropriate / Sexually,2ab17523000ea382,0,0.6334375143051147,0.6901016235351562
+Antisocial Personality Disorder,2,sub_symptom,Construct: Deceitfulness / Indicated / Repeated / Lying,361e09b0e0a3a6eb,0,0.632427990436554,0.681007981300354
+Nonsuicidal Self-Injury Disorder,1,sub_symptom,Construct: Interpersonal / Difficulties / Negative / Feelings,817fa97d0742c5b2,0,0.6322140693664551,0.643115758895874
+Paranoid Personality Disorder,2,sub_symptom,Construct: Preoccupied / Unjustified / Doubts / About,4b8911e07a273c16,0,0.6322021484375,0.682357668876648
+Reactive Attachment Disorder,3,sub_symptom,Construct: Episodes / Unexplained / Irritability / Sadness,3a70d0a5b640b26d,0,0.6315180659294128,0.6786600351333618
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,6,sub_symptom,Construct: Feelings / Detachment / Estrangement,07169d00a27306b2,0,0.6310502290725708,0.7276385426521301
+Schizoid Personality Disorder,4,sub_symptom,Construct: Takes / Pleasure,63b8a1fd897aadcf,0,0.6310142278671265,0.6856554746627808
+Separation Anxiety Disorder,2,sub_symptom,Construct: Persistent / Excessive / Worry / About,3f73cea34addf2be,0,0.6308349370956421,0.6776970028877258
+Premature (Early) Ejaculation,B,main_criterion,Construct: Must / Present / Months / Must,9843bcd07869d129,0,0.6303273439407349,0.6801328659057617
+Stimulant Withdrawal,2,sub_symptom,Construct: Vivid / Unpleasant / Dreams,9569826497e22fab,0,0.6303186416625977,0.7036999464035034
+Avoidant Personality Disorder,5,sub_symptom,Construct: Inhibited / Interpersonal / Situations / Feelings,5167d681496c2b30,0,0.6299928426742554,0.6519314050674438
+Schizotypal Personality Disorder,9,sub_symptom,Construct: Excessive / Social / Anxiety / Does,93d7134140b19d28,0,0.6297684907913208,0.6819984316825867
+Specific Learning Disorder,1,sub_symptom,Construct: Inaccurate / Slow / Effortful / Word,920f88668d277892,0,0.6291015148162842,0.6917727589607239
+Nightmare Disorder,A,main_criterion,Construct: Repeated / Occurrences / Extended / Extremely,07372f03215a0b4c,0,0.6287890672683716,0.6737009286880493
+Premenstrual Dysphoric Disorder,6,sub_symptom,Construct: Sense / Being / Overwhelmed / Control,5b7272ce09ba47c4,0,0.6285644173622131,0.6762873530387878
+Generalized Anxiety Disorder,4,sub_symptom,Construct: Irritability,d5a834fbc24317ce,0,0.6282898187637329,0.7230042219161987
+Obsessive-Compulsive Personality Disorder,5,sub_symptom,Construct: Unable / Discard / Worn / Worthless,ddfde8f8eaff22bf,0,0.6282206773757935,0.6919945478439331
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",11a,sub_symptom,Characteristic withdrawal syndrome,3a933ed67d958ddc,0,0.6279451251029968,0.684391975402832
+Obsessive-Compulsive Personality Disorder,1,sub_symptom,Construct: Preoccupied / Details / Rules / Lists,9e9bbbb203027738,0,0.6276910901069641,0.6839466691017151
+Avoidant Personality Disorder,1,sub_symptom,Construct: Avoids / Occupational / Involve / Significant,75db09731be1536b,0,0.6268072724342346,0.643994927406311
+Illness Anxiety Disorder,D,main_criterion,Construct: Performs / Excessive / Health / Related,9d8eeb915ef8349f,0,0.6265429258346558,0.698494553565979
+Premenstrual Dysphoric Disorder,2,sub_symptom,Concentration or attention impairment,ad5e104e173f73c5,0,0.6263090968132019,0.6821563243865967
+Separation Anxiety Disorder,6,sub_symptom,Construct: Persistent / Reluctance / Refusal / Sleep,ce5e2366369e6ab2,0,0.6259997487068176,0.6741076111793518
+Rapid Eye Movement Sleep Behavior Disorder,1,sub_symptom,Construct: Sleep / Atonia / Polysomnographic / Recording,9901693c77ef790c,0,0.6259026527404785,0.7309894561767578
+Panic Disorder,2,sub_symptom,Recurrent unexpected panic attacks,c673e16f7c759bc0,0,0.6258238554000854,0.6706392168998718
+Prolonged Grief Disorder,6,sub_symptom,Construct: Emotional / Numbness / Absence / Marked,74ea25b8813e9396,0,0.6255483627319336,0.6671198010444641
+Attention-Deficit/Hyperactivity Disorder,1a,sub_symptom,"Memory, learning, or attentional decline",87422ec6f3917081,0,0.6248308420181274,0.731650173664093
+Stimulant Intoxication,6,sub_symptom,Construct: Evidence / Weight / Loss,7d4a3cc06ef0935c,0,0.6245571374893188,0.722507894039154
+Histrionic Personality Disorder,7,sub_symptom,Construct: Suggestible / Easily / Influenced / Circumstances,87e8699f712bbf31,0,0.6244710683822632,0.6606206297874451
+Conduct Disorder,12,sub_symptom,Construct: Stolen / Items / Nontrivial / Value,91ebc7c0691851d1,0,0.6241419315338135,0.6737648248672485
+Oppositional Defiant Disorder,2,sub_symptom,Construct: Touchy / Easily / Annoyed,33cb23bad13e7333,0,0.6238903403282166,0.7432400584220886
+Histrionic Personality Disorder,1,sub_symptom,"Memory, learning, or attentional decline",70c63946d28cd51a,0,0.6237878799438477,0.6847155094146729
+Conduct Disorder,4,sub_symptom,Construct: Physically / Cruel / People,b19876e5878e6888,0,0.6233176589012146,0.6581650376319885
+Generalized Anxiety Disorder,2,sub_symptom,Construct: Being / Easily / Fatigued,ea84005e816e9aaf,0,0.6231696605682373,0.7432400584220886
+Internet Gaming Disorder,8,sub_symptom,Construct: Internet / Games / Escape / Relieve,30cf74a8cfddf9f8,0,0.6226707696914673,0.7396563291549683
+Kleptomania,D,main_criterion,Construct: Stealing / Committed / Express / Anger,00f3b235a095db21,0,0.6218410730361938,0.6818681955337524
+Posttraumatic Stress Disorder in Individuals Older than 6 Years,2,sub_symptom,Construct: Reckless / Self / Destructive / Behavior,c0a050728f344723,0,0.6211708784103394,0.7329967021942139
+Schizoaffective Disorder,B,main_criterion,Delusional beliefs,b148a10b65851faa,0,0.6211320757865906,0.7331426739692688
+Social (Pragmatic) Communication Disorder,3,sub_symptom,Construct: Difficulties / Rules / Conversation / Storytelling,5a07adf99f112258,0,0.620914101600647,0.6704360246658325
+Gambling Disorder,2,sub_symptom,Construct: Restless / Irritable / Attempting / Down,89c6b99b28caa31e,0,0.6201616525650024,0.640044629573822
+Attention-Deficit/Hyperactivity Disorder,2g,sub_symptom,Construct: Blurts / Answer / Question / Completed,86c1a1d1631440fb,0,0.62006014585495,0.6601448059082031
+Anorexia Nervosa,A,main_criterion,Construct: Restriction / Energy / Intake / Relative,1c98636c0157f392,0,0.6193250417709351,0.7236830592155457
+Dependent Personality Disorder,3,sub_symptom,Construct: Difficulty / Expressing / Disagreement / Fear,9e55302b2fcc1f40,0,0.6192836165428162,0.6537269353866577
+Schizotypal Personality Disorder,4,sub_symptom,Construct: Thinking / Speech / Vague / Circumstantial,574258fd7038ab4d,0,0.6189782023429871,0.67420494556427
+Circadian Rhythm Sleep-Wake Disorders,A,main_criterion,Construct: Persistent / Recurrent / Pattern / Sleep,03ceb0c5ad49ec5b,0,0.6185657382011414,0.671316921710968
+Obstructive Sleep Apnea Hypopnea,1a,sub_symptom,Construct: Nocturnal / Breathing / Disturbances / Snoring,51e9c258d268d9f4,0,0.6184998750686646,0.6585332751274109
+Avoidant Personality Disorder,3,sub_symptom,Construct: Shows / Restraint / Intimate / Relationships,1a8b9b0aae0fb392,0,0.6179944276809692,0.665185809135437
+Obsessive-Compulsive Personality Disorder,7,sub_symptom,Construct: Adopts / Miserly / Spending / Style,9ee9e7c7940f5fdf,0,0.6174190044403076,0.6794909238815308
+Separation Anxiety Disorder,5,sub_symptom,Construct: Persistent / Excessive / Fear / Reluctance,f5032bb459073375,0,0.6169666051864624,0.6542333364486694
+Schizoid Personality Disorder,7,sub_symptom,Construct: Shows / Emotional / Coldness / Detachment,a793295c5782a723,0,0.6168085336685181,0.7204868197441101
+Attention-Deficit/Hyperactivity Disorder,1b,sub_symptom,Concentration or attention impairment,f84080edb0b30fa7,0,0.6167315244674683,0.6490089297294617
+Premenstrual Dysphoric Disorder,4,sub_symptom,Construct: Marked / Anxiety / Tension / Feelings,1a7f726f82330c32,0,0.6160942316055298,0.7183825373649597
+Generalized Anxiety Disorder,1,sub_symptom,Construct: Restlessness / Feeling / Keyed / Edge,334d329cd3735362,0,0.6156862378120422,0.7183825373649597
+Other (Or Unknown) Substance Intoxication,A,main_criterion,Construct: Development / Reversible / Substance / Specific,91bd9e145e81e7cc,0,0.6154782176017761,0.6920663118362427
+Antisocial Personality Disorder,5,sub_symptom,Construct: Reckless / Disregard / Safety / Self,a20467172c510c85,0,0.6152435541152954,0.6683031320571899
+Separation Anxiety Disorder,4,sub_symptom,Construct: Persistent / Reluctance / Refusal / Away,7a90074fdac68e2d,0,0.615009069442749,0.6734068989753723
+Borderline Personality Disorder,5,sub_symptom,Construct: Recurrent / Suicidal / Behavior / Gestures,6342fa029f30891b,0,0.6135965585708618,0.7329967021942139
+Obsessive-Compulsive Personality Disorder,2,sub_symptom,Construct: Shows / Perfectionism / Interferes / Task,11dd2eb77b9e09a3,0,0.6134916543960571,0.701697587966919
+Selective Mutism,A,main_criterion,Construct: Consistent / Failure / Speak / Specific,870a11e62e06b87a,0,0.6133455038070679,0.6977646946907043
+Persistent Depressive Disorder,3,sub_symptom,Construct: Energy / Fatigue,cdaf0f152de249ca,0,0.613120436668396,0.7074325680732727
+Speech Sound Disorder,A,main_criterion,Construct: Persistent / Difficulty / Speech / Sound,a7cec4e6fb0a3b3c,0,0.6123725175857544,0.6502096056938171
+Major or Mild Frontotemporal Neurocognitive Disorder,1aiv,sub_symptom,Construct: Perseverative / Stereotyped / Compulsive / Ritualistic,e348f5bdaf411c2f,0,0.611962616443634,0.6742116212844849
+Borderline Personality Disorder,7,sub_symptom,Construct: Chronic / Feelings / Emptiness,caa826d4eff67060,0,0.6118100881576538,0.642250120639801
+Autism Spectrum Disorder,2,sub_symptom,Cognitive/behavioral inflexibility,c0d19ed7ba81fffc,0,0.6115936636924744,0.7399137616157532
+Major or Mild Neurocognitive Disorder with Lewy Bodies,1b,sub_symptom,Hallucinatory perception,8be6c5ecd5040c13,0,0.6113063097000122,0.6930288672447205
+Premenstrual Dysphoric Disorder,F,main_criterion,Construct: Should / Confirmed / Prospective / Daily,cddb07a25c122014,0,0.6108258366584778,0.6906145811080933
+Generalized Anxiety Disorder,3,sub_symptom,Construct: Difficulty / Concentrating / Mind / Going,b19f2d5fb09175ef,0,0.6105412244796753,0.7181861400604248
+Narcissistic Personality Disorder,3,sub_symptom,Construct: Believes / Special / Unique / Only,564e65de3dde13b3,0,0.610273003578186,0.6511435508728027
+Prolonged Grief Disorder,A,main_criterion,Construct: Death / Months / Close / Bereaved,807843d596b7ef64,0,0.6095492243766785,0.6663230061531067
+Major or Mild Vascular Neurocognitive Disorder,2,sub_symptom,"Memory, learning, or attentional decline",fa3ef942c991acd0,0,0.6089714765548706,0.6719399690628052
+Major or Mild Neurocognitive Disorder due to Alzheimer’s Disease,2a,sub_symptom,"Memory, learning, or attentional decline",62acf5f72d0b2ae7,0,0.6079024076461792,0.7258321046829224
+Conduct Disorder,7,sub_symptom,Construct: Forced / Someone / Sexual / Activity,c4b62bd39575f933,0,0.6077889204025269,0.6426684856414795
+Cannabis Intoxication,A,main_criterion,Construct: Recent / Cannabis,acf0633a07ca1795,0,0.6076749563217163,0.7005527019500732
+Stimulant Withdrawal,1,sub_symptom,Construct: Fatigue,f0a9f358c8c6c292,0,0.6076632142066956,0.6934014558792114
+General Personality Disorder,E,main_criterion,Construct: Enduring / Pattern / Better / Explained,55ae91675fcc598d,0,0.6075893640518188,0.7220253348350525
+Prolonged Grief Disorder,1,sub_symptom,Construct: Identity / Disruption / Feeling / Though,88e07457ce600288,0,0.6074744462966919,0.669282078742981
+Restless Legs Syndrome,3,sub_symptom,Construct: Urge / Move / Legs / Worse,c2d6f1f52998d3a5,0,0.6074532270431519,0.6338474154472351
+Male Hypoactive Sexual Desire Disorder,A,main_criterion,Construct: Persistently / Recurrently / Deficient / Absent,0464457074fda15c,0,0.6073954701423645,0.6323772668838501
+Narcissistic Personality Disorder,9,sub_symptom,Construct: Shows / Arrogant / Haughty / Behaviors,fff91af4e0c6f1a8,0,0.6073038578033447,0.642341136932373
+Posttraumatic Stress Disorder in Children 6 Years and Younger,6,sub_symptom,Construct: Persistent / Reduction / Expression / Positive,7a798baf952399e1,0,0.6066021919250488,0.6469731330871582
+Tobacco Withdrawal,A,main_criterion,Construct: Daily / Tobacco / Several / Weeks,53d73da0fa556a8b,0,0.606368362903595,0.7153936624526978
+Narcissistic Personality Disorder,5,sub_symptom,Construct: Sense / Entitlement / Unreasonable / Expectations,80f74bb24115f823,0,0.6059485673904419,0.6702871322631836
+Childhood-Onset Fluency Disorder (Stuttering),5,sub_symptom,Construct: Circumlocutions / Word / Substitutions / Avoid,8631a364be9f4d58,0,0.6056448221206665,0.7241536378860474
+Disinhibited Social Engagement Disorder,2,sub_symptom,Construct: Overly / Familiar / Verbal / Physical,b6b99952a4635fe1,0,0.6052064895629883,0.6730268001556396
+Conduct Disorder,2,sub_symptom,Construct: Initiates / Physical / Fights,d93afe0495829e8e,0,0.6043117046356201,0.6647249460220337
+Panic Disorder,12,sub_symptom,Construct: Fear / Losing / Control / Going,9116ae6c04028556,0,0.6040989756584167,0.6487192511558533
+Generalized Anxiety Disorder,A,main_criterion,Construct: Excessive / Anxiety / Worry / Apprehensive,af79b6b3021d9c75,0,0.6040198802947998,0.6303707957267761
+Disruptive Mood Dysregulation Disorder,C,main_criterion,"Irritability, anger, or aggression",d65fd1d7f7e4e478,0,0.6036936044692993,0.6669228672981262
+Oppositional Defiant Disorder,B,main_criterion,Construct: Disturbance / Behavior / Associated / Distress,d09d8f9334098a0b,0,0.6032302379608154,0.6967886686325073
+Paranoid Personality Disorder,5,sub_symptom,Construct: Persistently / Bears / Grudges / Unforgiving,64990d2126ceceb9,0,0.6029144525527954,0.6584535241127014
+Stimulant Intoxication,9,sub_symptom,Construct: Confusion / Seizures / Dyskinesias / Dystonias,93332bc07749ec1e,0,0.6027719378471375,0.7237083315849304
+Narcissistic Personality Disorder,2,sub_symptom,Construct: Preoccupied / Fantasies / Unlimited / Success,f24882581142c119,0,0.6025336980819702,0.6624590158462524
+Prolonged Grief Disorder,2,sub_symptom,Construct: Preoccupation / Thoughts / Memories / Deceased,02efb6a8e72097d0,0,0.6023452281951904,0.6337774991989136
+Narcissistic Personality Disorder,6,sub_symptom,Construct: Interpersonally / Exploitative / Takes / Advantage,1c12586876d842e5,0,0.6023398637771606,0.6344650387763977
+Specific Learning Disorder,3,sub_symptom,Construct: Difficulties / Spelling / Omit / Substitute,a4c893a94916aa94,0,0.6019319295883179,0.7241536378860474
+Pyromania,D,main_criterion,Construct: Pleasure / Gratification / Relief / Setting,4e665c6a82f4cf6d,0,0.6019266843795776,0.6961406469345093
+Narcolepsy,1,sub_symptom,Construct: Episodes / Cataplexy / Defined / Occurring,7635db86712e70a1,0,0.601779043674469,0.7125382423400879
+Female Sexual Interest/Arousal Disorder,4,sub_symptom,Construct: Absent / Reduced / Sexual / Excitement,64d5f24b20ecbacc,0,0.6012612581253052,0.6801328659057617
+Avoidant/Restrictive Food Intake Disorder,1,sub_symptom,Appetite or weight change,7a96435b4e957c60,0,0.6010271906852722,0.6701773405075073
+Schizotypal Personality Disorder,1,sub_symptom,Delusional beliefs,4f048c5207e9d38d,0,0.6008819937705994,0.6886512041091919
+Antisocial Personality Disorder,1,sub_symptom,Construct: Failure / Conform / Social / Norms,bd5d2be19cd9f0f2,0,0.5987699627876282,0.6919842958450317
+Attention-Deficit/Hyperactivity Disorder,2d,sub_symptom,Construct: Unable / Play / Engage / Leisure,efba58a7c26659b1,0,0.5987650752067566,0.6621177792549133
+Schizotypal Personality Disorder,2,sub_symptom,Construct: Beliefs / Magical / Thinking / Influences,3f912ddfa618b0be,0,0.5987453460693359,0.6519584059715271
+Oppositional Defiant Disorder,1,sub_symptom,"Irritability, anger, or aggression",db30f6ddc3a93658,0,0.5985003709793091,0.7326411604881287
+Schizotypal Personality Disorder,3,sub_symptom,Construct: Unusual / Perceptual / Experiences / Including,0c87c2908ed39681,0,0.5983293056488037,0.6606992483139038
+Binge-Eating Disorder,C,main_criterion,Construct: Marked / Distress / Regarding / Binge,af1aa6a30701730c,0,0.5982590913772583,0.6574013829231262
+Intermittent Explosive Disorder,D,main_criterion,Construct: Recurrent / Aggressive / Outbursts / Cause,c0bed690af492253,0,0.5977007150650024,0.6710677146911621
+Attention-Deficit/Hyperactivity Disorder,1e,sub_symptom,Construct: Difficulty / Organizing / Tasks / Difficulty,f001974825c5e452,0,0.5976184606552124,0.6367877125740051
+Stereotypic Movement Disorder,A,main_criterion,Construct: Repetitive / Seemingly / Driven / Apparently,d4b98a297f708192,0,0.5974551439285278,0.72911137342453
+Nonsuicidal Self-Injury Disorder,3,sub_symptom,Construct: Thinking / About / Self / Injury,1351d5468ad12e8a,0,0.5972501635551453,0.6009087562561035
+Persistent Depressive Disorder,5,sub_symptom,Construct: Poor / Concentration / Difficulty / Making,1e156c639a1eb233,0,0.5972203016281128,0.6821563243865967
+Intermittent Explosive Disorder,B,main_criterion,Construct: Magnitude / Aggressiveness / Expressed / Recurrent,be2090f3798d5d0f,0,0.5967151522636414,0.6664909720420837
+Insomnia Disorder,1,sub_symptom,Construct: Difficulty / Initiating / Sleep / Children,974f3f76e874dd29,0,0.5965403318405151,0.6333553194999695
+Dependent Personality Disorder,2,sub_symptom,Construct: Needs / Assume / Responsibility / Major,61ddea1c5b5154f7,0,0.5961634516716003,0.6523640155792236
+Childhood-Onset Fluency Disorder (Stuttering),3,sub_symptom,Construct: Broken / Words / Pauses / Word,7d435d1afc937ee1,0,0.5959185361862183,0.6917727589607239
+Female Sexual Interest/Arousal Disorder,2,sub_symptom,Construct: Absent / Reduced / Sexual / Erotic,8b48832853750c2b,0,0.5957967638969421,0.6113662719726562
+Caffeine Withdrawal,5,sub_symptom,Construct: Like / Nausea / Vomiting / Muscle,e408b43ac7ceef96,0,0.5956143140792847,0.6996358633041382
+Social (Pragmatic) Communication Disorder,2,sub_symptom,Construct: Impairment / Ability / Change / Communication,aa3f78d4f043f068,0,0.5952388048171997,0.6977646946907043
+Caffeine Withdrawal,A,main_criterion,Construct: Prolonged / Daily / Caffeine,468c2536343092ea,0,0.5951605439186096,0.6931395530700684
+Disinhibited Social Engagement Disorder,4,sub_symptom,Construct: Willingness / Unfamiliar / Adult / Minimal,1eead75e798e7983,0,0.5947901606559753,0.6610870957374573
+Conduct Disorder,9,sub_symptom,Construct: Deliberately / Destroyed / Property / Than,6a0988a6f36f690a,0,0.5930896401405334,0.6567034721374512
+Non-Rapid Eye Movement Sleep Arousal Disorders,2,sub_symptom,Construct: Sleep / Terrors / Recurrent / Episodes,d84f3c094c8b6ed1,0,0.5924395322799683,0.6303194165229797
+Schizoid Personality Disorder,1,sub_symptom,Construct: Neither / Desires / Enjoys / Close,44c9fc2494117d94,0,0.5912278890609741,0.6371822953224182
+Erectile Disorder,2,sub_symptom,Construct: Marked / Difficulty / Maintaining / Erection,dd20ff416f665093,0,0.5912138223648071,0.6661436557769775
+Binge-Eating Disorder,3,sub_symptom,Construct: Eating / Large / Amounts / Food,2100dee5073aec1b,0,0.5909522175788879,0.679815411567688
+Nonsuicidal Self-Injury Disorder,D,main_criterion,Construct: Behavior / Socially / Sanctioned / Body,366e56b0fc993f85,0,0.5908542275428772,0.6524492502212524
+Nonsuicidal Self-Injury Disorder,2,sub_symptom,Construct: Prior / Engaging / Preoccupation / Intended,22698c575d533af0,0,0.5905545949935913,0.633201003074646
+Autism Spectrum Disorder,3,sub_symptom,Construct: Deficits / Developing / Maintaining / Understanding,71a8aa9abdef914f,0,0.5904260873794556,0.7100851535797119
+Premenstrual Dysphoric Disorder,3,sub_symptom,Construct: Lethargy / Easy / Fatigability / Marked,1d7cc31ef5ccb710,0,0.5904068946838379,0.6807029247283936
+Caffeine Withdrawal,2,sub_symptom,Construct: Marked / Fatigue / Drowsiness,73c8e49ff960483d,0,0.5902184247970581,0.6807029247283936
+Caffeine Intoxication,A,main_criterion,Construct: Recent / Consumption / Caffeine / Typically,7f74798b9a0b8c2a,0,0.5898600816726685,0.6931395530700684
+Major or Mild Frontotemporal Neurocognitive Disorder,1b,sub_symptom,Construct: Prominent / Decline / Social / Cognition,fb45a066a10600cf,0,0.5897719264030457,0.6550916433334351
+Pyromania,E,main_criterion,Construct: Fire / Setting / Done / Monetary,6fea13506ae27746,0,0.5892763137817383,0.6567034721374512
+Binge-Eating Disorder,2,sub_symptom,Construct: Eating / Until / Feeling / Uncomfortably,ffca88571add9d65,0,0.5891088843345642,0.629977285861969
+Generalized Anxiety Disorder,B,main_criterion,Construct: Finds / Difficult / Control / Worry,2dc1596e1340399e,0,0.5887152552604675,0.6071784496307373
+Separation Anxiety Disorder,8,sub_symptom,Construct: Repeated / Complaints / Physical / Headaches,6775739783442c6c,0,0.5886551141738892,0.7009824514389038
+Reactive Attachment Disorder,1,sub_symptom,Construct: Child / Rarely / Minimally / Seeks,13edcdb02b5a43a2,0,0.5884395837783813,0.6369364261627197
+Borderline Personality Disorder,3,sub_symptom,Construct: Identity / Disturbance / Markedly / Persistently,37388cb7f01a1d59,0,0.5883939862251282,0.7290751338005066
+Conduct Disorder,13,sub_symptom,Construct: Stays / Night / Despite / Parental,5398a8f422487ddd,0,0.5882260799407959,0.6678434014320374
+Reactive Attachment Disorder,1,sub_symptom,Construct: Minimal / Social / Emotional / Responsiveness,febad80f66fd3d63,0,0.5881258249282837,0.6560347676277161
+Language Disorder,2,sub_symptom,Construct: Limited / Sentence / Structure / Ability,b20c3181161c8fa5,0,0.587917685508728,0.7057046890258789
+Oppositional Defiant Disorder,8,sub_symptom,Construct: Spiteful / Vindictive / Twice / Past,42688e805ab35c8b,0,0.5876539945602417,0.6248158812522888
+Schizoid Personality Disorder,2,sub_symptom,Construct: Almost / Always / Chooses / Solitary,7ad53ef09fe1c6ac,0,0.5876525640487671,0.6101409196853638
+Illness Anxiety Disorder,A,main_criterion,Construct: Preoccupation / Having / Acquiring / Serious,ad8b69deda5c14f6,0,0.5873833894729614,0.6644827723503113
+Opioid Intoxication,A,main_criterion,Construct: Recent / Opioid,ed01d95c2ad37164,0,0.587253749370575,0.7005527019500732
+Paranoid Personality Disorder,4,sub_symptom,Construct: Reads / Hidden / Demeaning / Threatening,0069078d7ddcb25b,0,0.5868457555770874,0.6107643842697144
+Panic Disorder,7,sub_symptom,Gastrointestinal distress / nausea,002e3be453253f05,0,0.5865548849105835,0.7067304253578186
+Borderline Personality Disorder,4,sub_symptom,Behavioral impulsivity,444066b29b0a4eea,0,0.5859058499336243,0.6296504139900208
+Conduct Disorder,14,sub_symptom,Construct: Away / Home / Overnight / Twice,6eccd9221bd6cc46,0,0.5856010913848877,0.6734068989753723
+Kleptomania,A,main_criterion,Construct: Recurrent / Failure / Resist / Impulses,f130aeb69f1b3b05,0,0.5851699709892273,0.6239722967147827
+Obsessive-Compulsive Disorder,2,sub_symptom,Construct: Behaviors / Mental / Acts / Aimed,21f0fa42aa6207cc,0,0.5844648480415344,0.6264819502830505
+Autism Spectrum Disorder,1,sub_symptom,Social-emotional reciprocity deficit,98c7256c9d87edc4,0,0.5836100578308105,0.7036424279212952
+Histrionic Personality Disorder,5,sub_symptom,Construct: Style / Speech / Excessively / Impressionistic,34668371fac63ae2,0,0.583495020866394,0.6951455473899841
+Panic Disorder,8,sub_symptom,Construct: Feeling / Dizzy / Unsteady / Light,59b993286219eb00,0,0.5816625356674194,0.6413440108299255
+Conduct Disorder,6,sub_symptom,Construct: Stolen / While / Confronting / Victim,90d75e6a29fcdb57,0,0.5813718438148499,0.6236600279808044
+Autism Spectrum Disorder,1,sub_symptom,Stereotyped/repetitive motor behavior,c8eeae9a40791ecf,0,0.5809777975082397,0.6839649081230164
+Prolonged Grief Disorder,7,sub_symptom,Construct: Feeling / Life / Meaningless / Result,c61eacf05fd4b1ca,0,0.5805650353431702,0.5961576700210571
+Female Sexual Interest/Arousal Disorder,5,sub_symptom,Construct: Absent / Reduced / Sexual / Interest,4bded8bd405d979d,0,0.5802251100540161,0.6266558170318604
+Schizoid Personality Disorder,3,sub_symptom,Construct: Little / Interest / Having / Sexual,1849f81bc6669e80,0,0.579581618309021,0.6646285057067871
+Hoarding Disorder,A,main_criterion,Construct: Persistent / Difficulty / Discarding / Parting,501da537d5faba9e,0,0.579547643661499,0.6919945478439331
+Agoraphobia,5,sub_symptom,Construct: Being / Outside / Home / Alone,481d42fbd690092f,0,0.5794939994812012,0.6731891632080078
+Attention-Deficit/Hyperactivity Disorder,1f,sub_symptom,Construct: Avoids / Dislikes / Reluctant / Engage,964fc30b7ee23e66,0,0.5791937112808228,0.6468567252159119
+Autism Spectrum Disorder,2,sub_symptom,Nonverbal communication deficit,c3d2c7a99cb37a4c,0,0.578891932964325,0.6977028250694275
+Childhood-Onset Fluency Disorder (Stuttering),7,sub_symptom,Construct: Monosyllabic / Whole / Word / Repetitions,20fd9d6693f9e457,0,0.5785878896713257,0.6598561406135559
+Gambling Disorder,9,sub_symptom,Construct: Relies / Provide / Money / Relieve,08cd7ac1447c8fd1,0,0.5783343315124512,0.6794909238815308
+Attention-Deficit/Hyperactivity Disorder,2c,sub_symptom,Construct: Runs / About / Climbs / Situations,288ca187f692bab1,0,0.5781493782997131,0.6095103621482849
+Schizotypal Personality Disorder,5,sub_symptom,Construct: Suspiciousness / Paranoid / Ideation,762bb60282c6d9f1,0,0.577591598033905,0.6653430461883545
+Gambling Disorder,6,sub_symptom,Construct: Losing / Money / Gambling / Returns,cf5987583a0ece68,0,0.5772666931152344,0.6288464665412903
+Female Sexual Interest/Arousal Disorder,3,sub_symptom,Construct: Reduced / Initiation / Sexual / Activity,82e25c8e54bbb907,0,0.576952338218689,0.6424458026885986
+Histrionic Personality Disorder,6,sub_symptom,Construct: Shows / Self / Dramatization / Theatricality,8c48bde9585a9dd3,0,0.5764235854148865,0.6104292869567871
+Oppositional Defiant Disorder,5,sub_symptom,Construct: Actively / Defies / Refuses / Comply,93ddeeb1a96e8707,0,0.5757777690887451,0.6919842958450317
+Pyromania,C,main_criterion,Construct: Fascination / Interest / Curiosity / About,5a2562d7999cd95d,0,0.5753992199897766,0.6265220642089844
+Caffeine Use Disorder,3a,sub_symptom,Characteristic withdrawal syndrome,76c0484f7d4edff1,0,0.575266420841217,0.6162980198860168
+Obsessive-Compulsive Disorder,2,sub_symptom,Obsessional or compulsive ritual,133dccb40becfff9,0,0.5744817852973938,0.605947732925415
+Erectile Disorder,1,sub_symptom,Construct: Marked / Difficulty / Obtaining / Erection,c6372bfff9407e68,0,0.5738304853439331,0.6715034246444702
+Adjustment Disorders,1,sub_symptom,Construct: Marked / Distress / Proportion / Severity,d0c31bd240980605,0,0.5724563002586365,0.6011069416999817
+Obsessive-Compulsive Personality Disorder,4,sub_symptom,Construct: Overconscientious / Scrupulous / Inflexible / About,430219cd0ba1b0f1,0,0.5724446177482605,0.6340724229812622
+Prolonged Grief Disorder,5,sub_symptom,Construct: Difficulty / Reintegrating / Relationships / Death,6964c843cc2eb8ee,0,0.5719278454780579,0.6371822953224182
+Conduct Disorder,3,sub_symptom,Construct: Used / Weapon / Cause / Serious,801b9783eef4fa5b,0,0.5711286664009094,0.6015487313270569
+Separation Anxiety Disorder,1,sub_symptom,Construct: Recurrent / Excessive / Distress / Anticipating,8b8c7596e3cd56f6,0,0.570668637752533,0.6280046105384827
+General Personality Disorder,1,sub_symptom,Construct: Cognition / Ways / Perceiving / Interpreting,0ae47ed913fa3037,0,0.5699775218963623,0.6567479372024536
+Disruptive Mood Dysregulation Disorder,G,main_criterion,Construct: Diagnosis / Should / Made / First,a770af3762f42706,0,0.5696828961372375,0.6073722243309021
+Attention-Deficit/Hyperactivity Disorder,2b,sub_symptom,Construct: Leaves / Seat / Situations / Remaining,e6b995360e7a3e70,0,0.5694493055343628,0.591998815536499
+Attention-Deficit/Hyperactivity Disorder,2h,sub_symptom,Construct: Difficulty / Waiting / Turn / While,9d2885c6b3cc5489,0,0.569144606590271,0.5890827178955078
+General Personality Disorder,2,sub_symptom,Construct: Affectivity / Range / Intensity / Lability,b6439b7c6fb7a6f8,0,0.5687178373336792,0.6192761063575745
+Phencyclidine Intoxication,2,sub_symptom,Construct: Hypertension / Tachycardia,c0bbae9b7f99e0a4,0,0.5684760212898254,0.7452717423439026
+Female Sexual Interest/Arousal Disorder,6,sub_symptom,Construct: Absent / Reduced / Genital / Nongenital,767dfec459fedcfb,0,0.5682101249694824,0.6488722562789917
+Dissociative Identity Disorder,A,main_criterion,Construct: Disruption / Identity / Characterized / Distinct,dd562b5ccf08d807,0,0.5681946277618408,0.7290751338005066
+Disinhibited Social Engagement Disorder,3,sub_symptom,Construct: Diminished / Absent / Checking / Back,7c265dc5b1b00587,0,0.5681270360946655,0.624243438243866
+Nonsuicidal Self-Injury Disorder,3,sub_symptom,Construct: Induce / Positive / Feeling / State,7afb25d1f50e469b,0,0.5679563283920288,0.6398158073425293
+Hoarding Disorder,C,main_criterion,Construct: Difficulty / Discarding / Possessions / Results,5cc21ab94f3e4da9,0,0.5658078193664551,0.6491693258285522
+Dependent Personality Disorder,1,sub_symptom,Construct: Difficulty / Making / Everyday / Decisions,2c77cf77578f5d73,0,0.5656977295875549,0.6627675294876099
+Posttraumatic Stress Disorder in Children 6 Years and Younger,5,sub_symptom,Construct: Socially / Withdrawn / Behavior,321461dbbe4c401e,0,0.5656271576881409,0.6416882872581482
+Gambling Disorder,4,sub_symptom,Construct: Preoccupied / Gambling / Having / Persistent,822e44d291a59395,0,0.5653408765792847,0.6405657529830933
+Attention-Deficit/Hyperactivity Disorder,1g,sub_symptom,Construct: Loses / Things / Necessary / Tasks,c45dcb8b6040aa6e,0,0.5647441744804382,0.6037312150001526
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,3,sub_symptom,Construct: Impairment / Impulse / Control / Difficulty,a4f8c891c132446d,0,0.5643738508224487,0.618175208568573
+Conduct Disorder,5,sub_symptom,Construct: Physically / Cruel / Animals,bff2df1a67aff53d,0,0.5640947222709656,0.5883510112762451
+Female Sexual Interest/Arousal Disorder,1,sub_symptom,Construct: Absent / Reduced / Interest / Sexual,21931a82e9e93107,0,0.5639798045158386,0.6480804085731506
+Borderline Personality Disorder,9,sub_symptom,Construct: Transient / Stress / Related / Paranoid,7d191d8d1283aca4,0,0.5629566311836243,0.6653430461883545
+Gender Dysphoria in Children,4,sub_symptom,Construct: Strong / Preference / Toys / Games,2cb9415bc88e77b0,0,0.5628162026405334,0.5897530317306519
+Disruptive Mood Dysregulation Disorder,H,main_criterion,Construct: History / Observation / Onset / Years,014d6b9795120a28,0,0.5625773668289185,0.5999053120613098
+Non-Rapid Eye Movement Sleep Arousal Disorders,B,main_criterion,Construct: Little / Only / Single / Visual,7ab8cbb8831cd247,0,0.5623773336410522,0.6065536737442017
+Intermittent Explosive Disorder,2,sub_symptom,Construct: Behavioral / Outbursts / Involving / Damage,ed485da983b4c9e7,0,0.5622583627700806,0.7040815353393555
+Caffeine Intoxication,3,sub_symptom,Construct: Excitement,aeea7c8d0bc974ba,0,0.5622292757034302,0.6624590158462524
+Hoarding Disorder,B,main_criterion,Construct: Difficulty / Perceived / Need / Save,c6fb01ca9761a0c0,0,0.5618637800216675,0.5930330157279968
+Reactive Attachment Disorder,2,sub_symptom,Construct: Child / Rarely / Minimally / Responds,8dbdaceab22c4c0b,0,0.5618469715118408,0.5852158665657043
+Agoraphobia,3,sub_symptom,Construct: Being / Enclosed / Places / Shops,a04454d0376346c4,0,0.5614193081855774,0.6203047037124634
+Narcissistic Personality Disorder,1,sub_symptom,Grandiosity / inflated self-esteem,59e31ab7f3fec98d,0,0.5613479614257812,0.6404818296432495
+Suicidal Behavior Disorder,A,main_criterion,Suicidal ideation or behavior,a249c3300ea20179,0,0.561039924621582,0.5976386070251465
+Attention-Deficit/Hyperactivity Disorder,1i,sub_symptom,Construct: Forgetful / Daily / Doing / Chores,0f33832aa1955aee,0,0.5602993965148926,0.6639795899391174
+Binge-Eating Disorder,1,sub_symptom,Construct: Eating / Much / Rapidly / Than,dd1acdccc017300b,0,0.5596650838851929,0.6065248250961304
+Nonsuicidal Self-Injury Disorder,1,sub_symptom,Construct: Obtain / Relief / Negative / Feeling,f7dc4abae0415455,0,0.5589410066604614,0.5988162755966187
+Kleptomania,C,main_criterion,Construct: Pleasure / Gratification / Relief / Time,be62dd7a86fff670,0,0.5582917928695679,0.6961406469345093
+Childhood-Onset Fluency Disorder (Stuttering),2,sub_symptom,Construct: Sound / Prolongations / Consonants / Well,0a93b49f71a4a522,0,0.558276355266571,0.6432177424430847
+Schizotypal Personality Disorder,7,sub_symptom,Construct: Behavior / Appearance / Eccentric / Peculiar,22cd1aab05ca9384,0,0.5576736330986023,0.5969560146331787
+Conduct Disorder,8,sub_symptom,Construct: Deliberately / Engaged / Fire / Setting,0259805559988726,0,0.5573250651359558,0.6035687923431396
+Social (Pragmatic) Communication Disorder,1,sub_symptom,Construct: Deficits / Using / Communication / Social,6ec2bd94d7c4c62b,0,0.5571684241294861,0.7167245745658875
+Childhood-Onset Fluency Disorder (Stuttering),1,sub_symptom,Construct: Sound / Syllable / Repetitions,be4944f9acfcce7f,0,0.5567107796669006,0.6060777902603149
+Language Disorder,1,sub_symptom,Construct: Reduced / Vocabulary / Word / Knowledge,9c169156a3975403,0,0.5565783381462097,0.7081795930862427
+Pica,A,main_criterion,Construct: Persistent / Eating / Nonnutritive / Nonfood,818641fa9ac549eb,0,0.5563676357269287,0.5897275805473328
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,2,sub_symptom,Executive functioning impairment,1cb4116496549101,0,0.5547705888748169,0.6371102929115295
+Antisocial Personality Disorder,D,main_criterion,Construct: Occurrence / Antisocial / Behavior / Exclusively,ec039a09affc0a25,0,0.554570734500885,0.6113172173500061
+Bulimia Nervosa,B,main_criterion,Construct: Recurrent / Inappropriate / Compensatory / Behaviors,6bd5e08af4f0e291,0,0.5543160438537598,0.5806849002838135
+Antisocial Personality Disorder,6,sub_symptom,Construct: Consistent / Irresponsibility / Indicated / Repeated,b7aa3088c4544fa3,0,0.5536083579063416,0.5843338370323181
+Major or Mild Neurocognitive Disorder due to Traumatic Brain Injury,1,sub_symptom,Construct: Loss / Consciousness,4084a7a469587bc3,0,0.5529211759567261,0.7024271488189697
+Disinhibited Social Engagement Disorder,B,main_criterion,"Memory, learning, or attentional decline",f43bc9ef34f2c4b2,0,0.5519387722015381,0.5788787603378296
+Somatic Symptom Disorder,A,main_criterion,Construct: Somatic / Distressing / Result / Significant,bb7c4778efa36348,0,0.5517733693122864,0.6247338652610779
+Body Dysmorphic Disorder,A,main_criterion,Construct: Preoccupation / Perceived / Defects / Flaws,14cdb8a86b453ee0,0,0.5509985089302063,0.5837724208831787
+Panic Disorder,1,sub_symptom,Construct: Palpitations / Pounding / Heart / Accelerated,ec899ca969d31506,0,0.5488821268081665,0.6687630414962769
+Autism Spectrum Disorder,3,sub_symptom,Construct: Highly / Restricted / Fixated / Interests,1e5d83c768fdb5a0,0,0.5488665699958801,0.6087276935577393
+Selective Mutism,B,main_criterion,Construct: Disturbance / Interferes / Educational / Occupational,e148a04382781c00,0,0.5488079786300659,0.6033933162689209
+Conduct Disorder,15,sub_symptom,Construct: Truant / School / Beginning / Years,8380f140df72cd16,0,0.5487492680549622,0.6001647114753723
+Internet Gaming Disorder,6,sub_symptom,Construct: Continued / Excessive / Internet / Games,8cea1836b241daa7,0,0.5482674837112427,0.6001609563827515
+Gender Dysphoria in Children,6,sub_symptom,Construct: Boys / Assigned / Gender / Strong,20c91aefafc5a18e,0,0.5482655763626099,0.6097183227539062
+Gambling Disorder,1,sub_symptom,Construct: Needs / Gamble / Increasing / Amounts,e29baa5738f86d6d,0,0.5477655529975891,0.5959353446960449
+Disinhibited Social Engagement Disorder,1,sub_symptom,Construct: Reduced / Absent / Reticence / Approaching,5d205687b5f0143a,0,0.547693133354187,0.6323147416114807
+Pyromania,B,main_criterion,Construct: Tension / Affective / Arousal,879cb70b0f21bb35,0,0.5475940704345703,0.6313755512237549
+Intellectual Developmental Disorder (Intellectual Disability),A,main_criterion,Construct: Deficits / Intellectual / Functions / Reasoning,c81d0db3ff5f7dbf,0,0.5461965799331665,0.6465686559677124
+Conduct Disorder,10,sub_symptom,Construct: Broken / Someone / Else / House,0738408f4c3ac153,0,0.5452417135238647,0.5931158065795898
+Somatic Symptom Disorder,3,sub_symptom,Construct: Excessive / Time / Energy / Devoted,374209f5cd0e347b,0,0.5452262163162231,0.5919444561004639
+Reactive Attachment Disorder,E,main_criterion,Construct: Autism / Spectrum,b1f6554a99754f1e,0,0.544352114200592,0.6429905295372009
+Depersonalization/Derealization Disorder,B,main_criterion,Construct: Depersonalization / Derealization / Experiences / Reality,59aa3b682c95783b,0,0.5443117618560791,0.6494143605232239
+Restless Legs Syndrome,1,sub_symptom,Construct: Urge / Move / Legs / Begins,811543c44d6770ff,0,0.5435054302215576,0.5603641271591187
+Major or Mild Neurocognitive Disorder with Lewy Bodies,1a,sub_symptom,"Memory, learning, or attentional decline",791d0b752dd49d50,0,0.5432361960411072,0.6489702463150024
+Gender Dysphoria in Children,7,sub_symptom,Construct: Strong / Dislike / Sexual / Anatomy,a948a7e1103db369,0,0.5432093739509583,0.6077495217323303
+Conduct Disorder,C,main_criterion,Construct: Years / Older / Antisocial / Personality,8402645444e55120,0,0.5424142479896545,0.6429905295372009
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,4,sub_symptom,"Memory, learning, or attentional decline",bf967a083bb71f31,0,0.5412876009941101,0.6264159679412842
+Borderline Personality Disorder,1,sub_symptom,Abandonment avoidance efforts,39dcb87105c6df55,0,0.5410262942314148,0.575492799282074
+Reactive Attachment Disorder,2,sub_symptom,Construct: Limited / Positive / Affect,81ee9be03ba8ccb2,0,0.5406149625778198,0.5773824453353882
+Prolonged Grief Disorder,E,main_criterion,Construct: Duration / Severity / Bereavement / Reaction,418f262d481cc914,0,0.5401362776756287,0.5894199013710022
+Phencyclidine Intoxication,5,sub_symptom,Construct: Dysarthria,a93f484bb1060836,0,0.5401173233985901,0.6084043383598328
+Disruptive Mood Dysregulation Disorder,F,main_criterion,Construct: Present / Settings / Home / School,da4963a7a57ec6fc,0,0.5396932363510132,0.5839805603027344
+Major or Mild Neurocognitive Disorder due to Parkinson’s Disease,1,sub_symptom,Construct: There / Evidence / Mixed / Etiology,b30e415dca3405bc,0,0.5396133065223694,0.6156908869743347
+Major or Mild Neurocognitive Disorder with Lewy Bodies,2a,sub_symptom,Construct: Meets / Rapid / Movement / Sleep,0a396ad3addaa124,0,0.5389100909233093,0.6744372844696045
+Histrionic Personality Disorder,8,sub_symptom,Construct: Considers / Relationships / Intimate / Than,457bed781aa5203c,0,0.5381952524185181,0.5645198225975037
+Phencyclidine Intoxication,4,sub_symptom,Construct: Ataxia,b4d8063f6cf7c91e,0,0.5374401807785034,0.5716202259063721
+Paranoid Personality Disorder,7,sub_symptom,Construct: Recurrent / Suspicions / Justification / Regarding,5082c54b1b12647c,0,0.5371629595756531,0.5782550573348999
+Histrionic Personality Disorder,4,sub_symptom,"Memory, learning, or attentional decline",a0f5a1fdc25c381d,0,0.5355451703071594,0.5908114910125732
+Panic Disorder,13,sub_symptom,Construct: Fear / Dying,0adda66b69f3d915,0,0.5342467427253723,0.6389299035072327
+Internet Gaming Disorder,7,sub_symptom,Construct: Deceived / Family / Members / Therapists,5f0575ed78bda931,0,0.5331391096115112,0.5945745706558228
+Internet Gaming Disorder,3,sub_symptom,Construct: Tolerance / Need / Spend / Increasing,d746431894f4df92,0,0.5328104496002197,0.5959353446960449
+Intellectual Developmental Disorder (Intellectual Disability),B,main_criterion,Construct: Deficits / Adaptive / Functioning / Result,48bf62c07d43ed90,0,0.5322859287261963,0.6498333811759949
+Panic Disorder,6,sub_symptom,Construct: Chest / Pain / Discomfort,7289fd1ac8b1e4fa,0,0.5319487452507019,0.6480010151863098
+Panic Disorder,5,sub_symptom,Construct: Feelings / Choking,bbd29c53681f013b,0,0.5318740606307983,0.5681305527687073
+Avoidant/Restrictive Food Intake Disorder,4,sub_symptom,Construct: Marked / Interference / Psychosocial / Functioning,84d3ecf9bfaf8318,0,0.53169184923172,0.6150960922241211
+Encopresis,A,main_criterion,Construct: Repeated / Passage / Feces / Inappropriate,30f5c60884ccd454,0,0.5302121639251709,0.6649101376533508
+Nonsuicidal Self-Injury Disorder,2,sub_symptom,Construct: Resolve / Interpersonal / Difficulty,142f9a3c5a8dbe6f,0,0.528779149055481,0.5587252378463745
+Kleptomania,B,main_criterion,Construct: Increasing / Sense / Tension / Immediately,b67bac7b2c2483b4,0,0.5281559228897095,0.6313755512237549
+Major or Mild Frontotemporal Neurocognitive Disorder,1ai,sub_symptom,Construct: Behavioral / Disinhibition,1a8f1e0127302c22,0,0.5261713266372681,0.5734120607376099
+Schizotypal Personality Disorder,6,sub_symptom,Construct: Inappropriate / Constricted / Affect,4432360463d93f57,0,0.5260467529296875,0.5672637820243835
+Rapid Eye Movement Sleep Behavior Disorder,A,main_criterion,Construct: Repeated / Episodes / Arousal / Sleep,8b3fd3d1008ea203,0,0.5260040163993835,0.5647697448730469
+Oppositional Defiant Disorder,4,sub_symptom,Construct: Argues / Authority / Figures / Children,b7552ac63e5ba68e,0,0.5256698131561279,0.6299847364425659
+Childhood-Onset Fluency Disorder (Stuttering),4,sub_symptom,Construct: Audible / Silent / Blocking / Filled,04941c3c1bcc0fa5,0,0.5250650644302368,0.5696662664413452
+Caffeine Intoxication,8,sub_symptom,Construct: Muscle / Twitching,40dd3fafea36dd84,0,0.5249377489089966,0.7054318189620972
+Adjustment Disorders,A,main_criterion,Construct: Development / Emotional / Behavioral / Response,7d9a59012fa444a4,0,0.5243855714797974,0.5578693747520447
+Functional Neurological Symptom Disorder (Conversion Disorder),B,main_criterion,Construct: Clinical / Findings / Provide / Evidence,af23f948e6d3c839,0,0.524168848991394,0.575296938419342
+Disruptive Mood Dysregulation Disorder,B,main_criterion,"Irritability, anger, or aggression",5716cb73d4bb74c0,0,0.5239590406417847,0.5828860998153687
+Autism Spectrum Disorder,4,sub_symptom,"Irritability, anger, or aggression",58c3f06891127077,0,0.5230978727340698,0.5610843896865845
+Pyromania,A,main_criterion,Construct: Deliberate / Purposeful / Fire / Setting,936339b195977a15,0,0.5227490067481995,0.6235749125480652
+Dependent Personality Disorder,7,sub_symptom,Construct: Urgently / Seeks / Another / Relationship,8160aa5a765ab7ac,0,0.5225973725318909,0.6239298582077026
+Substance/Medication-Induced Sexual Dysfunction,A,main_criterion,Construct: Clinically / Significant / Disturbance / Sexual,b9466f8cd2865ae6,0,0.5223117470741272,0.6024593114852905
+Phencyclidine Intoxication,3,sub_symptom,Construct: Numbness / Diminished / Responsiveness / Pain,f37134b5d3c1f7cf,0,0.5215392112731934,0.6265633702278137
+Panic Disorder,3,sub_symptom,Construct: Trembling / Shaking,aeda41582548a46b,0,0.5213514566421509,0.5579060912132263
+Prolonged Grief Disorder,1,sub_symptom,Construct: Intense / Yearning / Longing / Deceased,2c879ee3eb054c6a,0,0.5208638906478882,0.5478305816650391
+Histrionic Personality Disorder,3,sub_symptom,Construct: Displays / Rapidly / Shifting / Shallow,6a5d78504edbaff6,0,0.5204843282699585,0.6345537900924683
+Gender Dysphoria in Children,5,sub_symptom,Construct: Strong / Preference / Playmates / Gender,cefac02037d72155,0,0.52000492811203,0.650564432144165
+Major or Mild Frontotemporal Neurocognitive Disorder,D,main_criterion,Construct: Relative / Sparing / Learning / Memory,65ff20d78e4d4b87,0,0.5197886824607849,0.6078639030456543
+Delayed Ejaculation,1,sub_symptom,Construct: Marked / Delay / Ejaculation,bcb281456df602bc,0,0.5194600224494934,0.6629858613014221
+Obsessive-Compulsive Personality Disorder,8,sub_symptom,Construct: Shows / Rigidity / Stubbornness,68547f2600cd2b37,0,0.5194582939147949,0.5718790292739868
+Inhalant Intoxication,6,sub_symptom,Construct: Lethargy,8d6c45ad2ab486bf,0,0.5177008509635925,0.6621636152267456
+Caffeine Intoxication,9,sub_symptom,Construct: Rambling / Flow / Thought / Speech,30ce285ebdb8ac47,0,0.5168567895889282,0.5483562350273132
+Personality Change due to Another Medical Condition,A,main_criterion,Construct: Persistent / Personality / Disturbance / Represents,82703655d9a43901,0,0.5163971185684204,0.6160314679145813
+Gambling Disorder,7,sub_symptom,Construct: Lies / Conceal / Extent / Involvement,3c085ff5dab2dd6a,0,0.5156463384628296,0.5813215970993042
+Non-Rapid Eye Movement Sleep Arousal Disorders,C,main_criterion,Construct: Amnesia / Episodes / Present,eef5d5c4e0edff90,0,0.5153242349624634,0.5817226767539978
+Alcohol Intoxication,A,main_criterion,Construct: Recent / Ingestion / Alcohol,be24adca6ee824b9,0,0.5142207741737366,0.5842748880386353
+Internet Gaming Disorder,5,sub_symptom,Construct: Loss / Interests / Previous / Hobbies,511e5acee414b1c1,0,0.514132559299469,0.5527874827384949
+Opioid Withdrawal,5,sub_symptom,Construct: Pupillary / Dilation / Piloerection / Sweating,a4d538c4ae7c83b1,0,0.5139182209968567,0.6865423917770386
+Borderline Personality Disorder,2,sub_symptom,Construct: Pattern / Unstable / Intense / Interpersonal,f6daa96c9e48c8a7,0,0.5136411190032959,0.5849814414978027
+Separation Anxiety Disorder,7,sub_symptom,Construct: Repeated / Nightmares / Involving / Theme,502667c89b8e93a1,0,0.5132275223731995,0.5767081379890442
+Antisocial Personality Disorder,3,sub_symptom,Behavioral impulsivity,c535ff7b05f068b0,0,0.5128914713859558,0.5789671540260315
+Narcolepsy,1a,sub_symptom,Construct: Individuals / Long / Standing / Disease,495243449b2634ea,0,0.5124990344047546,0.5443602800369263
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,3,sub_symptom,Construct: Impairment / Daily / Living / Skills,cc7aea72224f8fd6,0,0.5111798644065857,0.6639795899391174
+Major or Mild Frontotemporal Neurocognitive Disorder,1aiii,sub_symptom,Construct: Loss / Sympathy / Empathy,70ac84911ea26f72,0,0.5107541680335999,0.5956367254257202
+Inhalant Intoxication,13,sub_symptom,Construct: Euphoria,e427aad888e57c0e,0,0.5107434988021851,0.6310212016105652
+Specific Learning Disorder,6,sub_symptom,Construct: Difficulties / Mathematical / Reasoning / Severe,ea7cf60c2e8beee8,0,0.5107075572013855,0.5486520528793335
+Gender Dysphoria in Children,2,sub_symptom,Construct: Boys / Assigned / Gender / Strong,59b3cf8c43d3a063,0,0.510461688041687,0.6188493967056274
+Phencyclidine Intoxication,6,sub_symptom,Construct: Muscle / Rigidity,f5450aaef5eddd83,0,0.5093382000923157,0.6354133486747742
+Panic Disorder,9,sub_symptom,Construct: Chills / Heat / Sensations,7b3c5a7b53779787,0,0.5083754062652588,0.6897290945053101
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,1,sub_symptom,Construct: Impairment / Global / Intellectual / Performance,08d0b057f68fa019,0,0.5083440542221069,0.6109281182289124
+Major or Mild Neurocognitive Disorder with Lewy Bodies,C,main_criterion,Construct: Meets / Combination / Core / Diagnostic,37df3a019fb01dbf,0,0.5070899128913879,0.6269646286964417
+Agoraphobia,4,sub_symptom,Construct: Standing / Line / Being / Crowd,93bd7c057d01195b,0,0.506725549697876,0.5759850740432739
+Rumination Disorder,A,main_criterion,Construct: Repeated / Regurgitation / Food / Month,02c9b012abd47030,0,0.505283534526825,0.5433295965194702
+Major or Mild Neurocognitive Disorder due to Traumatic Brain Injury,4,sub_symptom,Construct: Neurological / Signs / Neuroimaging / Demonstrating,b2735125fd371c97,0,0.5048985481262207,0.5716202259063721
+Attention-Deficit/Hyperactivity Disorder,2a,sub_symptom,Construct: Fidgets / Taps / Hands / Feet,178db0349487f0e9,0,0.5004393458366394,0.5432679653167725
+Sleep-Related Hypoventilation,A,main_criterion,Construct: Polysomnograpy / Demonstrates / Episodes / Decreased,aa8688b8cbba8167,0,0.5000844597816467,0.6348205804824829
+Major or Mild Neurocognitive Disorder due to Traumatic Brain Injury,3,sub_symptom,Construct: Disorientation / Confusion,6c552ddc84678e9a,0,0.4998766779899597,0.5602829456329346
+Panic Disorder,10,sub_symptom,Construct: Paresthesias / Numbness / Tingling / Sensations,8c98fa401e9d3329,0,0.4994722902774811,0.6265633702278137
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,5,sub_symptom,Construct: Impairment / Visual / Spatial / Reasoning,b1c062b2f27ee6ca,0,0.49694758653640747,0.6122046709060669
+Rapid Eye Movement Sleep Behavior Disorder,2,sub_symptom,Construct: History / Suggestive / Sleep / Behavior,bf181e171f558b90,0,0.49670109152793884,0.6269646286964417
+Gender Dysphoria in Children,3,sub_symptom,Construct: Strong / Preference / Cross / Gender,816cdd954d38f14f,0,0.4959377646446228,0.5516867637634277
+General Personality Disorder,3,sub_symptom,Construct: Interpersonal / Functioning,11a1b65a0742d3fc,0,0.49585872888565063,0.570158839225769
+Female Orgasmic Disorder,2,sub_symptom,Construct: Markedly / Reduced / Intensity / Orgasmic,771c4ddb619ba26f,0,0.4955803453922272,0.5669309496879578
+Opioid Withdrawal,2,sub_symptom,Construct: Administration / Opioid / Antagonist / Opioid,9512487a1db360c3,0,0.4955388009548187,0.7010396122932434
+Genito-Pelvic Pain/Penetration Disorder,3,sub_symptom,Phobic / situational fear or anxiety,5e43127a87efb572,0,0.49508047103881836,0.5242618322372437
+Agoraphobia,2,sub_symptom,Construct: Being / Open / Spaces / Parking,c5a7f49be5f52b48,0,0.494381844997406,0.6491693258285522
+Opioid Withdrawal,7,sub_symptom,Construct: Yawning,222b1e76c1f7a48a,0,0.4942522943019867,0.5606926679611206
+Inhalant Intoxication,1,sub_symptom,Construct: Dizziness,600718a833369e99,0,0.493927538394928,0.6413440108299255
+Opioid Withdrawal,3,sub_symptom,Construct: Muscle / Aches,87c6e1c419f90c2a,0,0.48686274886131287,0.5916049480438232
+Restless Legs Syndrome,2,sub_symptom,Construct: Urge / Move / Legs / Partially,c35016f877f26969,0,0.4867989420890808,0.5236088633537292
+Stimulant Intoxication,4,sub_symptom,Construct: Perspiration / Chills,50186ea21ab00f51,0,0.4858572483062744,0.6897290945053101
+Major or Mild Neurocognitive Disorder due to Alzheimer’s Disease,1,sub_symptom,"Memory, learning, or attentional decline",c71cbc8748908845,0,0.4836517870426178,0.536310613155365
+Obsessive-Compulsive Disorder,A,main_criterion,Obsessional or compulsive ritual,24a37bb5e59f2fd7,0,0.48160845041275024,0.6434653997421265
+Premenstrual Dysphoric Disorder,A,main_criterion,Construct: Majority / Menstrual / Cycles / Must,8154af7f1c522448,0,0.48157376050949097,0.5207333564758301
+Neurobehavioral Disorder Associated with Prenatal Alcohol Exposure,3,sub_symptom,Construct: Impairment / Learning / Lower / Academic,81cbe3b017c9dcd9,0,0.4801352918148041,0.6465686559677124
+Enuresis,A,main_criterion,Construct: Repeated / Voiding / Urine / Clothes,b29531db4d887e74,0,0.4794319272041321,0.6649101376533508
+Major or Mild Frontotemporal Neurocognitive Disorder,1av,sub_symptom,Construct: Hyperorality / Dietary / Changes,d6bcef2deb2b7321,0,0.47905653715133667,0.5897303819656372
+General Personality Disorder,B,main_criterion,Construct: Enduring / Pattern / Inflexible / Pervasive,c7ca6ad2ab709769,0,0.4789479672908783,0.5159430503845215
+Major or Mild Frontotemporal Neurocognitive Disorder,1aii,sub_symptom,Construct: Apathy / Inertia,fbd08b08cff00573,0,0.478920042514801,0.505768895149231
+Stimulant Intoxication,8,sub_symptom,Construct: Muscular / Weakness / Respiratory / Depression,00bab858cb55a812,0,0.47830042243003845,0.6431861519813538
+Narcolepsy,1b,sub_symptom,Construct: Children / Individuals / Months / Onset,9ef5ed0742a5c2f0,0,0.4781031012535095,0.5278941988945007
+Functional Neurological Symptom Disorder (Conversion Disorder),A,main_criterion,Construct: Altered / Voluntary / Motor / Sensory,1ae767da9f4c67f3,0,0.47639280557632446,0.5578449368476868
+Major or Mild Neurocognitive Disorder due to Traumatic Brain Injury,2,sub_symptom,Construct: Posttraumatic / Amnesia,a2a05e54131dc790,0,0.47613072395324707,0.5817226767539978
+Genito-Pelvic Pain/Penetration Disorder,2,sub_symptom,Construct: Marked / Vulvovaginal / Pelvic / Pain,f28b233e975882e4,0,0.4759133458137512,0.6297627687454224
+Pica,B,main_criterion,Construct: Eating / Nonnutritive / Nonfood / Substances,d223b2d719abaa4e,0,0.4759121835231781,0.5277676582336426
+Trichotillomania (Hair-Pulling Disorder),A,main_criterion,Construct: Recurrent / Pulling / Hair / Resulting,c4f826e903cdf151,0,0.47532081604003906,0.5365259051322937
+Other Hallucinogen Intoxication,4,sub_symptom,Construct: Palpitations,8791b60e11fff770,0,0.4748922884464264,0.6687630414962769
+Internet Gaming Disorder,4,sub_symptom,Construct: Unsuccessful / Attempts / Control / Participation,222196e2d0d70365,0,0.47375527024269104,0.6110677719116211
+Psychological Factors Affecting Other Medical Conditions,1,sub_symptom,Construct: Factors / Influenced / Course / Medical,af1fb14fc214cc3f,0,0.47261834144592285,0.5667418241500854
+Prolonged Grief Disorder,8,sub_symptom,Construct: Intense / Loneliness / Result / Death,1cc1a32c9266fb11,0,0.4725344777107239,0.5446422100067139
+Narcissistic Personality Disorder,4,sub_symptom,Construct: Requires / Excessive / Admiration,a91da9e38a6bb574,0,0.46763378381729126,0.517299234867096
+Inhalant Intoxication,10,sub_symptom,Construct: Generalized / Muscle / Weakness,c123ffc4795a8b5a,0,0.46598953008651733,0.6032158136367798
+Caffeine Intoxication,7,sub_symptom,Construct: Gastrointestinal / Disturbance,eccd1af9787cadd5,0,0.46491870284080505,0.5390245914459229
+Internet Gaming Disorder,1,sub_symptom,Construct: Preoccupation / Internet / Games / Thinks,01ec04d8e831d430,0,0.46485623717308044,0.6405657529830933
+Childhood-Onset Fluency Disorder (Stuttering),6,sub_symptom,Construct: Words / Produced / Excess / Physical,31b75172837f2fac,0,0.46458274126052856,0.5068161487579346
+Inhalant Intoxication,A,main_criterion,Construct: Recent / Intended / Unintended / Short,76d57a1cf40f7062,0,0.46215543150901794,0.5265052914619446
+Caffeine Intoxication,5,sub_symptom,Construct: Flushed / Face,c5d8aacf8196cac4,0,0.46139225363731384,0.5278897881507874
+"Sedative, Hypnotic, or Anxiolytic Withdrawal",8,sub_symptom,Construct: Grand / Seizures,388f0d2d3ea0e703,0,0.46050000190734863,0.6629400849342346
+Alcohol Withdrawal,8,sub_symptom,Construct: Generalized / Tonic / Clonic / Seizures,77c81c2d0e1b56b3,0,0.4602629542350769,0.6364963054656982
+Specific Learning Disorder,5,sub_symptom,Construct: Difficulties / Mastering / Number / Sense,fc290a82c19a012a,0,0.4597817063331604,0.4957718849182129
+Genito-Pelvic Pain/Penetration Disorder,1,sub_symptom,Construct: Vaginal / Penetration / Intercourse,b74668e7f921a5b2,0,0.45900169014930725,0.7011703252792358
+Inhalant Intoxication,7,sub_symptom,Construct: Depressed / Reflexes,06537b7b596a175a,0,0.4565543234348297,0.511852502822876
+Psychological Factors Affecting Other Medical Conditions,4,sub_symptom,"Memory, learning, or attentional decline",3e9fa8bd0a7b2857,0,0.4535476565361023,0.5005353689193726
+Panic Disorder,4,sub_symptom,Construct: Sensations / Shortness / Breath / Smothering,8c60bd07f0fd0897,0,0.4525499939918518,0.5128310918807983
+Excoriation (Skin-Picking) Disorder,A,main_criterion,Construct: Recurrent / Skin / Picking / Resulting,99dd48f99d9a8ef6,0,0.451923131942749,0.5370992422103882
+Major or Mild Neurocognitive Disorder due to Prion Disease,C,main_criterion,Construct: There / Motor / Features / Prion,81db4159efd9df14,0,0.4470286965370178,0.49308353662490845
+General Personality Disorder,4,sub_symptom,Construct: Impulse / Control,e8d777cd416cb267,0,0.4445277154445648,0.5283359289169312
+Generalized Anxiety Disorder,5,sub_symptom,Construct: Muscle / Tension,72dc7cb540de6787,0,0.43780097365379333,0.7054318189620972
+Erectile Disorder,3,sub_symptom,Construct: Marked / Decrease / Erectile / Rigidity,96fc90624d764acc,0,0.43424463272094727,0.5442891120910645
+Caffeine Intoxication,11,sub_symptom,Construct: Periods / Inexhaustibility,8659487c3c32ff9c,0,0.42962855100631714,0.4609377384185791
+Caffeine Withdrawal,1,sub_symptom,Construct: Headache,52fb600dd9bca9e3,0,0.4291629195213318,0.5050200819969177
+Major or Mild Neurocognitive Disorder with Lewy Bodies,2b,sub_symptom,Construct: Severe / Neuroleptic / Sensitivity,4d2ee5b7ff9c5eae,0,0.42788344621658325,0.4659315049648285
+Major or Mild Neurocognitive Disorder with Lewy Bodies,1c,sub_symptom,Construct: Spontaneous / Features / Parkinsonism / Onset,f680fbea0a0bda5d,0,0.4244130551815033,0.5209041237831116
+Psychological Factors Affecting Other Medical Conditions,2,sub_symptom,Construct: Factors / Interfere / Treatment / Medical,93692c109e233ad0,0,0.41960686445236206,0.4539085328578949
+Agoraphobia,1,sub_symptom,Construct: Using / Public / Transportation / Automobiles,b718e24b79a0a858,0,0.4167482256889343,0.4799080491065979
+Opioid Withdrawal,6,sub_symptom,Construct: Diarrhea,afd1d6cb387880b0,0,0.41124677658081055,0.5390245914459229
+Phencyclidine Intoxication,8,sub_symptom,Construct: Hyperacusis,c0dbde3c6fc85156,0,0.4112294614315033,0.4827207028865814
+Genito-Pelvic Pain/Penetration Disorder,4,sub_symptom,Construct: Marked / Tensing / Tightening / Pelvic,a503fa3f1174b87a,0,0.4095451831817627,0.48451370000839233
+Opioid Withdrawal,4,sub_symptom,Construct: Lacrimation / Rhinorrhea,2806bb300f812691,0,0.4077933430671692,0.4827207028865814
+Opioid Withdrawal,8,sub_symptom,Construct: Fever,8a12145b63faeb5a,0,0.3997248709201813,0.46318331360816956
+Cannabis Intoxication,3,sub_symptom,Construct: Mouth,4919a7ab503dd803,0,0.39931756258010864,0.4566936790943146
+Stimulant Intoxication,3,sub_symptom,Construct: Elevated / Lowered / Blood / Pressure,498627ce42e723b0,0,0.38438680768013,0.5488292574882507
+Psychological Factors Affecting Other Medical Conditions,3,sub_symptom,Construct: Factors / Constitute / Additional / Well,4266a3dd1ad35b2b,0,0.3823259174823761,0.40451565384864807
+Major or Mild Neurocognitive Disorder due to Alzheimer’s Disease,2b,sub_symptom,Construct: Steadily / Progressive / Gradual / Decline,7886e761d1320369,0,0.36900100111961365,0.5209041237831116
+Major or Mild Neurocognitive Disorder due to Alzheimer’s Disease,2,sub_symptom,Construct: Steadily / Progressive / Gradual / Decline,7886e761d1320369,0,0.36900100111961365,0.5209041237831116
+Avoidant/Restrictive Food Intake Disorder,2,sub_symptom,Construct: Significant / Nutritional / Deficiency,e23d751356ccde71,0,0.348624050617218,0.46501344442367554
+Avoidant/Restrictive Food Intake Disorder,3,sub_symptom,Construct: Dependence / Enteral / Feeding / Oral,a6c94c9860b06d4c,0,0.3296940326690674,0.42224884033203125
+Caffeine Intoxication,6,sub_symptom,Construct: Diuresis,506b9124d02b60d7,0,0.32814159989356995,0.4536066949367523
+Cannabis Intoxication,1,sub_symptom,Construct: Conjunctival / Injection,b529eb4accd982f7,0,0.28129833936691284,0.3299831449985504
+Narcolepsy,2,sub_symptom,Construct: Hypocretin / Deficiency / Measured / Using,01342b646ff4a4cb,0,0.24431805312633514,0.30686768889427185

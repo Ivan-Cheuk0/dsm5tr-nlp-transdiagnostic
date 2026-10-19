@@ -1,0 +1,24 @@
+{
+  "total_criteria_in_json": 1568,
+  "filtered_symptom_criteria": 1033,
+  "unique_disorders_represented": 170,
+  "filter_breakdown": {
+    "symptom": 1033,
+    "non_symptom:onset_duration_age": 41,
+    "non_symptom:structural_header": 151,
+    "non_symptom:distress_or_impairment": 102,
+    "non_symptom:exclusion_or_etiology": 225,
+    "non_symptom:structural_prereq": 16
+  },
+  "models": {
+    "biobert_nli_stsb": "pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb",
+    "pubmedbert_embeddings": "NeuML/pubmedbert-base-embeddings"
+  },
+  "cross_disorder_pair_count": 528672,
+  "biobert_cosine_mean": 0.19719554483890533,
+  "biobert_cosine_std": 0.12757006287574768,
+  "pubmedbert_cosine_mean": 0.24346768856048584,
+  "pubmedbert_cosine_std": 0.1308433711528778,
+  "inter_model_pearson_r": 0.5727156400680542,
+  "inter_model_spearman_rho": 0.5069889140309223
+}
