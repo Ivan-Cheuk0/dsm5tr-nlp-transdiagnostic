@@ -1039,169 +1039,68 @@ def render_interactive_html_explorer(
     summary_stats: dict,
     out_dir: Path,
 ) -> Path:
-    """Generates a standalone interactive HTML explorer for the 1,033 embedded symptoms."""
-    points_payload = []
-    for i, r in enumerate(sym_data):
-        points_payload.append(
-            {
-                "id": i,
-                "disorder": r["disorder"],
-                "chapter": chapters[i],
-                "cid": r["criterion_id"],
-                "level": r["criterion_level"],
-                "text": r["embedding_text"],
-                "bx": round(coords_bio[i][0], 3),
-                "by": round(coords_bio[i][1], 3),
-                "bc": int(labels_bio[i]),
-                "px": round(coords_pub[i][0], 3),
-                "py": round(coords_pub[i][1], 3),
-                "pc": int(labels_pub[i]),
-            }
-        )
-
+    """Generates a concise, standalone interactive HTML explorer for the 1,033 embedded symptoms."""
+    pts = [
+        [
+            r["disorder"], chapters[i], r["criterion_id"], r["embedding_text"],
+            round(coords_bio[i][0], 2), round(coords_bio[i][1], 2), int(labels_bio[i]),
+            round(coords_pub[i][0], 2), round(coords_pub[i][1], 2), int(labels_pub[i]),
+        ]
+        for i, r in enumerate(sym_data)
+    ]
+    rows_html = "".join(
+        f"<tr><td>{html.escape(c['symptom_construct'][:38])}</td><td><b>{c['disorders_bridged']}</b></td><td>{c['chapters_bridged']}</td></tr>"
+        for c in top_constructs[:10]
+    )
     html_doc = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<title>DSM-5-TR Transdiagnostic Symptom Vector Space Explorer</title>
+<html lang="en"><head><meta charset="utf-8"/><title>DSM-5-TR Symptom Explorer</title>
 <style>
-  body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; background: #f8fafc; color: #0f172a; }}
-  header {{ background: #0f172a; color: #fff; padding: 18px 28px; display: flex; justify-content: space-between; align-items: center; }}
-  header h1 {{ margin: 0; font-size: 20px; }}
-  header p {{ margin: 4px 0 0; font-size: 13px; color: #94a3b8; }}
-  .controls {{ display: flex; gap: 12px; align-items: center; flex-wrap: wrap; padding: 14px 28px; background: #fff; border-bottom: 1px solid #e2e8f0; }}
-  select, input {{ padding: 7px 11px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 13px; }}
-  .main {{ display: grid; grid-template-columns: 1fr 390px; gap: 18px; padding: 18px 28px; }}
-  .card {{ background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.03); }}
-  canvas {{ width: 100%; height: 600px; border-radius: 8px; background: #f8fafc; cursor: crosshair; }}
-  .stat-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }}
-  .stat-box {{ background: #f1f5f9; padding: 10px; border-radius: 6px; }}
-  .stat-box .val {{ font-size: 18px; font-weight: 700; color: #1d4ed8; }}
-  .stat-box .lbl {{ font-size: 11px; color: #475569; }}
-  table {{ width: 100%; border-collapse: collapse; font-size: 12px; }}
-  th, td {{ text-align: left; padding: 6px 8px; border-bottom: 1px solid #e2e8f0; }}
-  th {{ background: #f8fafc; font-weight: 600; }}
-</style>
-</head>
-<body>
-<header>
-  <div>
-    <h1>DSM-5-TR Symptom Embedding &amp; Clustering Interactive Explorer</h1>
-    <p>1,033 symptom-bearing criteria across 170 DSM-5-TR disorders • BioBERT NLI/STS vs. PubMedBERT (768-d) • HDBSCAN &amp; SVC</p>
-  </div>
-</header>
-<div class="controls">
-  <label><strong>Model Space:</strong>
-    <select id="modelSelect">
-      <option value="bio">BioBERT NLI/STS (pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb)</option>
-      <option value="pub">PubMedBERT Embeddings (NeuML/pubmedbert-base-embeddings)</option>
-    </select>
-  </label>
-  <label><strong>Color By:</strong>
-    <select id="colorSelect">
-      <option value="cluster">HDBSCAN + SVC Cluster</option>
-      <option value="chapter">DSM-5-TR Diagnostic Chapter (20 Classes)</option>
-    </select>
-  </label>
-  <label><strong>Search Symptom / Disorder:</strong>
-    <input type="text" id="searchInput" placeholder="e.g. insomnia, delusions, panic..."/>
-  </label>
+body{{font:13px -apple-system,BlinkMacSystemFont,sans-serif;margin:0;background:#f8fafc;color:#0f172a}}
+header{{background:#0f172a;color:#fff;padding:14px 24px}}header h1{{margin:0;font-size:18px}}
+.bar{{display:flex;gap:12px;padding:10px 24px;background:#fff;border-bottom:1px solid #e2e8f0}}
+select,input{{padding:6px 10px;border:1px solid #cbd5e1;border-radius:6px}}
+.grid{{display:grid;grid-template-columns:1fr 360px;gap:16px;padding:16px 24px}}
+.card{{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:14px}}
+canvas{{width:100%;height:560px;background:#f8fafc;border-radius:6px;cursor:crosshair}}
+table{{width:100%;border-collapse:collapse;font-size:12px}}th,td{{padding:5px 6px;border-bottom:1px solid #e2e8f0;text-align:left}}
+</style></head><body>
+<header><h1>DSM-5-TR 2D Symptom Manifold Explorer (1,033 Criteria • BioBERT vs. PubMedBERT)</h1></header>
+<div class="bar">
+  <label><b>Model:</b> <select id="m"><option value="0">BioBERT NLI/STS</option><option value="1">PubMedBERT Embeddings</option></select></label>
+  <label><b>Color:</b> <select id="c"><option value="0">HDBSCAN/SVC Cluster</option><option value="1">DSM-5-TR Chapter</option></select></label>
+  <label><b>Filter:</b> <input id="q" placeholder="Search disorder, chapter, or concept..."/></label>
 </div>
-<div class="main">
-  <div class="card">
-    <canvas id="manifoldCanvas" width="920" height="600"></canvas>
-  </div>
+<div class="grid">
+  <div class="card"><canvas id="cv" width="900" height="560"></canvas></div>
   <div>
-    <div class="card" style="margin-bottom:14px;">
-      <h3 style="margin-top:0;font-size:15px;">Hovered Symptom Inspector</h3>
-      <div id="hoverInfo" style="font-size:13px;line-height:1.5;color:#334155;">Move your cursor over any node in the 2D manifold to inspect its DSM-5-TR disorder, chapter, cluster assignment, and verbatim symptom text.</div>
-    </div>
-    <div class="card">
-      <h3 style="margin-top:0;font-size:15px;">Top Transdiagnostic Bridge Constructs</h3>
-      <table>
-        <thead><tr><th>Symptom Construct</th><th>Disorders</th><th>Chapters</th></tr></thead>
-        <tbody>
-          {"".join(f"<tr><td>{html.escape(c['symptom_construct'][:42])}</td><td><b>{c['disorders_bridged']}</b></td><td>{c['chapters_bridged']}</td></tr>" for c in top_constructs[:10])}
-        </tbody>
-      </table>
-    </div>
+    <div class="card" style="margin-bottom:12px"><h3 style="margin:0 0 8px">Symptom Inspector</h3><div id="info">Hover over any node to inspect its DSM-5-TR metadata and cluster.</div></div>
+    <div class="card"><h3 style="margin:0 0 8px">Top Bridge Constructs</h3><table><thead><tr><th>Construct</th><th>Disorders</th><th>Chapters</th></tr></thead><tbody>{rows_html}</tbody></table></div>
   </div>
 </div>
 <script>
-const POINTS = {json.dumps(points_payload)};
-const CHAP_COLORS = {json.dumps(CHAPTER_COLORS)};
-const CLUST_COLORS = {json.dumps(CLUSTER_PALETTE)};
-const canvas = document.getElementById("manifoldCanvas");
-const ctx = canvas.getContext("2d");
-const modelSel = document.getElementById("modelSelect");
-const colorSel = document.getElementById("colorSelect");
-const searchInp = document.getElementById("searchInput");
-const hoverDiv = document.getElementById("hoverInfo");
-
-function toScreen(x, y) {{
-  const pad = 40;
-  const sx = pad + ((x + 10.5) / 21.0) * (canvas.width - 2*pad);
-  const sy = canvas.height - pad - ((y + 10.5) / 21.0) * (canvas.height - 2*pad);
-  return [sx, sy];
+const P={json.dumps(pts, separators=(",", ":"))},CC={json.dumps(CHAPTER_COLORS, separators=(",", ":"))}, K={json.dumps(CLUSTER_PALETTE, separators=(",", ":"))};
+const cv=document.getElementById("cv"),ctx=cv.getContext("2d"),mEl=document.getElementById("m"),cEl=document.getElementById("c"),qEl=document.getElementById("q"),info=document.getElementById("info");
+const xy=(x,y)=>[36+(x+10.5)/21*(cv.width-72),cv.height-36-(y+10.5)/21*(cv.height-72)];
+function draw(){{
+  ctx.clearRect(0,0,cv.width,cv.height);
+  const pub=+mEl.value,byChap=+cEl.value,q=qEl.value.trim().toLowerCase();
+  for(const p of P){{
+    const [sx,sy]=xy(p[pub?7:4],p[pub?8:5]),cl=p[pub?9:6];
+    const hit=!q||p[0].toLowerCase().includes(q)||p[1].toLowerCase().includes(q)||p[3].toLowerCase().includes(q);
+    ctx.beginPath();ctx.arc(sx,sy,hit&&q?5.8:(cl<0&&!byChap?2.8:4),0,6.283);
+    ctx.fillStyle=byChap?(CC[p[1]]||"#2563eb"):(cl<0?"#94a3b8":K[cl%K.length]);
+    ctx.globalAlpha=hit?(q?0.98:0.84):0.1;ctx.fill();
+  }}
+  ctx.globalAlpha=1;
 }}
-
-function draw() {{
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  const isBio = modelSel.value === "bio";
-  const byClust = colorSel.value === "cluster";
-  const q = searchInp.value.trim().toLowerCase();
-
-  for (const p of POINTS) {{
-    const x = isBio ? p.bx : p.px;
-    const y = isBio ? p.by : p.py;
-    const c = isBio ? p.bc : p.pc;
-    const [sx, sy] = toScreen(x, y);
-    let col = byClust ? (c === -1 ? "#94a3b8" : CLUST_COLORS[c % CLUST_COLORS.length]) : (CHAP_COLORS[p.chapter] || "#2563eb");
-    const match = !q || p.text.includes(q) || p.disorder.toLowerCase().includes(q) || p.chapter.toLowerCase().includes(q);
-    ctx.beginPath();
-    ctx.arc(sx, sy, match && q ? 6.0 : (c === -1 && byClust ? 3.0 : 4.2), 0, Math.PI * 2);
-    ctx.fillStyle = col;
-    ctx.globalAlpha = match ? (q ? 0.98 : 0.85) : 0.12;
-    ctx.fill();
-    if (match && q) {{
-      ctx.strokeStyle = "#0f172a";
-      ctx.lineWidth = 1.5;
-      ctx.stroke();
-    }}
-  }}
-  ctx.globalAlpha = 1.0;
-}}
-
-canvas.addEventListener("mousemove", (e) => {{
-  const rect = canvas.getBoundingClientRect();
-  const mx = (e.clientX - rect.left) * (canvas.width / rect.width);
-  const my = (e.clientY - rect.top) * (canvas.height / rect.height);
-  const isBio = modelSel.value === "bio";
-  let best = null, bestD = 144;
-  for (const p of POINTS) {{
-    const [sx, sy] = toScreen(isBio ? p.bx : p.px, isBio ? p.by : p.py);
-    const d2 = (sx - mx)**2 + (sy - my)**2;
-    if (d2 < bestD) {{ bestD = d2; best = p; }}
-  }}
-  if (best) {{
-    const c = isBio ? best.bc : best.pc;
-    hoverDiv.innerHTML = `
-      <div><strong>Disorder:</strong> ${{best.disorder}} (Criterion ${{best.cid}})</div>
-      <div><strong>DSM-5-TR Chapter:</strong> ${{best.chapter}}</div>
-      <div><strong>HDBSCAN/SVC Cluster:</strong> ${{c === -1 ? "Unclustered / Transdiagnostic Bridge" : "Cluster C" + (c + 1)}}</div>
-      <div style="margin-top:8px;padding:8px;background:#f8fafc;border-left:3px solid #2563eb;">"${{best.text}}"</div>
-    `;
-  }}
-}});
-
-modelSel.addEventListener("change", draw);
-colorSel.addEventListener("change", draw);
-searchInp.addEventListener("input", draw);
-draw();
-</script>
-</body>
-</html>
-"""
+cv.onmousemove=e=>{{
+  const r=cv.getBoundingClientRect(),mx=(e.clientX-r.left)*(cv.width/r.width),my=(e.clientY-r.top)*(cv.height/r.height),pub=+mEl.value;
+  let b=null,d=144;
+  for(const p of P){{const [sx,sy]=xy(p[pub?7:4],p[pub?8:5]),d2=(sx-mx)**2+(sy-my)**2;if(d2<d){{d=d2;b=p;}}}}
+  if(b){{const cl=b[pub?9:6];info.innerHTML=`<b>${{b[0]}}</b> (Crit. ${{b[2]}})<br><b>Chapter:</b> ${{b[1]}}<br><b>Cluster:</b> ${{cl<0?"Unclustered / Bridge":"C"+(cl+1)}}<div style="margin-top:6px;padding:6px;background:#f8fafc;border-left:3px solid #2563eb">${{b[3]}}</div>`;}}
+}};
+mEl.onchange=cEl.onchange=qEl.oninput=draw;draw();
+</script></body></html>"""
     html_path = out_dir / "dsm5tr_interactive_explorer.html"
     html_path.write_text(html_doc, encoding="utf-8")
     return html_path

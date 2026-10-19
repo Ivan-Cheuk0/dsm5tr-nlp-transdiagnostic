@@ -60,8 +60,20 @@ DSM5TR_vec/
 
 ## 2. Methodology & Pipeline Architecture
 
-1. **Hierarchical Criteria Extraction (`parse.py`)**: Extracts Section II and III criteria across pages 127–1377 (`1,568` total criteria across `177` disorder/episode entries: `723` `main_criterion` and `845` `sub_symptom`) while stripping ICD-10-CM codes and narrative sections.
-2. **Syntax-Preserving NLP & Non-Symptom Filtering (`embed_symptoms.py`)**: Standardizes text to lowercase and strips list enumerators (`a.`, `1.`) and inline `(note: ...)` remarks while **retaining stopwords and clinical inflection** (no lemmatization). To prevent diagnostic boilerplate from forming artificial clusters, `classify_criterion()` removes `535` administrative rows and retains **`1,033` symptom-bearing criteria across `170` disorders**:
+```mermaid
+flowchart LR
+    A["📄 DSM-5-TR PDF<br/>(Pages 127–1377)"] -->|"parse.py<br/>check.py"| B["🗂️ Extracted Criteria<br/>(1,568 rows • 177 blocks)"]
+    B -->|"embed_symptoms.py<br/>classify_criterion()"| C["🧹 Filtered Symptoms<br/>(1,033 rows • 170 disorders)"]
+    B -.->|"535 administrative rows"| X["🚫 Excluded Boilerplate<br/>(Exclusions, Headers, Distress)"]
+    C -->|"SentenceTransformer<br/>(max_seq_len=256)"| D1["🧬 BioBERT NLI/STS<br/>(1033 × 768 float32)"]
+    C -->|"SentenceTransformer<br/>(max_seq_len=512)"| D2["🔬 PubMedBERT Uncased<br/>(1033 × 768 float32)"]
+    D1 & D2 -->|"Cosine Similarity<br/>(528,672 pairs)"| E["🌉 Bridge Symptoms &<br/>20×20 Chapter Overlap"]
+    D1 & D2 -->|"visualize_results.py<br/>k-NN Spectral + SGD"| F["🗺️ 2D Manifold + HDBSCAN<br/>& RBF SVC Contours"]
+    E & F --> G["📊 SVG Figures & Interactive<br/>HTML Canvas Explorer"]
+```
+
+1. **Hierarchical Criteria Extraction (`parse.py`, `check.py`)**: Extracts Section II and III criteria across pages 127–1377 (`1,568` total criteria across `177` disorder/episode entries: `723` `main_criterion` and `845` `sub_symptom`) while stripping ICD-10-CM codes and narrative sections.
+2. **Syntax-Preserving NLP & Non-Symptom Filtering (`embed_symptoms.py`)**: Standardizes text to lowercase and strips list enumerators (`a.`, `1.`) and inline `(note: ...)` remarks while **retaining stopwords and clinical inflection** (no lemmatization). `classify_criterion()` removes `535` administrative rows and retains **`1,033` symptom-bearing criteria across `170` disorders**:
 
 | Filter Category (`criterion_category`) | Rows | Share | Description |
 | :--- | ---: | ---: | :--- |
@@ -72,9 +84,7 @@ DSM5TR_vec/
 | `non_symptom:onset_duration_age` | 41 | 2.6% | Standalone chronological, age, or duration thresholds |
 | `non_symptom:structural_prereq` | 16 | 1.0% | Cross-box prerequisites (*"The criteria are met for..."*) |
 
-3. **Dual-Model 768-d Biomedical Vectorization (`embed_symptoms.py`)**: Encodes all `1,033` symptom criteria into L2-normalized `768`-d vectors (`normalize_embeddings=True`) across two contrastively fine-tuned models:
-   * **BioBERT NLI/STS**: [`pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb`](https://huggingface.co/pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb) (`max_seq_length` expanded to `256`).
-   * **PubMedBERT Embeddings**: [`NeuML/pubmedbert-base-embeddings`](https://huggingface.co/NeuML/pubmedbert-base-embeddings) (`max_seq_length=512`, uncased).
+3. **Dual-Model 768-d Biomedical Vectorization (`embed_symptoms.py`)**: Encodes all `1,033` symptom criteria into L2-normalized `768`-d vectors (`normalize_embeddings=True`) using [`pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb`](https://huggingface.co/pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb) (`max_seq_length=256`) and [`NeuML/pubmedbert-base-embeddings`](https://huggingface.co/NeuML/pubmedbert-base-embeddings) (`max_seq_length=512`, uncased).
 4. **Manifold Projection, HDBSCAN & SVC (`visualize_results.py`)**: Projects the `k=15` nearest-neighbor cosine graph into 2D space via spectral initialization and attraction-repulsion SGD, condenses the mutual-reachability Minimum Spanning Tree via **HDBSCAN** ($k_{\text{core}}=7, n_{\min}=16$), and traces closed radial basis function (**RBF**) **Support Vector Clustering (SVC)** decision contours ($\gamma = 0.45$).
 
 ---
@@ -95,15 +105,13 @@ DSM5TR_vec/
 
 ---
 
-### 3.2. Symptom Manifold, HDBSCAN Clusters & SVC Boundaries
+### 3.2. Symptom Manifold, HDBSCAN Clusters, SVC Boundaries & Interactive Explorer
 
 ![Figure 3: 2D Symptom Manifold with HDBSCAN Clusters and SVC Contours](outputs/figures/fig3_manifold_hdbscan_svc.svg)
 
-> [!TIP]
-> Open `outputs/figures/dsm5tr_interactive_explorer.html` in a browser to interactively toggle between BioBERT and PubMedBERT, switch coloring between HDBSCAN/SVC clusters and the 20 *DSM-5-TR* chapters, and search individual symptoms.
-
 * **Core vs. Interstitial Architecture**: Both models group `~51%` of criteria into dense phenomenological clusters bounded by RBF SVC contours while leaving `~49%` as unclustered interstitial points that bridge diagnostic boundaries.
 * **Granularity Differences**: Uncased **PubMedBERT** resolves finer-grained clinical sub-clusters (`11` vs. `7` in BioBERT), cleanly separating sleep-wake dyssomnias (`C6`), appetite/weight disturbances (`C8`), and neurocognitive-executive decline (`C7`) from general mood and substance clusters.
+* **Interactive 2D Manifold Explorer (`outputs/figures/dsm5tr_interactive_explorer.html`)**: Alongside the static manifold plot, `visualize_results.py` compiles a lightweight HTML5 Canvas explorer storing compact 10-element node tuples (`[disorder, chapter, criterion_id, concept_label, bx, by, bc, px, py, pc]`). It supports real-time switching between **BioBERT** and **PubMedBERT** spaces, toggling node colors between **HDBSCAN/SVC clusters** and the **20 DSM-5-TR chapters**, instant keyword filtering, and nearest-neighbor hover inspection.
 
 ---
 
