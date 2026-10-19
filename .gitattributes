@@ -1,0 +1,4 @@
+# Exclude generated visualizations and output artifacts from GitHub Linguist language statistics
+outputs/** linguist-vendored
+outputs/figures/*.html linguist-generated
+*.html linguist-detectable=false

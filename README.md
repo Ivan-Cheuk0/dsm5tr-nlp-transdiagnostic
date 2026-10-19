@@ -19,10 +19,11 @@ An open-science computational psychology pipeline that encodes *DSM-5-TR* diagno
 3. **Data-Driven Symptom Taxonomy (`HDBSCAN` & `SVC`)**: How do unsupervised density clusters and radial basis function (RBF) Support Vector Clustering boundaries compare against categorical *DSM-5-TR* chapters across different biomedical language models?
 
 <details>
-<summary><strong>📂 Repository Structure & Data Dictionary (Click to expand)</strong></summary>
+<summary><strong>Repository Structure & Data Dictionary (Click to expand)</strong></summary>
 
 ```text
 DSM5TR_vec/
+├── .gitattributes                                         # Excludes generated HTML/outputs from GitHub Linguist stats
 ├── .gitignore                                             # Excludes .venv/, PDFs & verbatim full-text extracts
 ├── parse.py                                               # PDF diagnostic criteria parser (pages 127–1377)
 ├── check.py                                               # Continuity & structural integrity assertion suite
@@ -61,15 +62,15 @@ DSM5TR_vec/
 ## 2. Methodology & Pipeline Architecture
 
 ```mermaid
-flowchart LR
-    A["📄 DSM-5-TR PDF<br/>(Pages 127–1377)"] -->|"parse.py<br/>check.py"| B["🗂️ Extracted Criteria<br/>(1,568 rows • 177 blocks)"]
-    B -->|"embed_symptoms.py<br/>classify_criterion()"| C["🧹 Filtered Symptoms<br/>(1,033 rows • 170 disorders)"]
-    B -.->|"535 administrative rows"| X["🚫 Excluded Boilerplate<br/>(Exclusions, Headers, Distress)"]
-    C -->|"SentenceTransformer<br/>(max_seq_len=256)"| D1["🧬 BioBERT NLI/STS<br/>(1033 × 768 float32)"]
-    C -->|"SentenceTransformer<br/>(max_seq_len=512)"| D2["🔬 PubMedBERT Uncased<br/>(1033 × 768 float32)"]
-    D1 & D2 -->|"Cosine Similarity<br/>(528,672 pairs)"| E["🌉 Bridge Symptoms &<br/>20×20 Chapter Overlap"]
-    D1 & D2 -->|"visualize_results.py<br/>k-NN Spectral + SGD"| F["🗺️ 2D Manifold + HDBSCAN<br/>& RBF SVC Contours"]
-    E & F --> G["📊 SVG Figures & Interactive<br/>HTML Canvas Explorer"]
+flowchart TD
+    A["DSM-5-TR PDF<br/>(Pages 127–1377)"] -->|"parse.py / check.py"| B["Extracted Criteria<br/>(1,568 rows across 177 blocks)"]
+    B -->|"embed_symptoms.py<br/>classify_criterion()"| C["Filtered Symptom Criteria<br/>(1,033 rows across 170 disorders)"]
+    B -.->|"535 administrative rows"| X["Excluded Boilerplate<br/>(Exclusions, Headers, Distress, Duration)"]
+    C -->|"SentenceTransformer<br/>(max_seq_len=256)"| D1["BioBERT NLI/STS Embeddings<br/>(1033 x 768 float32)"]
+    C -->|"SentenceTransformer<br/>(max_seq_len=512)"| D2["PubMedBERT Uncased Embeddings<br/>(1033 x 768 float32)"]
+    D1 & D2 -->|"Cosine Similarity<br/>(528,672 cross-disorder pairs)"| E["Bridge Symptom Centrality &<br/>20 x 20 Chapter Overlap"]
+    D1 & D2 -->|"visualize_results.py<br/>k-NN Spectral + SGD"| F["2D Manifold + HDBSCAN<br/>& RBF SVC Contours"]
+    E & F --> G["SVG Figures & Interactive<br/>HTML Canvas Explorer"]
 ```
 
 1. **Hierarchical Criteria Extraction (`parse.py`, `check.py`)**: Extracts Section II and III criteria across pages 127–1377 (`1,568` total criteria across `177` disorder/episode entries: `723` `main_criterion` and `845` `sub_symptom`) while stripping ICD-10-CM codes and narrative sections.
@@ -158,7 +159,7 @@ uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
 <details>
-<summary><strong>🔄 Full Local Rehydration from a Licensed DSM-5-TR PDF</strong></summary>
+<summary><strong>Full Local Rehydration from a Licensed DSM-5-TR PDF</strong></summary>
 
 Place a licensed copy of `DSM 5 TR-APA (2022).pdf` in the repository root and run:
 
